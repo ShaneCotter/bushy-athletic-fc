@@ -1,0 +1,1082 @@
+{
+  "generatedAt": "2026-08-28T15:01:45.010Z",
+  "seasons": [
+    {
+      "id": "37464242",
+      "name": "UCFL Division 3A",
+      "displayName": "UCFL Division 3A (2025/26)",
+      "stats": {
+        "id": "37464242",
+        "name": "UCFL Division 3A",
+        "active": false,
+        "players": {
+          "36024": {
+            "personId": 36024,
+            "name": "KEARNS Jamie",
+            "shortName": "KEARNS J.",
+            "shirtNumber": null,
+            "goals": 1,
+            "appearances": 16,
+            "minutes": 1286,
+            "yellowCards": 4,
+            "redCards": 0,
+            "assists": 0
+          },
+          "43314": {
+            "personId": 43314,
+            "name": "NEILAN Dean",
+            "shortName": "NEILAN D.",
+            "shirtNumber": null,
+            "goals": 2,
+            "appearances": 9,
+            "minutes": 221,
+            "yellowCards": 0,
+            "redCards": 0,
+            "assists": 1
+          },
+          "46556": {
+            "personId": 46556,
+            "name": "DUFFY Ian",
+            "shortName": "DUFFY I.",
+            "shirtNumber": null,
+            "goals": 7,
+            "appearances": 14,
+            "minutes": 884,
+            "yellowCards": 0,
+            "redCards": 0,
+            "assists": 0
+          },
+          "66128": {
+            "personId": 66128,
+            "name": "POWELL Killian",
+            "shortName": "POWELL K.",
+            "shirtNumber": null,
+            "goals": 0,
+            "appearances": 2,
+            "minutes": 180,
+            "yellowCards": 0,
+            "redCards": 0,
+            "assists": 0
+          },
+          "71329": {
+            "personId": 71329,
+            "name": "HORACE Cian",
+            "shortName": "CIAN",
+            "shirtNumber": null,
+            "goals": 0,
+            "appearances": 1,
+            "minutes": 11,
+            "yellowCards": 0,
+            "redCards": 0,
+            "assists": 0
+          },
+          "162900": {
+            "personId": 162900,
+            "name": "TOWEY Shane",
+            "shortName": "TOWEY S.",
+            "shirtNumber": null,
+            "goals": 12,
+            "appearances": 12,
+            "minutes": 769,
+            "yellowCards": 1,
+            "redCards": 0,
+            "assists": 0
+          },
+          "213475": {
+            "personId": 213475,
+            "name": "DUFFY Conor",
+            "shortName": "DUFFY C.",
+            "shirtNumber": null,
+            "goals": 1,
+            "appearances": 2,
+            "minutes": 9,
+            "yellowCards": 0,
+            "redCards": 0,
+            "assists": 0
+          },
+          "216869": {
+            "personId": 216869,
+            "name": "BROWN Shane",
+            "shortName": "BROWN S.",
+            "shirtNumber": null,
+            "goals": 7,
+            "appearances": 19,
+            "minutes": 1608,
+            "yellowCards": 3,
+            "redCards": 0,
+            "assists": 1
+          },
+          "221866": {
+            "personId": 221866,
+            "name": "DALY Jason",
+            "shortName": "DALY J.",
+            "shirtNumber": null,
+            "goals": 1,
+            "appearances": 5,
+            "minutes": 390,
+            "yellowCards": 0,
+            "redCards": 0,
+            "assists": 1
+          },
+          "249002": {
+            "personId": 249002,
+            "name": "Unknown",
+            "shortName": "Unknown",
+            "shirtNumber": null,
+            "goals": 0,
+            "appearances": 1,
+            "minutes": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "assists": 0
+          },
+          "291285": {
+            "personId": 291285,
+            "name": "MAHER Sean",
+            "shortName": "MAHER S.",
+            "shirtNumber": null,
+            "goals": 0,
+            "appearances": 3,
+            "minutes": 72,
+            "yellowCards": 0,
+            "redCards": 0,
+            "assists": 0
+          },
+          "307867": {
+            "personId": 307867,
+            "name": "DEVEREUX Gavin",
+            "shortName": "DEVEREUX G.",
+            "shirtNumber": null,
+            "goals": 0,
+            "appearances": 3,
+            "minutes": 77,
+            "yellowCards": 1,
+            "redCards": 0,
+            "assists": 0
+          },
+          "386490": {
+            "personId": 386490,
+            "name": "LENAHAN Ben",
+            "shortName": "LENAHAN B.",
+            "shirtNumber": null,
+            "goals": 0,
+            "appearances": 8,
+            "minutes": 635,
+            "yellowCards": 0,
+            "redCards": 0,
+            "assists": 0
+          },
+          "422938": {
+            "personId": 422938,
+            "name": "DUNNE Stephen",
+            "shortName": "DUNNE  S.",
+            "shirtNumber": null,
+            "goals": 13,
+            "appearances": 20,
+            "minutes": 1780,
+            "yellowCards": 3,
+            "redCards": 0,
+            "assists": 0
+          },
+          "501816": {
+            "personId": 501816,
+            "name": "PATCHELL Glen",
+            "shortName": "PATCHELL G.",
+            "shirtNumber": null,
+            "goals": 0,
+            "appearances": 15,
+            "minutes": 541,
+            "yellowCards": 2,
+            "redCards": 0,
+            "assists": 0
+          },
+          "537856": {
+            "personId": 537856,
+            "name": "RYAN Evan",
+            "shortName": "RYAN E.",
+            "shirtNumber": null,
+            "goals": 3,
+            "appearances": 9,
+            "minutes": 552,
+            "yellowCards": 0,
+            "redCards": 0,
+            "assists": 0
+          },
+          "564503": {
+            "personId": 564503,
+            "name": "DUNNE Mark",
+            "shortName": "DUNNE M.",
+            "shirtNumber": null,
+            "goals": 0,
+            "appearances": 20,
+            "minutes": 1627,
+            "yellowCards": 0,
+            "redCards": 0,
+            "assists": 0
+          },
+          "565142": {
+            "personId": 565142,
+            "name": "HAND Ross",
+            "shortName": "HAND R.",
+            "shirtNumber": null,
+            "goals": 0,
+            "appearances": 17,
+            "minutes": 1151,
+            "yellowCards": 0,
+            "redCards": 0,
+            "assists": 1
+          },
+          "568824": {
+            "personId": 568824,
+            "name": "SOPER Mark",
+            "shortName": "SOPER M.",
+            "shirtNumber": null,
+            "goals": 5,
+            "appearances": 11,
+            "minutes": 828,
+            "yellowCards": 3,
+            "redCards": 1,
+            "assists": 0
+          },
+          "607261": {
+            "personId": 607261,
+            "name": "SRI-UTTHA Alec",
+            "shortName": "SRI-UTTHA A.",
+            "shirtNumber": null,
+            "goals": 4,
+            "appearances": 19,
+            "minutes": 1329,
+            "yellowCards": 2,
+            "redCards": 0,
+            "assists": 1
+          },
+          "625203": {
+            "personId": 625203,
+            "name": "KIERNAN Alan",
+            "shortName": "KIERNAN A.",
+            "shirtNumber": null,
+            "goals": 0,
+            "appearances": 17,
+            "minutes": 1530,
+            "yellowCards": 0,
+            "redCards": 0,
+            "assists": 0
+          },
+          "658488": {
+            "personId": 658488,
+            "name": "KIERNAN David",
+            "shortName": "KIERNAN D.",
+            "shirtNumber": null,
+            "goals": 0,
+            "appearances": 15,
+            "minutes": 941,
+            "yellowCards": 1,
+            "redCards": 0,
+            "assists": 0
+          },
+          "660084": {
+            "personId": 660084,
+            "name": "HENDERSON Ryan",
+            "shortName": "HENDERSON R.",
+            "shirtNumber": null,
+            "goals": 1,
+            "appearances": 15,
+            "minutes": 1319,
+            "yellowCards": 1,
+            "redCards": 0,
+            "assists": 0
+          },
+          "660085": {
+            "personId": 660085,
+            "name": "MCKENNA Ross",
+            "shortName": "MCKENNA  R.",
+            "shirtNumber": null,
+            "goals": 0,
+            "appearances": 17,
+            "minutes": 1467,
+            "yellowCards": 1,
+            "redCards": 0,
+            "assists": 0
+          },
+          "660467": {
+            "personId": 660467,
+            "name": "DOYLE Led",
+            "shortName": "DOYLE  L.",
+            "shirtNumber": null,
+            "goals": 3,
+            "appearances": 19,
+            "minutes": 799,
+            "yellowCards": 0,
+            "redCards": 0,
+            "assists": 0
+          },
+          "679674": {
+            "personId": 679674,
+            "name": "SUTCLIFFE Daniel",
+            "shortName": "SUTCLIFFE D.",
+            "shirtNumber": null,
+            "goals": 1,
+            "appearances": 9,
+            "minutes": 784,
+            "yellowCards": 2,
+            "redCards": 0,
+            "assists": 0
+          }
+        },
+        "teamRecord": {
+          "played": 34,
+          "won": 18,
+          "drawn": 13,
+          "lost": 3,
+          "goalsFor": 67,
+          "goalsAgainst": 31
+        },
+        "matches": [
+          {
+            "id": 48498814,
+            "competitionId": "37464242",
+            "competitionName": "UCFL Division 3A (2025/26)",
+            "date": "2026-05-20T18:00:00.000Z",
+            "round": "47",
+            "opponent": "Rialto FC",
+            "isHome": true,
+            "goalsFor": 1,
+            "goalsAgainst": 0,
+            "result": "W",
+            "scoreline": "1-0",
+            "goalScorers": [
+              {
+                "shortName": "TOWEY S.",
+                "minute": 86
+              }
+            ]
+          },
+          {
+            "id": 48202275,
+            "competitionId": "37464242",
+            "competitionName": "UCFL Division 3A (2025/26)",
+            "date": "2026-05-09T10:30:00.000Z",
+            "round": "45",
+            "opponent": "Phibsboro Club De Fútbol",
+            "isHome": false,
+            "goalsFor": 2,
+            "goalsAgainst": 1,
+            "result": "W",
+            "scoreline": "2-1",
+            "goalScorers": [
+              {
+                "shortName": "DUNNE  S.",
+                "minute": 63
+              },
+              {
+                "shortName": "DOYLE  L.",
+                "minute": 66
+              }
+            ]
+          },
+          {
+            "id": 47899801,
+            "competitionId": "37464242",
+            "competitionName": "UCFL Division 3A (2025/26)",
+            "date": "2026-05-02T13:00:00.000Z",
+            "round": "43",
+            "opponent": "St. Mary's FC (Sandyford)",
+            "isHome": false,
+            "goalsFor": 3,
+            "goalsAgainst": 0,
+            "result": "W",
+            "scoreline": "3-0",
+            "goalScorers": [
+              {
+                "shortName": "TOWEY S.",
+                "minute": 8
+              }
+            ]
+          },
+          {
+            "id": 47491165,
+            "competitionId": "37464242",
+            "competitionName": "UCFL Division 3A (2025/26)",
+            "date": "2026-04-25T10:30:00.000Z",
+            "round": "40",
+            "opponent": "Phoenix Athletic FC",
+            "isHome": true,
+            "goalsFor": 6,
+            "goalsAgainst": 1,
+            "result": "W",
+            "scoreline": "6-1",
+            "goalScorers": [
+              {
+                "shortName": "DUNNE  S.",
+                "minute": 27
+              },
+              {
+                "shortName": "SRI-UTTHA A.",
+                "minute": 45
+              },
+              {
+                "shortName": "DUFFY I.",
+                "minute": 58
+              },
+              {
+                "shortName": "RYAN E.",
+                "minute": 68
+              },
+              {
+                "shortName": "DUFFY I.",
+                "minute": 76
+              },
+              {
+                "shortName": "DUFFY I.",
+                "minute": 84
+              }
+            ]
+          },
+          {
+            "id": 47190527,
+            "competitionId": "37464242",
+            "competitionName": "UCFL Division 3A (2025/26)",
+            "date": "2026-04-18T12:15:00.000Z",
+            "round": "37",
+            "opponent": "St. Mary's FC (Sandyford)",
+            "isHome": false,
+            "goalsFor": 0,
+            "goalsAgainst": 0,
+            "result": "D",
+            "scoreline": "0-0",
+            "goalScorers": []
+          },
+          {
+            "id": 46926364,
+            "competitionId": "37464242",
+            "competitionName": "UCFL Division 3A (2025/26)",
+            "date": "2026-04-15T17:45:00.000Z",
+            "round": "36",
+            "opponent": "Ballyowen Celtic FC",
+            "isHome": true,
+            "goalsFor": 5,
+            "goalsAgainst": 0,
+            "result": "W",
+            "scoreline": "5-0",
+            "goalScorers": [
+              {
+                "shortName": "HENDERSON R.",
+                "minute": 26
+              },
+              {
+                "shortName": "DUFFY I.",
+                "minute": 43
+              },
+              {
+                "shortName": "DUFFY I.",
+                "minute": 54
+              },
+              {
+                "shortName": "DUFFY I.",
+                "minute": 76
+              },
+              {
+                "shortName": "DUFFY C.",
+                "minute": 88
+              }
+            ]
+          },
+          {
+            "id": 46925985,
+            "competitionId": "37464242",
+            "competitionName": "UCFL Division 3A (2025/26)",
+            "date": "2026-04-13T17:45:00.000Z",
+            "round": "35",
+            "opponent": "Griffeen Valley FC",
+            "isHome": true,
+            "goalsFor": 3,
+            "goalsAgainst": 0,
+            "result": "W",
+            "scoreline": "3-0",
+            "goalScorers": []
+          },
+          {
+            "id": 46885381,
+            "competitionId": "37464242",
+            "competitionName": "UCFL Division 3A (2025/26)",
+            "date": "2026-04-11T10:00:00.000Z",
+            "round": "34",
+            "opponent": "Whitechurch FC",
+            "isHome": false,
+            "goalsFor": 1,
+            "goalsAgainst": 2,
+            "result": "L",
+            "scoreline": "1-2",
+            "goalScorers": [
+              {
+                "shortName": "DUNNE  S.",
+                "minute": 79
+              }
+            ]
+          },
+          {
+            "id": 46524325,
+            "competitionId": "37464242",
+            "competitionName": "UCFL Division 3A (2025/26)",
+            "date": "2026-04-08T17:30:00.000Z",
+            "round": "33",
+            "opponent": "Exodus FC",
+            "isHome": false,
+            "goalsFor": 2,
+            "goalsAgainst": 0,
+            "result": "W",
+            "scoreline": "2-0",
+            "goalScorers": [
+              {
+                "shortName": "NEILAN D.",
+                "minute": 6
+              },
+              {
+                "shortName": "NEILAN D.",
+                "minute": 21
+              }
+            ]
+          },
+          {
+            "id": 46445811,
+            "competitionId": "37464242",
+            "competitionName": "UCFL Division 3A (2025/26)",
+            "date": "2026-04-04T10:30:00.000Z",
+            "round": "32",
+            "opponent": "Santry Forest FC",
+            "isHome": true,
+            "goalsFor": 4,
+            "goalsAgainst": 2,
+            "result": "W",
+            "scoreline": "4-2",
+            "goalScorers": [
+              {
+                "shortName": "SRI-UTTHA A.",
+                "minute": 26
+              },
+              {
+                "shortName": "TOWEY S.",
+                "minute": 43
+              },
+              {
+                "shortName": "TOWEY S.",
+                "minute": 51
+              },
+              {
+                "shortName": "TOWEY S.",
+                "minute": 90
+              }
+            ]
+          },
+          {
+            "id": 46183485,
+            "competitionId": "37464242",
+            "competitionName": "UCFL Division 3A (2025/26)",
+            "date": "2026-04-01T17:30:00.000Z",
+            "round": "31",
+            "opponent": "Rialto FC",
+            "isHome": false,
+            "goalsFor": 2,
+            "goalsAgainst": 1,
+            "result": "W",
+            "scoreline": "2-1",
+            "goalScorers": [
+              {
+                "shortName": "TOWEY S.",
+                "minute": 12
+              },
+              {
+                "shortName": "TOWEY S.",
+                "minute": 61
+              }
+            ]
+          },
+          {
+            "id": 46164501,
+            "competitionId": "37464242",
+            "competitionName": "UCFL Division 3A (2025/26)",
+            "date": "2026-03-28T11:30:00.000Z",
+            "round": "30",
+            "opponent": "Drumcondra AFC UCFL Division 3A",
+            "isHome": true,
+            "goalsFor": 3,
+            "goalsAgainst": 2,
+            "result": "W",
+            "scoreline": "3-2",
+            "goalScorers": [
+              {
+                "shortName": "SRI-UTTHA A.",
+                "minute": 27
+              },
+              {
+                "shortName": "DUNNE  S.",
+                "minute": 60
+              },
+              {
+                "shortName": "TOWEY S.",
+                "minute": 63
+              }
+            ]
+          },
+          {
+            "id": 45886896,
+            "competitionId": "37464242",
+            "competitionName": "UCFL Division 3A (2025/26)",
+            "date": "2026-03-21T11:30:00.000Z",
+            "round": "29",
+            "opponent": "Phoenix Athletic FC",
+            "isHome": false,
+            "goalsFor": 5,
+            "goalsAgainst": 0,
+            "result": "W",
+            "scoreline": "5-0",
+            "goalScorers": [
+              {
+                "shortName": "DUNNE  S.",
+                "minute": 7
+              },
+              {
+                "shortName": "TOWEY S.",
+                "minute": 13
+              },
+              {
+                "shortName": "DUNNE  S.",
+                "minute": 45
+              },
+              {
+                "shortName": "BROWN S.",
+                "minute": 53
+              },
+              {
+                "shortName": "TOWEY S.",
+                "minute": 58
+              }
+            ]
+          },
+          {
+            "id": 45517196,
+            "competitionId": "37464242",
+            "competitionName": "UCFL Division 3A (2025/26)",
+            "date": "2026-03-14T11:30:00.000Z",
+            "round": "28",
+            "opponent": "Whitechurch FC",
+            "isHome": true,
+            "goalsFor": 3,
+            "goalsAgainst": 0,
+            "result": "W",
+            "scoreline": "3-0",
+            "goalScorers": [
+              {
+                "shortName": "DUNNE  S.",
+                "minute": 5
+              },
+              {
+                "shortName": "BROWN S.",
+                "minute": 33
+              },
+              {
+                "shortName": "DUFFY I.",
+                "minute": 80
+              }
+            ]
+          },
+          {
+            "id": 45353951,
+            "competitionId": "37464242",
+            "competitionName": "UCFL Division 3A (2025/26)",
+            "date": "2026-03-07T13:30:00.000Z",
+            "round": "27",
+            "opponent": "Griffeen Valley FC",
+            "isHome": false,
+            "goalsFor": 3,
+            "goalsAgainst": 1,
+            "result": "W",
+            "scoreline": "3-1",
+            "goalScorers": [
+              {
+                "shortName": "DOYLE  L.",
+                "minute": 2
+              },
+              {
+                "shortName": "KEARNS J.",
+                "minute": 3
+              },
+              {
+                "shortName": "TOWEY S.",
+                "minute": 87
+              }
+            ]
+          },
+          {
+            "id": 44692454,
+            "competitionId": "37464242",
+            "competitionName": "UCFL Division 3A (2025/26)",
+            "date": "2026-02-21T11:30:00.000Z",
+            "round": "25",
+            "opponent": "Phoenix Athletic FC",
+            "isHome": false,
+            "goalsFor": 0,
+            "goalsAgainst": 0,
+            "result": "D",
+            "scoreline": "0-0",
+            "goalScorers": []
+          },
+          {
+            "id": 44558086,
+            "competitionId": "37464242",
+            "competitionName": "UCFL Division 3A (2025/26)",
+            "date": "2026-02-14T11:30:00.000Z",
+            "round": "24",
+            "opponent": "Griffeen Valley FC",
+            "isHome": false,
+            "goalsFor": 0,
+            "goalsAgainst": 0,
+            "result": "D",
+            "scoreline": "0-0",
+            "goalScorers": []
+          },
+          {
+            "id": 37619718,
+            "competitionId": "37464242",
+            "competitionName": "UCFL Division 3A (2025/26)",
+            "date": "2026-01-24T13:30:00.000Z",
+            "round": "21",
+            "opponent": "Phoenix Athletic FC",
+            "isHome": false,
+            "goalsFor": 0,
+            "goalsAgainst": 0,
+            "result": "D",
+            "scoreline": "0-0",
+            "goalScorers": []
+          },
+          {
+            "id": 37619710,
+            "competitionId": "37464242",
+            "competitionName": "UCFL Division 3A (2025/26)",
+            "date": "2026-01-17T12:00:00.000Z",
+            "round": "20",
+            "opponent": "Griffeen Valley FC",
+            "isHome": false,
+            "goalsFor": 0,
+            "goalsAgainst": 0,
+            "result": "D",
+            "scoreline": "0-0",
+            "goalScorers": []
+          },
+          {
+            "id": 37619699,
+            "competitionId": "37464242",
+            "competitionName": "UCFL Division 3A (2025/26)",
+            "date": "2025-12-13T11:30:00.000Z",
+            "round": "18",
+            "opponent": "Drumcondra AFC UCFL Division 3A",
+            "isHome": false,
+            "goalsFor": 2,
+            "goalsAgainst": 5,
+            "result": "L",
+            "scoreline": "2-5",
+            "goalScorers": [
+              {
+                "shortName": "DOYLE  L.",
+                "minute": 19
+              },
+              {
+                "shortName": "TOWEY S.",
+                "minute": 82
+              }
+            ]
+          },
+          {
+            "id": 37619696,
+            "competitionId": "37464242",
+            "competitionName": "UCFL Division 3A (2025/26)",
+            "date": "2025-12-06T12:00:00.000Z",
+            "round": "17",
+            "opponent": "Griffeen Valley FC",
+            "isHome": false,
+            "goalsFor": 0,
+            "goalsAgainst": 0,
+            "result": "D",
+            "scoreline": "0-0",
+            "goalScorers": []
+          },
+          {
+            "id": 37619686,
+            "competitionId": "37464242",
+            "competitionName": "UCFL Division 3A (2025/26)",
+            "date": "2025-11-29T11:30:00.000Z",
+            "round": "16",
+            "opponent": "Drumcondra AFC UCFL Division 3A",
+            "isHome": false,
+            "goalsFor": 0,
+            "goalsAgainst": 0,
+            "result": "D",
+            "scoreline": "0-0",
+            "goalScorers": []
+          },
+          {
+            "id": 37619684,
+            "competitionId": "37464242",
+            "competitionName": "UCFL Division 3A (2025/26)",
+            "date": "2025-11-22T13:30:00.000Z",
+            "round": "15",
+            "opponent": "Exodus FC",
+            "isHome": true,
+            "goalsFor": 6,
+            "goalsAgainst": 2,
+            "result": "W",
+            "scoreline": "6-2",
+            "goalScorers": [
+              {
+                "shortName": "SOPER M.",
+                "minute": 3
+              },
+              {
+                "shortName": "DUNNE  S.",
+                "minute": 25
+              },
+              {
+                "shortName": "SOPER M.",
+                "minute": 46
+              },
+              {
+                "shortName": "RYAN E.",
+                "minute": 54
+              },
+              {
+                "shortName": "BROWN S.",
+                "minute": 55
+              },
+              {
+                "shortName": "RYAN E.",
+                "minute": 58
+              }
+            ]
+          },
+          {
+            "id": 37619670,
+            "competitionId": "37464242",
+            "competitionName": "UCFL Division 3A (2025/26)",
+            "date": "2025-11-08T12:00:00.000Z",
+            "round": "13",
+            "opponent": "Griffeen Valley FC",
+            "isHome": false,
+            "goalsFor": 0,
+            "goalsAgainst": 0,
+            "result": "D",
+            "scoreline": "0-0",
+            "goalScorers": []
+          },
+          {
+            "id": 37619665,
+            "competitionId": "37464242",
+            "competitionName": "UCFL Division 3A (2025/26)",
+            "date": "2025-11-01T11:30:00.000Z",
+            "round": "12",
+            "opponent": "Exodus FC",
+            "isHome": false,
+            "goalsFor": 0,
+            "goalsAgainst": 0,
+            "result": "D",
+            "scoreline": "0-0",
+            "goalScorers": []
+          },
+          {
+            "id": 37619660,
+            "competitionId": "37464242",
+            "competitionName": "UCFL Division 3A (2025/26)",
+            "date": "2025-10-25T11:00:00.000Z",
+            "round": "11",
+            "opponent": "Ballyowen Celtic FC",
+            "isHome": false,
+            "goalsFor": 2,
+            "goalsAgainst": 1,
+            "result": "W",
+            "scoreline": "2-1",
+            "goalScorers": [
+              {
+                "shortName": "DUNNE  S.",
+                "minute": 58
+              },
+              {
+                "shortName": "SUTCLIFFE D.",
+                "minute": 62
+              }
+            ]
+          },
+          {
+            "id": 37619653,
+            "competitionId": "37464242",
+            "competitionName": "UCFL Division 3A (2025/26)",
+            "date": "2025-10-18T10:30:00.000Z",
+            "round": "10",
+            "opponent": "Drumcondra AFC UCFL Division 3A",
+            "isHome": false,
+            "goalsFor": 0,
+            "goalsAgainst": 0,
+            "result": "D",
+            "scoreline": "0-0",
+            "goalScorers": []
+          },
+          {
+            "id": 37619596,
+            "competitionId": "37464242",
+            "competitionName": "UCFL Division 3A (2025/26)",
+            "date": "2025-10-11T10:30:00.000Z",
+            "round": "1",
+            "opponent": "St. Mary's FC (Sandyford)",
+            "isHome": true,
+            "goalsFor": 4,
+            "goalsAgainst": 2,
+            "result": "W",
+            "scoreline": "4-2",
+            "goalScorers": [
+              {
+                "shortName": "SOPER M.",
+                "minute": 7
+              },
+              {
+                "shortName": "DUNNE  S.",
+                "minute": 40
+              },
+              {
+                "shortName": "SOPER M.",
+                "minute": 43
+              },
+              {
+                "shortName": "BROWN S.",
+                "minute": 70
+              }
+            ]
+          },
+          {
+            "id": 37619640,
+            "competitionId": "37464242",
+            "competitionName": "UCFL Division 3A (2025/26)",
+            "date": "2025-09-27T10:00:00.000Z",
+            "round": "8",
+            "opponent": "Santry Forest FC",
+            "isHome": false,
+            "goalsFor": 4,
+            "goalsAgainst": 3,
+            "result": "W",
+            "scoreline": "4-3",
+            "goalScorers": [
+              {
+                "shortName": "SOPER M.",
+                "minute": 26
+              },
+              {
+                "shortName": "BROWN S.",
+                "minute": 45
+              },
+              {
+                "shortName": "DUNNE  S.",
+                "minute": 80
+              }
+            ]
+          },
+          {
+            "id": 37619637,
+            "competitionId": "37464242",
+            "competitionName": "UCFL Division 3A (2025/26)",
+            "date": "2025-09-20T10:00:00.000Z",
+            "round": "7",
+            "opponent": "York Road FC",
+            "isHome": true,
+            "goalsFor": 2,
+            "goalsAgainst": 5,
+            "result": "L",
+            "scoreline": "2-5",
+            "goalScorers": [
+              {
+                "shortName": "BROWN S.",
+                "minute": 69
+              },
+              {
+                "shortName": "DUNNE  S.",
+                "minute": 83
+              }
+            ]
+          },
+          {
+            "id": 37619630,
+            "competitionId": "37464242",
+            "competitionName": "UCFL Division 3A (2025/26)",
+            "date": "2025-09-13T10:00:00.000Z",
+            "round": "6",
+            "opponent": "Phibsboro Club De Fútbol",
+            "isHome": true,
+            "goalsFor": 3,
+            "goalsAgainst": 2,
+            "result": "W",
+            "scoreline": "3-2",
+            "goalScorers": [
+              {
+                "shortName": "DALY J.",
+                "minute": 21
+              },
+              {
+                "shortName": "DUNNE  S.",
+                "minute": 63
+              },
+              {
+                "shortName": "SRI-UTTHA A.",
+                "minute": 70
+              }
+            ]
+          },
+          {
+            "id": 37619623,
+            "competitionId": "37464242",
+            "competitionName": "UCFL Division 3A (2025/26)",
+            "date": "2025-09-06T11:00:00.000Z",
+            "round": "5",
+            "opponent": "Phibsboro Club De Fútbol",
+            "isHome": false,
+            "goalsFor": 0,
+            "goalsAgainst": 0,
+            "result": "D",
+            "scoreline": "0-0",
+            "goalScorers": []
+          },
+          {
+            "id": 37619608,
+            "competitionId": "37464242",
+            "competitionName": "UCFL Division 3A (2025/26)",
+            "date": "2025-08-30T11:00:00.000Z",
+            "round": "3",
+            "opponent": "York Road FC",
+            "isHome": false,
+            "goalsFor": 1,
+            "goalsAgainst": 1,
+            "result": "D",
+            "scoreline": "1-1",
+            "goalScorers": [
+              {
+                "shortName": "BROWN S.",
+                "minute": 64
+              }
+            ]
+          },
+          {
+            "id": 37619607,
+            "competitionId": "37464242",
+            "competitionName": "UCFL Division 3A (2025/26)",
+            "date": "2025-08-27T17:45:00.000Z",
+            "round": "2",
+            "opponent": "Griffeen Valley FC",
+            "isHome": false,
+            "goalsFor": 0,
+            "goalsAgainst": 0,
+            "result": "D",
+            "scoreline": "0-0",
+            "goalScorers": []
+          }
+        ],
+        "fixtures": [],
+        "displayName": "UCFL Division 3A (2025/26)"
+      }
+    }
+  ]
+}

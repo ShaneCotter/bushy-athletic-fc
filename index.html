@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta
+      name="description"
+      content="Fixtures, results and player stats for Bushy Athletic FC."
+    />
+    <title>Bushy Athletic FC</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a class="site-brand" href="#home">
+          <img
+            src="assets/crest.png"
+            alt="Bushy Athletic FC crest"
+            class="site-brand__crest"
+            width="72"
+            height="88"
+          />
+          <span class="site-brand__name">Bushy Athletic FC</span>
+        </a>
+
+        <nav class="site-nav" aria-label="Primary">
+          <button type="button" class="site-nav__btn is-active" data-nav="home">Home</button>
+          <button type="button" class="site-nav__btn" data-nav="fixtures">
+            Fixtures
+          </button>
+          <button type="button" class="site-nav__btn" data-nav="stats">Stats</button>
+          <button type="button" class="site-nav__btn" data-nav="results">Results</button>
+          <button type="button" class="site-nav__btn" data-nav="sponsors">Sponsors</button>
+        </nav>
+      </div>
+    </header>
+
+    <div id="top" class="page">
+      <main>
+        <section id="loading" class="status-panel">
+          <div class="spinner" aria-hidden="true"></div>
+          <p id="loading-text">Loading…</p>
+        </section>
+
+        <section id="error" class="status-panel status-panel--error" hidden>
+          <p id="error-text"></p>
+          <button id="retry-btn" type="button" class="btn btn--primary">Try again</button>
+        </section>
+
+        <div id="dashboard" hidden>
+          <section id="home" class="content-section">
+            <div class="home-panel">
+              <div class="home-panel__intro">
+                <h2 class="home-panel__title">Bushy Athletic FC</h2>
+                <p class="home-panel__text">
+                  Based in South Dublin, Bushy Athletic FC is a grassroots club built on friendship, community pride, and a genuine love for football. 
+                  Competing in the United Churches Football League (UCFL), we pair strong camaraderie with a fierce competitive drive 
+                  - a formula that has led to our 2022 Shield victory and lifting the 2026 League title.
+                </p>
+                <ul class="honours-list" aria-label="Honours">
+                  <li class="honours-list__item">3A League Champions 2026 🏆</li>
+                  <li class="honours-list__item">Shield Champs 2022 🛡</li>
+                </ul>
+              </div>
+
+              <div class="home-panel__social">
+                <div class="section-heading section-heading--inset">
+                  <h3>Instagram</h3>
+                </div>
+                <div class="instagram-panel">
+                  <div class="instagram-embed-wrap">
+                    <iframe
+                      class="instagram-embed"
+                      src="https://www.instagram.com/bushy_athleticfc/embed"
+                      title="Bushy Athletic FC on Instagram"
+                      loading="lazy"
+                      allowtransparency="true"
+                      scrolling="no"
+                    ></iframe>
+                  </div>
+                  <a
+                    class="instagram-follow"
+                    href="https://www.instagram.com/bushy_athleticfc/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Follow @bushy_athleticfc on Instagram
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section id="fixtures" class="content-section content-section--spaced">
+            <div class="section-heading">
+              <h2>Upcoming fixtures</h2>
+            </div>
+            <div id="fixtures-list" class="matches-grid"></div>
+          </section>
+
+          <div id="season" class="season-anchor">
+            <label id="season-field" class="season-field">
+              <span class="field__label">Season</span>
+              <select id="season-select" aria-label="Select season"></select>
+            </label>
+          </div>
+
+          <section id="stats" class="content-section">
+            <div class="section-heading">
+              <h2>Season stats</h2>
+            </div>
+            <div id="summary-cards" class="summary-grid"></div>
+
+            <div class="section-heading section-heading--spaced">
+              <h2>Player stats</h2>
+            </div>
+            <div id="leaderboard-tabs" class="tab-list" role="tablist">
+              <button type="button" data-metric="goals" class="is-active">Goals</button>
+              <button type="button" data-metric="appearances">Appearances</button>
+              <button type="button" data-metric="minutes">Minutes</button>
+              <button type="button" data-metric="yellowCards">Yellow cards</button>
+              <button type="button" data-metric="redCards">Red cards</button>
+            </div>
+            <label class="search-field search-field--compact">
+              <input
+                id="player-search"
+                type="search"
+                placeholder="Search players…"
+                autocomplete="off"
+                enterkeyhint="search"
+                aria-label="Search players"
+              />
+            </label>
+            <div id="leaderboard-panel" class="panel table-wrap"></div>
+          </section>
+
+          <section id="results" class="content-section content-section--spaced">
+            <div class="section-heading">
+              <h2>Results</h2>
+            </div>
+            <label class="search-field search-field--compact">
+              <input
+                id="results-search"
+                type="search"
+                placeholder="Search by team…"
+                autocomplete="off"
+                enterkeyhint="search"
+                aria-label="Search results by team"
+              />
+            </label>
+            <div id="results-panel" class="results-list"></div>
+            <div id="results-pagination" class="pagination" hidden></div>
+          </section>
+
+          <section id="sponsors" class="content-section sponsor-section">
+            <div class="section-heading">
+              <h2>Sponsors</h2>
+            </div>
+            <div class="sponsor-panel">
+              <p class="sponsor-panel__message">Sponsor information coming soon.</p>
+            </div>
+          </section>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <p>
+          Data sourced from
+          <a href="https://ucfl.clubforce.com/results-fixtures" target="_blank" rel="noreferrer"
+            >UCFL Clubforce results</a
+          >.
+        </p>
+      </footer>
+    </div>
+
+    <script type="module" src="js/app.js"></script>
+  </body>
+</html>
