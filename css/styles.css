@@ -233,9 +233,10 @@ a {
 }
 
 .instagram-follow {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
   padding: 0.7rem 1rem;
   border-radius: 999px;
   background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af);
@@ -730,6 +731,16 @@ main {
 .footer {
   margin-top: 2rem;
   text-align: center;
+}
+
+@media (max-width: 767px) {
+  .home-panel {
+    gap: 0.65rem;
+  }
+
+  .home-panel__social .section-heading--inset {
+    margin-bottom: -0.15rem;
+  }
 }
 
 @media (min-width: 768px) {
