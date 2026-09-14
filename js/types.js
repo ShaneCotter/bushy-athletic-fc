@@ -1,13 +1,15 @@
 /**
  * @typedef {Object} AppConfig
  * @property {string} teamMatch
+ * @property {number} [teamId]
  * @property {number} organizationId
  * @property {string} storeSlug
  * @property {string} apiKey
  * @property {number} matchLengthMinutes
  * @property {number} cacheTtlMinutes
  * @property {string[]} completedSeasonNames
- * @property {Array<{ id: string, label: string, comingSoon?: boolean }>} seasons
+ * @property {string} currentSeasonCompetitionName
+ * @property {Array<{ id: string, label: string, group?: 'current'|'completed', comingSoon?: boolean }>} seasons
  * @property {string} defaultSeasonId
  */
 
@@ -16,6 +18,7 @@
  * @property {number} personId
  * @property {string} name
  * @property {string} shortName
+ * @property {string} [displayName]
  * @property {number|null} shirtNumber
  * @property {number} goals
  * @property {number} appearances
@@ -23,6 +26,18 @@
  * @property {number} yellowCards
  * @property {number} redCards
  * @property {number} [assists]
+ */
+
+/**
+ * @typedef {Object} LeagueStanding
+ * @property {number} position
+ * @property {string} teamName
+ * @property {number} played
+ * @property {number} won
+ * @property {number} drawn
+ * @property {number} lost
+ * @property {number} points
+ * @property {boolean} isTargetTeam
  */
 
 /**
@@ -38,6 +53,8 @@
 /**
  * @typedef {Object} GoalScorer
  * @property {string} shortName
+ * @property {number} [personId]
+ * @property {string} [displayName]
  * @property {number} minute
  */
 
@@ -78,6 +95,7 @@
  * @property {TeamRecord} teamRecord
  * @property {MatchSummary[]} matches
  * @property {FixtureSummary[]} fixtures
+ * @property {LeagueStanding[]} [standings]
  */
 
 /** @typedef {CompetitionStats} SeasonBundle */
@@ -97,6 +115,7 @@
  * @property {FixtureSummary[]} fixtures
  * @property {SeasonBundle} currentSeason
  * @property {Record<string, CompetitionStats>} currentCompetitions
+ * @property {Array<{ id: string, name: string, label: string, kind?: string }>} [extraCompetitions]
  * @property {CompetitionOption[]} previousCompetitions
  * @property {Record<string, CompetitionStats>} previousSeasons
  */

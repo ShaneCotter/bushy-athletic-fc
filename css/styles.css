@@ -157,7 +157,8 @@ a {
 }
 
 .season-anchor {
-  margin-top: 2.25rem;
+  display: grid;
+  gap: 0.85rem;
   margin-bottom: 1rem;
   scroll-margin-top: calc(var(--header-height) + 1.75rem);
 }
@@ -342,6 +343,13 @@ main {
   color: var(--white);
 }
 
+.section-heading__note {
+  margin: 0.35rem 0 0;
+  color: rgba(242, 242, 242, 0.78);
+  font-size: 0.92rem;
+  line-height: 1.45;
+}
+
 .section-heading--spaced {
   margin-top: 0.5rem;
 }
@@ -411,6 +419,37 @@ main {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0.75rem;
+}
+
+.league-table-section {
+  display: grid;
+  gap: 0.85rem;
+}
+
+.league-table {
+  table-layout: fixed;
+}
+
+.league-table th:first-child,
+.league-table td:first-child {
+  width: 4rem;
+  text-align: center;
+}
+
+.league-table th:nth-child(n + 3),
+.league-table td:nth-child(n + 3) {
+  width: 4rem;
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+}
+
+.league-table .is-target-team {
+  background: rgba(217, 181, 4, 0.16);
+  font-weight: 700;
+}
+
+.league-table .is-target-team td:first-child {
+  box-shadow: inset 4px 0 0 var(--gold);
 }
 
 .summary-card,
@@ -677,6 +716,14 @@ main {
   font-size: 0.92rem;
 }
 
+.venue-label {
+  white-space: nowrap;
+}
+
+.venue-label__emoji {
+  font-style: normal;
+}
+
 .match-card__score,
 .match-card__kickoff {
   text-align: right;
@@ -876,17 +923,17 @@ main {
     content: none;
   }
 
-  .data-table:not(.leaderboard-table) thead {
+  .data-table:not(.leaderboard-table):not(.league-table) thead {
     display: none;
   }
 
-  .data-table:not(.leaderboard-table) tr {
+  .data-table:not(.leaderboard-table):not(.league-table) tr {
     display: block;
     padding: 0.85rem;
     border-bottom: 1px solid var(--border);
   }
 
-  .data-table:not(.leaderboard-table) td {
+  .data-table:not(.leaderboard-table):not(.league-table) td {
     display: grid;
     grid-template-columns: minmax(4.5rem, 32%) 1fr;
     gap: 0.5rem;
@@ -894,7 +941,7 @@ main {
     border: 0;
   }
 
-  .data-table:not(.leaderboard-table) td::before {
+  .data-table:not(.leaderboard-table):not(.league-table) td::before {
     content: attr(data-label);
     font-size: 0.78rem;
     font-weight: 700;
@@ -910,6 +957,30 @@ main {
 
   .data-table .empty-row td::before {
     content: none;
+  }
+
+  .league-table th,
+  .league-table td {
+    padding: 0.65rem 0.2rem;
+    font-size: 0.75rem;
+  }
+
+  .league-table th:first-child,
+  .league-table td:first-child {
+    width: 2.25rem;
+  }
+
+  .league-table th:nth-child(2),
+  .league-table td:nth-child(2) {
+    width: auto;
+    padding-left: 0.45rem;
+    text-align: left;
+    overflow-wrap: anywhere;
+  }
+
+  .league-table th:nth-child(n + 3),
+  .league-table td:nth-child(n + 3) {
+    width: 2rem;
   }
 
   .page {

@@ -1,0 +1,526 @@
+{
+  "generatedAt": "2026-09-14T16:29:32.376Z",
+  "upcomingFixtures": [
+    {
+      "id": 53027404,
+      "competitionId": "52131453",
+      "competitionName": "Oneill's.com LFA Junior Cup 26/27",
+      "date": "2026-09-19T13:00:00.000Z",
+      "round": "1/128F",
+      "opponent": "Thomastown United",
+      "isHome": true
+    },
+    {
+      "id": 52416786,
+      "competitionId": "51454018",
+      "competitionName": "AUL / UCFL Division 2A",
+      "date": "2026-09-26T10:00:00.000Z",
+      "round": "4",
+      "opponent": "Malahide United AFC UCFL",
+      "isHome": true
+    }
+  ],
+  "extraCompetitions": [
+    {
+      "id": "52131453",
+      "name": "Oneill's.com LFA Junior Cup 26/27",
+      "label": "Oneill's.com LFA Junior Cup 26/27",
+      "kind": "cup",
+      "stats": {
+        "id": "52131453",
+        "name": "Oneill's.com LFA Junior Cup 26/27",
+        "active": true,
+        "players": {},
+        "teamRecord": {
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0
+        },
+        "matches": [],
+        "fixtures": [
+          {
+            "id": 53027404,
+            "competitionId": "52131453",
+            "competitionName": "Oneill's.com LFA Junior Cup 26/27",
+            "date": "2026-09-19T13:00:00.000Z",
+            "round": "1/128F",
+            "opponent": "Thomastown United",
+            "isHome": true
+          }
+        ],
+        "displayName": "Oneill's.com LFA Junior Cup 26/27"
+      }
+    }
+  ],
+  "season": {
+    "id": "51454018",
+    "name": "AUL / UCFL Division 2A",
+    "stats": {
+      "id": "51454018",
+      "name": "AUL / UCFL Division 2A",
+      "active": true,
+      "players": {
+        "36024": {
+          "personId": 36024,
+          "name": "KEARNS Jamie",
+          "shortName": "KEARNS J.",
+          "shirtNumber": null,
+          "goals": 0,
+          "appearances": 2,
+          "minutes": 180,
+          "yellowCards": 0,
+          "redCards": 0,
+          "assists": 0,
+          "displayName": "KEARNS J."
+        },
+        "46556": {
+          "personId": 46556,
+          "name": "DUFFY Ian",
+          "shortName": "DUFFY I.",
+          "shirtNumber": null,
+          "goals": 0,
+          "appearances": 1,
+          "minutes": 90,
+          "yellowCards": 0,
+          "redCards": 0,
+          "assists": 0,
+          "displayName": "DUFFY I."
+        },
+        "65260": {
+          "personId": 65260,
+          "name": "Unknown",
+          "shortName": "Unknown",
+          "shirtNumber": null,
+          "goals": 0,
+          "appearances": 1,
+          "minutes": 45,
+          "yellowCards": 0,
+          "redCards": 0,
+          "assists": 0,
+          "displayName": "DUNNE Max"
+        },
+        "229068": {
+          "personId": 229068,
+          "name": "DUNNE Micheal",
+          "shortName": "DUNNE M.",
+          "shirtNumber": null,
+          "goals": 0,
+          "appearances": 2,
+          "minutes": 180,
+          "yellowCards": 1,
+          "redCards": 0,
+          "assists": 0,
+          "displayName": "DUNNE Mick"
+        },
+        "249011": {
+          "personId": 249011,
+          "name": "CAREY Liam",
+          "shortName": "CAREY L.",
+          "shirtNumber": null,
+          "goals": 0,
+          "appearances": 1,
+          "minutes": 87,
+          "yellowCards": 0,
+          "redCards": 0,
+          "assists": 0,
+          "displayName": "CAREY L."
+        },
+        "285560": {
+          "personId": 285560,
+          "name": "MURPHY Daniel",
+          "shortName": "MURPHY D.",
+          "shirtNumber": null,
+          "goals": 0,
+          "appearances": 1,
+          "minutes": 90,
+          "yellowCards": 0,
+          "redCards": 0,
+          "assists": 0,
+          "displayName": "MURPHY D."
+        },
+        "375724": {
+          "personId": 375724,
+          "name": "HARMAN Luke",
+          "shortName": "HARMAN L.",
+          "shirtNumber": null,
+          "goals": 0,
+          "appearances": 2,
+          "minutes": 180,
+          "yellowCards": 1,
+          "redCards": 0,
+          "assists": 0,
+          "displayName": "HARMAN L."
+        },
+        "386492": {
+          "personId": 386492,
+          "name": "ROGERS Jack",
+          "shortName": "ROGERS J.",
+          "shirtNumber": null,
+          "goals": 2,
+          "appearances": 2,
+          "minutes": 180,
+          "yellowCards": 0,
+          "redCards": 0,
+          "assists": 0,
+          "displayName": "ROGERS J."
+        },
+        "422938": {
+          "personId": 422938,
+          "name": "DUNNE Stephen",
+          "shortName": "DUNNE  S.",
+          "shirtNumber": null,
+          "goals": 4,
+          "appearances": 2,
+          "minutes": 180,
+          "yellowCards": 0,
+          "redCards": 0,
+          "assists": 0,
+          "displayName": "DUNNE  S."
+        },
+        "501816": {
+          "personId": 501816,
+          "name": "PATCHELL Glen",
+          "shortName": "PATCHELL G.",
+          "shirtNumber": null,
+          "goals": 0,
+          "appearances": 2,
+          "minutes": 44,
+          "yellowCards": 0,
+          "redCards": 0,
+          "assists": 0,
+          "displayName": "PATCHELL G."
+        },
+        "548582": {
+          "personId": 548582,
+          "name": "SHEILS Kian Patrick",
+          "shortName": "SHEILS K.",
+          "shirtNumber": null,
+          "goals": 0,
+          "appearances": 1,
+          "minutes": 90,
+          "yellowCards": 0,
+          "redCards": 0,
+          "assists": 0,
+          "displayName": "SHEILS K."
+        },
+        "564503": {
+          "personId": 564503,
+          "name": "DUNNE Mark",
+          "shortName": "DUNNE M.",
+          "shirtNumber": null,
+          "goals": 0,
+          "appearances": 1,
+          "minutes": 90,
+          "yellowCards": 1,
+          "redCards": 0,
+          "assists": 0,
+          "displayName": "DUNNE Mark"
+        },
+        "565142": {
+          "personId": 565142,
+          "name": "HAND Ross",
+          "shortName": "HAND R.",
+          "shirtNumber": null,
+          "goals": 0,
+          "appearances": 1,
+          "minutes": 45,
+          "yellowCards": 0,
+          "redCards": 0,
+          "assists": 0,
+          "displayName": "HAND R."
+        },
+        "568824": {
+          "personId": 568824,
+          "name": "SOPER Mark",
+          "shortName": "SOPER M.",
+          "shirtNumber": null,
+          "goals": 0,
+          "appearances": 1,
+          "minutes": 90,
+          "yellowCards": 0,
+          "redCards": 0,
+          "assists": 0,
+          "displayName": "SOPER M."
+        },
+        "607261": {
+          "personId": 607261,
+          "name": "SRI-UTTHA Alec",
+          "shortName": "SRI-UTTHA A.",
+          "shirtNumber": null,
+          "goals": 0,
+          "appearances": 2,
+          "minutes": 160,
+          "yellowCards": 0,
+          "redCards": 0,
+          "assists": 0,
+          "displayName": "SRI-UTTHA A."
+        },
+        "645060": {
+          "personId": 645060,
+          "name": "CARPENTER Ryan",
+          "shortName": "CARPENTER  R.",
+          "shirtNumber": null,
+          "goals": 0,
+          "appearances": 2,
+          "minutes": 78,
+          "yellowCards": 0,
+          "redCards": 0,
+          "assists": 0,
+          "displayName": "CARPENTER  R."
+        },
+        "658488": {
+          "personId": 658488,
+          "name": "KIERNAN David",
+          "shortName": "KIERNAN D.",
+          "shirtNumber": null,
+          "goals": 0,
+          "appearances": 1,
+          "minutes": 49,
+          "yellowCards": 0,
+          "redCards": 0,
+          "assists": 0,
+          "displayName": "KIERNAN D."
+        },
+        "660084": {
+          "personId": 660084,
+          "name": "HENDERSON Ryan",
+          "shortName": "HENDERSON R.",
+          "shirtNumber": null,
+          "goals": 0,
+          "appearances": 2,
+          "minutes": 60,
+          "yellowCards": 0,
+          "redCards": 0,
+          "assists": 0,
+          "displayName": "HENDERSON R."
+        },
+        "660085": {
+          "personId": 660085,
+          "name": "MCKENNA Ross",
+          "shortName": "MCKENNA  R.",
+          "shirtNumber": null,
+          "goals": 0,
+          "appearances": 1,
+          "minutes": 62,
+          "yellowCards": 0,
+          "redCards": 0,
+          "assists": 0,
+          "displayName": "MCKENNA  R."
+        }
+      },
+      "teamRecord": {
+        "played": 2,
+        "won": 0,
+        "drawn": 1,
+        "lost": 1,
+        "goalsFor": 6,
+        "goalsAgainst": 7
+      },
+      "matches": [
+        {
+          "id": 52416775,
+          "competitionId": "51454018",
+          "competitionName": "AUL / UCFL Division 2A",
+          "date": "2026-09-12T10:00:00.000Z",
+          "round": "2",
+          "opponent": "Glenmalure Rovers FC",
+          "isHome": false,
+          "goalsFor": 3,
+          "goalsAgainst": 4,
+          "result": "L",
+          "scoreline": "3-4",
+          "goalScorers": [
+            {
+              "personId": 422938,
+              "shortName": "DUNNE  S.",
+              "minute": 42,
+              "displayName": "DUNNE  S."
+            },
+            {
+              "personId": 422938,
+              "shortName": "DUNNE  S.",
+              "minute": 55,
+              "displayName": "DUNNE  S."
+            },
+            {
+              "personId": 422938,
+              "shortName": "DUNNE  S.",
+              "minute": 90,
+              "displayName": "DUNNE  S."
+            }
+          ]
+        },
+        {
+          "id": 52416764,
+          "competitionId": "51454018",
+          "competitionName": "AUL / UCFL Division 2A",
+          "date": "2026-09-05T10:00:00.000Z",
+          "round": "1",
+          "opponent": "Booterstown United FC",
+          "isHome": true,
+          "goalsFor": 3,
+          "goalsAgainst": 3,
+          "result": "D",
+          "scoreline": "3-3",
+          "goalScorers": [
+            {
+              "personId": 386492,
+              "shortName": "ROGERS J.",
+              "minute": 31,
+              "displayName": "ROGERS J."
+            },
+            {
+              "personId": 422938,
+              "shortName": "DUNNE  S.",
+              "minute": 71,
+              "displayName": "DUNNE  S."
+            },
+            {
+              "personId": 386492,
+              "shortName": "ROGERS J.",
+              "minute": 76,
+              "displayName": "ROGERS J."
+            }
+          ]
+        }
+      ],
+      "fixtures": [
+        {
+          "id": 52416786,
+          "competitionId": "51454018",
+          "competitionName": "AUL / UCFL Division 2A",
+          "date": "2026-09-26T10:00:00.000Z",
+          "round": "4",
+          "opponent": "Malahide United AFC UCFL",
+          "isHome": true
+        }
+      ],
+      "displayName": "2026/27 League (Division 2A)",
+      "standings": [
+        {
+          "position": 1,
+          "teamName": "Malahide United AFC",
+          "played": 2,
+          "won": 2,
+          "drawn": 0,
+          "lost": 0,
+          "points": 6,
+          "isTargetTeam": false
+        },
+        {
+          "position": 2,
+          "teamName": "Rialto FC",
+          "played": 2,
+          "won": 2,
+          "drawn": 0,
+          "lost": 0,
+          "points": 6,
+          "isTargetTeam": false
+        },
+        {
+          "position": 3,
+          "teamName": "York Road",
+          "played": 2,
+          "won": 1,
+          "drawn": 1,
+          "lost": 0,
+          "points": 4,
+          "isTargetTeam": false
+        },
+        {
+          "position": 4,
+          "teamName": "Glenmalure Rovers FC",
+          "played": 1,
+          "won": 1,
+          "drawn": 0,
+          "lost": 0,
+          "points": 3,
+          "isTargetTeam": false
+        },
+        {
+          "position": 5,
+          "teamName": "Booterstown United FC",
+          "played": 2,
+          "won": 0,
+          "drawn": 1,
+          "lost": 1,
+          "points": 1,
+          "isTargetTeam": false
+        },
+        {
+          "position": 6,
+          "teamName": "Bushy Athletic",
+          "played": 2,
+          "won": 0,
+          "drawn": 1,
+          "lost": 1,
+          "points": 1,
+          "isTargetTeam": true
+        },
+        {
+          "position": 7,
+          "teamName": "Ely Woodlawn FC",
+          "played": 2,
+          "won": 0,
+          "drawn": 1,
+          "lost": 1,
+          "points": 1,
+          "isTargetTeam": false
+        },
+        {
+          "position": 8,
+          "teamName": "Howth Celtic",
+          "played": 1,
+          "won": 0,
+          "drawn": 1,
+          "lost": 0,
+          "points": 1,
+          "isTargetTeam": false
+        },
+        {
+          "position": 9,
+          "teamName": "ParkCeltic Summerhill FC",
+          "played": 2,
+          "won": 0,
+          "drawn": 1,
+          "lost": 1,
+          "points": 1,
+          "isTargetTeam": false
+        },
+        {
+          "position": 10,
+          "teamName": "Mulhuddart FC",
+          "played": 1,
+          "won": 0,
+          "drawn": 0,
+          "lost": 1,
+          "points": 0,
+          "isTargetTeam": false
+        },
+        {
+          "position": 11,
+          "teamName": "Rathmines Roosters",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "points": 0,
+          "isTargetTeam": false
+        },
+        {
+          "position": 12,
+          "teamName": "St Teresa’s Football Club",
+          "played": 1,
+          "won": 0,
+          "drawn": 0,
+          "lost": 1,
+          "points": 0,
+          "isTargetTeam": false
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,51 @@
+name: Refresh dashboard data
+
+on:
+  schedule:
+    # Irish local time (Europe/Dublin, follows IST/GMT)
+    # Weekdays: 1pm and 11pm
+    - cron: '0 13,23 * * 1-5'
+      timezone: Europe/Dublin
+    # Weekends: hourly from 1pm through 11pm
+    - cron: '0 13-23 * * 0,6'
+      timezone: Europe/Dublin
+  workflow_dispatch:
+    inputs:
+      scope:
+        description: Which snapshots to refresh
+        required: true
+        default: current
+        type: choice
+        options:
+          - current
+          - completed
+          - all
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch current season
+        if: ${{ github.event_name == 'schedule' || github.event.inputs.scope == 'current' || github.event.inputs.scope == 'all' }}
+        run: node scripts/fetch-current-season.mjs
+
+      - name: Fetch completed seasons
+        if: ${{ github.event.inputs.scope == 'completed' || github.event.inputs.scope == 'all' }}
+        run: node scripts/fetch-completed-seasons.mjs
+
+      - name: Commit updated snapshots
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Refresh Bushy Athletic stats from Clubforce
+          file_pattern: data/*.json data/insights/*.json

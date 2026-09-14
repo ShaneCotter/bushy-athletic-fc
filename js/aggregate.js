@@ -1,4 +1,5 @@
 import { CONFIG, getTeamSide } from './api.js';
+import { applySquadDisplayNames } from './display-names.js';
 
 /** @typedef {import('./types.js').PlayerStats} PlayerStats */
 /** @typedef {import('./types.js').TeamRecord} TeamRecord */
@@ -52,6 +53,22 @@ function applyCompetitionDisplayName(competitionStats, updateMatchNames = true) 
   for (const fixture of competitionStats.fixtures) {
     fixture.competitionName = competitionStats.displayName;
   }
+}
+
+/** @param {CompetitionStats} competitionStats */
+export function finalizeCompetitionStats(competitionStats) {
+  applySquadDisplayNames(competitionStats.players);
+
+  for (const match of competitionStats.matches ?? []) {
+    for (const scorer of match.goalScorers ?? []) {
+      const player = scorer.personId
+        ? competitionStats.players[String(scorer.personId)]
+        : null;
+      scorer.displayName = player?.displayName ?? scorer.shortName;
+    }
+  }
+
+  return competitionStats;
 }
 
 /** @returns {TeamRecord} */
@@ -184,7 +201,7 @@ function applyLineupStats(players, sideLineup, events, isHome) {
       event.player.shirtNumber ?? null,
     );
 
-    if (type === 'GOAL') {
+    if (type === 'GOAL' || type === 'PENALTY') {
       upsertPlayer(players, { ...base, goals: 1, appearances: 0, minutes: 0 });
     }
 
@@ -300,6 +317,7 @@ function collectTeamGoalScorers(events, isHome) {
         (a.minuteFull ?? a.minute ?? 0) - (b.minuteFull ?? b.minute ?? 0),
     )
     .map((event) => ({
+      personId: event.player.personId,
       shortName: event.player.shortName ?? event.player.name ?? 'Unknown',
       minute: event.minuteFull ?? event.minute ?? 0,
     }));
@@ -431,7 +449,7 @@ export function aggregateSeason(matchDetails, active) {
       applyLineupStats(overall.players, sideLineup, events, isHome);
     } else {
       for (const event of events) {
-        if (event.eventType?.fcdName !== 'GOAL' || !event.player?.personId) {
+        if (!isTeamScoringEvent(event) || !event.player?.personId) {
           continue;
         }
         if (event.homeTeam !== isHome) {
@@ -463,9 +481,11 @@ export function aggregateSeason(matchDetails, active) {
   for (const comp of Object.values(competitions)) {
     comp.matches.sort((a, b) => Date.parse(b.date) - Date.parse(a.date));
     applyCompetitionDisplayName(comp);
+    finalizeCompetitionStats(comp);
   }
   overall.matches.sort((a, b) => Date.parse(b.date) - Date.parse(a.date));
   applyCompetitionDisplayName(overall, false);
+  finalizeCompetitionStats(overall);
 
   return {
     bundle: overall,
@@ -499,10 +519,10 @@ export function mergeCompletedSeasons(stats, stored) {
       displayName,
       active: false,
     });
-    previousSeasons[season.id] = {
+    previousSeasons[season.id] = finalizeCompetitionStats({
       ...season.stats,
       displayName,
-    };
+    });
   }
 
   previousCompetitions.sort((a, b) => a.name.localeCompare(b.name));
@@ -511,6 +531,118 @@ export function mergeCompletedSeasons(stats, stored) {
     ...stats,
     previousCompetitions,
     previousSeasons,
+  };
+}
+
+/**
+ * Build a season-wide view by adding together each current competition.
+ * Standings are deliberately omitted because a combined league/cup table
+ * would not be meaningful.
+ * @param {CompetitionStats[]} competitions
+ * @returns {CompetitionStats}
+ */
+function combineCurrentCompetitions(competitions) {
+  const combined = emptyCompetitionStats(
+    '2026-27-all',
+    '2026/27 All Competitions',
+    true,
+  );
+  combined.displayName = '2026/27 All Competitions';
+
+  for (const competition of competitions) {
+    for (const player of Object.values(competition.players ?? {})) {
+      const existing = combined.players[String(player.personId)];
+      if (!existing) {
+        combined.players[String(player.personId)] = { ...player };
+        continue;
+      }
+
+      existing.goals += player.goals ?? 0;
+      existing.appearances += player.appearances ?? 0;
+      existing.minutes += player.minutes ?? 0;
+      existing.yellowCards += player.yellowCards ?? 0;
+      existing.redCards += player.redCards ?? 0;
+      existing.assists = (existing.assists ?? 0) + (player.assists ?? 0);
+    }
+
+    combined.teamRecord.played += competition.teamRecord.played;
+    combined.teamRecord.won += competition.teamRecord.won;
+    combined.teamRecord.drawn += competition.teamRecord.drawn;
+    combined.teamRecord.lost += competition.teamRecord.lost;
+    combined.teamRecord.goalsFor += competition.teamRecord.goalsFor;
+    combined.teamRecord.goalsAgainst += competition.teamRecord.goalsAgainst;
+    combined.matches.push(...competition.matches);
+    combined.fixtures.push(...competition.fixtures);
+  }
+
+  combined.matches.sort((a, b) => Date.parse(b.date) - Date.parse(a.date));
+  combined.fixtures.sort((a, b) => Date.parse(a.date) - Date.parse(b.date));
+  return finalizeCompetitionStats(combined);
+}
+
+/**
+ * @param {DashboardStats} stats
+ * @param {{ generatedAt?: string, season?: { id: string, name: string, stats: CompetitionStats } }|null} stored
+ * @returns {DashboardStats}
+ */
+export function mergeCurrentSeason(stats, stored) {
+  if (!stored?.season?.stats) {
+    return stats;
+  }
+
+  const { season } = stored;
+  const seasonStats = finalizeCompetitionStats({
+    ...season.stats,
+    id: String(season.id),
+    name: season.name,
+    active: true,
+  });
+
+  /** @type {Record<string, CompetitionStats>} */
+  const currentCompetitions = {
+    ...stats.currentCompetitions,
+    [String(season.id)]: seasonStats,
+  };
+
+  /** @type {Array<{ id: string, name: string, label: string, kind?: string }>} */
+  const extraCompetitions = [];
+
+  for (const extra of stored.extraCompetitions ?? []) {
+    if (!extra?.stats) {
+      continue;
+    }
+
+    const extraStats = finalizeCompetitionStats({
+      ...extra.stats,
+      id: String(extra.id),
+      name: extra.name,
+      active: true,
+    });
+    currentCompetitions[String(extra.id)] = extraStats;
+    extraCompetitions.push({
+      id: String(extra.id),
+      name: extra.name,
+      label: extra.label ?? extra.stats.displayName ?? extra.name,
+      kind: extra.kind ?? 'cup',
+    });
+  }
+
+  currentCompetitions['2026-27-all'] = combineCurrentCompetitions([
+    seasonStats,
+    ...extraCompetitions.map(
+      (competition) => currentCompetitions[competition.id],
+    ),
+  ]);
+
+  const fixtures = stored.upcomingFixtures ?? seasonStats.fixtures ?? [];
+
+  return {
+    ...stats,
+    generatedAt: stored.generatedAt ?? stats.generatedAt,
+    fixtures,
+    currentSeason: seasonStats,
+    currentCompetitions,
+    extraCompetitions,
   };
 }
 

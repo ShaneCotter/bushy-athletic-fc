@@ -1,11 +1,18 @@
 import { CONFIG } from './config.js';
-import { mergeCompletedSeasons, rankPlayers, sortPlayers } from './aggregate.js';
+import {
+  mergeCompletedSeasons,
+  mergeCurrentSeason,
+  rankPlayers,
+  sortPlayers,
+} from './aggregate.js';
+import { playerDisplayName } from './display-names.js';
 
 /** @typedef {import('./types.js').DashboardStats} DashboardStats */
 /** @typedef {import('./types.js').SeasonBundle} SeasonBundle */
 /** @typedef {import('./types.js').MatchSummary} MatchSummary */
 
-const CACHE_KEY = 'ucfl-dashboard-stats-v10';
+const CACHE_KEY = 'ucfl-dashboard-stats-v16';
+const CURRENT_SEASON_URL = 'data/current-season.json';
 const COMPLETED_SEASONS_URL = 'data/completed-seasons.json';
 const RESULTS_PAGE_SIZE = 10;
 
@@ -47,6 +54,8 @@ const elements = {
   resultsPanel: document.getElementById('results-panel'),
   resultsPagination: document.getElementById('results-pagination'),
   summaryCards: document.getElementById('summary-cards'),
+  leagueTableSection: document.getElementById('league-table-section'),
+  leagueTablePanel: document.getElementById('league-table-panel'),
   leaderboardTabs: document.getElementById('leaderboard-tabs'),
   leaderboardPanel: document.getElementById('leaderboard-panel'),
   navButtons: document.querySelectorAll('[data-nav]'),
@@ -233,6 +242,7 @@ function createEmptyDashboardStats() {
       fixtures: [],
     },
     currentCompetitions: {},
+    extraCompetitions: [],
     previousCompetitions: [],
     previousSeasons: {},
   };
@@ -245,7 +255,7 @@ async function bootstrap(forceRefresh) {
   elements.dashboard.hidden = true;
 
   try {
-    const storedPromise = loadStoredCompletedSeasons();
+    const storedPromise = loadStoredSeasonData();
 
     if (!forceRefresh) {
       const cached = readCache();
@@ -259,8 +269,8 @@ async function bootstrap(forceRefresh) {
     }
 
     const storedSeasons = await storedPromise;
-    if (storedSeasons?.seasons?.length) {
-      currentStats = mergeCompletedSeasons(createEmptyDashboardStats(), storedSeasons);
+    if (storedSeasons.current?.season || storedSeasons.completed?.seasons?.length) {
+      currentStats = buildStoredStats(storedSeasons);
       renderAll();
       showLoading(false);
     }
@@ -268,7 +278,7 @@ async function bootstrap(forceRefresh) {
     currentStats = await fetchStats(
       (message) => {
         elements.loadingText.textContent = message;
-        if (storedSeasons?.seasons?.length) {
+        if (currentStats) {
           showLoading(true);
         }
       },
@@ -278,7 +288,7 @@ async function bootstrap(forceRefresh) {
     renderAll();
     showLoading(false);
   } catch (error) {
-    if (currentStats?.previousCompetitions?.length) {
+    if (currentStats) {
       renderAll();
       showLoading(false);
       return;
@@ -291,7 +301,7 @@ async function bootstrap(forceRefresh) {
 
 async function refreshInBackground() {
   try {
-    const storedSeasons = await loadStoredCompletedSeasons();
+    const storedSeasons = await loadStoredSeasonData();
     const fresh = await fetchStats(undefined, storedSeasons);
     currentStats = fresh;
     writeCache(fresh);
@@ -301,10 +311,10 @@ async function refreshInBackground() {
   }
 }
 
-/** @returns {Promise<object|null>} */
-async function loadStoredCompletedSeasons() {
+/** @param {string} url @returns {Promise<object|null>} */
+async function loadStoredJson(url) {
   try {
-    const response = await fetch(COMPLETED_SEASONS_URL);
+    const response = await fetch(url);
     if (!response.ok) {
       return null;
     }
@@ -315,12 +325,28 @@ async function loadStoredCompletedSeasons() {
   }
 }
 
+async function loadStoredSeasonData() {
+  const [current, completed] = await Promise.all([
+    loadStoredJson(CURRENT_SEASON_URL),
+    loadStoredJson(COMPLETED_SEASONS_URL),
+  ]);
+
+  return { current, completed };
+}
+
+/** @param {{ current?: object|null, completed?: object|null }} stored */
+function buildStoredStats(stored) {
+  const withCurrent = mergeCurrentSeason(
+    createEmptyDashboardStats(),
+    stored.current,
+  );
+  return mergeCompletedSeasons(withCurrent, stored.completed);
+}
+
 /** @returns {Promise<DashboardStats>} */
 async function fetchStats(_onProgress, preloadedStored = null) {
-  const storedSeasons =
-    preloadedStored ?? (await loadStoredCompletedSeasons());
-
-  return mergeCompletedSeasons(createEmptyDashboardStats(), storedSeasons);
+  const storedSeasons = preloadedStored ?? (await loadStoredSeasonData());
+  return buildStoredStats(storedSeasons);
 }
 
 function renderAll() {
@@ -345,7 +371,24 @@ function populateSeasonSelect() {
     return;
   }
 
-  elements.seasonSelect.innerHTML = CONFIG.seasons
+  const currentOptions = CONFIG.seasons.filter(
+    (season) => season.group !== 'completed',
+  );
+  const completedOptions = CONFIG.seasons.filter(
+    (season) => season.group === 'completed',
+  );
+  const extras = (currentStats.extraCompetitions ?? []).filter(
+    (competition) => !CONFIG.seasons.some((season) => season.id === competition.id),
+  );
+  currentOptions.push(
+    ...extras.map((competition) => ({
+      id: competition.id,
+      label: competition.label,
+    })),
+  );
+
+  const renderOptions = (options) =>
+    options
     .map((season) => {
       const label = season.comingSoon
         ? `${season.label} (coming soon)`
@@ -356,6 +399,17 @@ function populateSeasonSelect() {
       return `<option value="${escapeHtml(season.id)}"${selected}${disabled}>${escapeHtml(label)}</option>`;
     })
     .join('');
+
+  elements.seasonSelect.innerHTML = `
+    <optgroup label="2026/27 Competitions">
+      ${renderOptions(currentOptions)}
+    </optgroup>
+    <optgroup label="Completed seasons">
+      ${renderOptions(completedOptions)}
+    </optgroup>
+  `;
+
+  elements.seasonSelect.value = activeSeasonId;
 }
 
 /** @param {string} seasonId */
@@ -371,6 +425,7 @@ function renderComingSoonPanel(message = 'Stats for this season will appear here
 function renderDashboard() {
   renderFixtures();
   renderSummary();
+  renderLeagueTable();
   renderLeaderboard();
   renderResults();
 }
@@ -381,13 +436,58 @@ function getActiveSeasonStats() {
     return null;
   }
 
-  return currentStats.previousSeasons[activeSeasonId] ?? null;
+  return (
+    currentStats.currentCompetitions[activeSeasonId] ??
+    currentStats.previousSeasons[activeSeasonId] ??
+    null
+  );
 }
 
 function renderFixtures() {
-  elements.fixturesList.innerHTML = renderComingSoonPanel(
-    'Fixtures for the 2026/27 season will appear here when the season gets underway.',
-  );
+  const fixtures = currentStats?.fixtures ?? [];
+
+  if (!fixtures.length) {
+    elements.fixturesList.innerHTML = renderComingSoonPanel(
+      'No upcoming fixtures have been scheduled yet.',
+    );
+    return;
+  }
+
+  elements.fixturesList.innerHTML = fixtures
+    .map((fixture) => renderFixtureCard(fixture))
+    .join('');
+}
+
+/** @param {boolean} isHome */
+function venueMarkup(isHome) {
+  const emoji = isHome ? '🏡' : '✈️';
+  const label = isHome ? 'Home' : 'Away';
+  return `<span class="venue-label"><span class="venue-label__emoji" aria-hidden="true">${emoji}</span> ${label}</span>`;
+}
+
+/** @param {import('./types.js').FixtureSummary} fixture */
+function renderFixtureCard(fixture) {
+  const date = fixture.date ? formatDate(fixture.date) : 'Date TBC';
+  const time = fixture.date ? formatTime(fixture.date) : '';
+
+  return `
+    <article class="match-card match-card--fixture">
+      <div class="match-card__meta">
+        <span>${escapeHtml(date)}${time ? ` · ${escapeHtml(time)}` : ''}</span>
+        <span>${escapeHtml(fixture.competitionName)}</span>
+      </div>
+      <div class="match-card__body">
+        <div class="match-card__main">
+          <p class="match-card__opponent">${escapeHtml(fixture.opponent)}</p>
+          <p class="match-card__venue">${venueMarkup(fixture.isHome)}${
+            fixture.round && /[A-Za-z/]/.test(fixture.round)
+              ? ` · ${escapeHtml(fixture.round)}`
+              : ''
+          }</p>
+        </div>
+      </div>
+    </article>
+  `;
 }
 
 function renderResults() {
@@ -458,9 +558,9 @@ function renderResultsPagination(totalPages, totalResults) {
 /** @param {MatchSummary} match */
 function renderResultCard(match) {
   const date = match.date ? formatDate(match.date) : 'TBC';
-  const venue = match.isHome ? 'Home' : 'Away';
   const scorers = match.goalScorers ?? [];
   const missingScorers = Math.max(0, match.goalsFor - scorers.length);
+  const players = getActiveSeasonStats()?.players ?? {};
 
   const listedScorersHtml =
     scorers.length > 0
@@ -469,7 +569,7 @@ function renderResultCard(match) {
             (scorer) => `
         <span class="match-card__scorer">
           <span class="match-card__scorer-icon" aria-hidden="true">⚽</span>
-          <span class="match-card__scorer-name">${escapeHtml(scorer.shortName)}</span>
+          <span class="match-card__scorer-name">${escapeHtml(playerDisplayName(scorer, players))}</span>
           <span class="match-card__scorer-minute">${scorer.minute}'</span>
         </span>
       `,
@@ -496,7 +596,7 @@ function renderResultCard(match) {
       <div class="result-card__main">
         <div class="result-card__info">
           <p class="result-card__opponent">${escapeHtml(match.opponent)}</p>
-          <p class="result-card__meta">${escapeHtml(date)} · ${venue}</p>
+          <p class="result-card__meta">${escapeHtml(date)} · ${venueMarkup(match.isHome)}</p>
         </div>
         <div class="result-card__score">
           <span class="result-badge result-badge--${match.result.toLowerCase()}">${match.result}</span>
@@ -536,7 +636,9 @@ function renderSummary() {
     },
     {
       label: 'Top scorer',
-      value: topScorer ? `${topScorer.shortName} (${topScorer.goals})` : '—',
+      value: topScorer
+        ? `${playerDisplayName(topScorer)} (${topScorer.goals})`
+        : '—',
     },
   ];
 
@@ -550,6 +652,57 @@ function renderSummary() {
       `,
     )
     .join('');
+}
+
+function renderLeagueTable() {
+  if (activeSeasonId !== CONFIG.defaultSeasonId) {
+    elements.leagueTableSection.hidden = true;
+    elements.leagueTablePanel.innerHTML = '';
+    return;
+  }
+
+  const stats = getActiveSeasonStats();
+  const standings = stats?.standings ?? [];
+
+  if (standings.length === 0) {
+    elements.leagueTableSection.hidden = true;
+    elements.leagueTablePanel.innerHTML = '';
+    return;
+  }
+
+  elements.leagueTableSection.hidden = false;
+  const rows = standings
+    .map(
+      (row) => `
+        <tr${row.isTargetTeam ? ' class="is-target-team"' : ''}>
+          <td data-label="Pos">${row.position}</td>
+          <td data-label="Team">${escapeHtml(row.teamName)}</td>
+          <td data-label="P">${row.played}</td>
+          <td data-label="W">${row.won}</td>
+          <td data-label="D">${row.drawn}</td>
+          <td data-label="L">${row.lost}</td>
+          <td data-label="Pts"><strong>${row.points}</strong></td>
+        </tr>
+      `,
+    )
+    .join('');
+
+  elements.leagueTablePanel.innerHTML = `
+    <table class="data-table league-table">
+      <thead>
+        <tr>
+          <th scope="col">Pos</th>
+          <th scope="col">Team</th>
+          <th scope="col">P</th>
+          <th scope="col">W</th>
+          <th scope="col">D</th>
+          <th scope="col">L</th>
+          <th scope="col">Pts</th>
+        </tr>
+      </thead>
+      <tbody>${rows}</tbody>
+    </table>
+  `;
 }
 
 function renderLeaderboard() {
@@ -588,7 +741,8 @@ function renderLeaderboard() {
     ({ player }) =>
       !query ||
       player.name.toLowerCase().includes(query) ||
-      player.shortName.toLowerCase().includes(query),
+      player.shortName.toLowerCase().includes(query) ||
+      (player.displayName ?? '').toLowerCase().includes(query),
   );
 
   const rows =
@@ -601,7 +755,7 @@ function renderLeaderboard() {
             ({ player, rank }) => `
               <tr>
                 <td data-label="#">${rank}</td>
-                <td data-label="Player"><span class="player-name">${escapeHtml(player.shortName)}</span></td>
+                <td data-label="Player"><span class="player-name">${escapeHtml(playerDisplayName(player))}</span></td>
                 <td data-label="${metricLabels[activeMetric]}">${player[activeMetric]}</td>
               </tr>
             `,
@@ -682,6 +836,14 @@ function writeCache(data) {
 function formatDate(iso) {
   return new Intl.DateTimeFormat(undefined, {
     dateStyle: 'medium',
+  }).format(new Date(iso));
+}
+
+/** @param {string} iso */
+function formatTime(iso) {
+  return new Intl.DateTimeFormat(undefined, {
+    hour: '2-digit',
+    minute: '2-digit',
   }).format(new Date(iso));
 }
 
