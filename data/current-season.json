@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-15T00:19:33.046Z",
+  "generatedAt": "2026-09-15T16:21:36.783Z",
   "upcomingFixtures": [
     {
       "id": 53027404,
       "competitionId": "52131453",
       "competitionName": "Oneill's.com LFA Junior Cup 26/27",
-      "date": "2026-09-19T13:00:00.000Z",
+      "date": "2026-09-19T10:00:00.000Z",
       "round": "1/128F",
       "opponent": "Thomastown United",
       "isHome": true
@@ -45,7 +45,7 @@
             "id": 53027404,
             "competitionId": "52131453",
             "competitionName": "Oneill's.com LFA Junior Cup 26/27",
-            "date": "2026-09-19T13:00:00.000Z",
+            "date": "2026-09-19T10:00:00.000Z",
             "round": "1/128F",
             "opponent": "Thomastown United",
             "isHome": true
