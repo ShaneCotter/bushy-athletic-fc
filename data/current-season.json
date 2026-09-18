@@ -1,15 +1,6 @@
 {
-  "generatedAt": "2026-09-18T15:54:26.880Z",
+  "generatedAt": "2026-09-18T23:53:52.018Z",
   "upcomingFixtures": [
-    {
-      "id": 53027404,
-      "competitionId": "52131453",
-      "competitionName": "Oneill's.com LFA Junior Cup 26/27",
-      "date": "2026-09-19T10:00:00.000Z",
-      "round": "1/128F",
-      "opponent": "Thomastown United",
-      "isHome": true
-    },
     {
       "id": 52416786,
       "competitionId": "51454018",
@@ -32,15 +23,14 @@
         "active": true,
         "players": {},
         "teamRecord": {
-          "played": 0,
+          "played": 1,
           "won": 0,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 0,
           "goalsFor": 0,
           "goalsAgainst": 0
         },
-        "matches": [],
-        "fixtures": [
+        "matches": [
           {
             "id": 53027404,
             "competitionId": "52131453",
@@ -48,9 +38,15 @@
             "date": "2026-09-19T10:00:00.000Z",
             "round": "1/128F",
             "opponent": "Thomastown United",
-            "isHome": true
+            "isHome": true,
+            "goalsFor": 0,
+            "goalsAgainst": 0,
+            "result": "D",
+            "scoreline": "0-0",
+            "goalScorers": []
           }
         ],
+        "fixtures": [],
         "displayName": "Oneill's.com LFA Junior Cup 26/27"
       }
     }
