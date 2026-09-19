@@ -1,6 +1,6 @@
 {
   "note": "Extra Clubforce data for occasional team analysis. Not loaded by the public website.",
-  "generatedAt": "2026-09-19T17:34:23.029Z",
+  "generatedAt": "2026-09-19T19:41:02.224Z",
   "league": {
     "id": "51454018",
     "name": "AUL / UCFL Division 2A",
@@ -790,8 +790,8 @@
             "allowDetail": true
           }
         },
-        "played": 2,
-        "wins": 2,
+        "played": 3,
+        "wins": 3,
         "draws": 0,
         "losses": 0,
         "winsAET": 0,
@@ -799,19 +799,22 @@
         "lossesAP": 0,
         "goalsFor": 0,
         "goalsAgainst": 0,
-        "points": 6,
+        "points": 9,
         "negativePoints": 0,
         "position": 1,
         "highlight": false,
         "m1": {
-          "matchId": 52416773,
+          "matchId": 52416778,
           "result": "W"
         },
         "m2": {
+          "matchId": 52416773,
+          "result": "W"
+        },
+        "m3": {
           "matchId": 52416767,
           "result": "W"
         },
-        "m3": {},
         "m4": {},
         "m5": {}
       },
@@ -1177,10 +1180,10 @@
             "allowDetail": true
           }
         },
-        "played": 1,
+        "played": 2,
         "wins": 0,
         "draws": 1,
-        "losses": 0,
+        "losses": 1,
         "winsAET": 0,
         "winsAP": 0,
         "lossesAP": 0,
@@ -1191,10 +1194,13 @@
         "position": 10,
         "highlight": false,
         "m1": {
+          "matchId": 52416778,
+          "result": "L"
+        },
+        "m2": {
           "matchId": 52416766,
           "result": "D"
         },
-        "m2": {},
         "m3": {},
         "m4": {},
         "m5": {}

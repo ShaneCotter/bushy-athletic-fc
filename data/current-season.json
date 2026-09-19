@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T17:34:23.028Z",
+  "generatedAt": "2026-09-19T19:41:02.224Z",
   "upcomingFixtures": [
     {
       "id": 52416786,
@@ -399,11 +399,11 @@
         {
           "position": 1,
           "teamName": "Malahide United AFC",
-          "played": 2,
-          "won": 2,
+          "played": 3,
+          "won": 3,
           "drawn": 0,
           "lost": 0,
-          "points": 6,
+          "points": 9,
           "isTargetTeam": false
         },
         {
@@ -489,10 +489,10 @@
         {
           "position": 10,
           "teamName": "Howth Celtic",
-          "played": 1,
+          "played": 2,
           "won": 0,
           "drawn": 1,
-          "lost": 0,
+          "lost": 1,
           "points": 1,
           "isTargetTeam": false
         },
