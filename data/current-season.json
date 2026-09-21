@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T22:46:24.550Z",
+  "generatedAt": "2026-09-21T17:54:55.086Z",
   "upcomingFixtures": [
     {
       "id": 52416786,
@@ -9,6 +9,15 @@
       "round": "4",
       "opponent": "Malahide United AFC UCFL",
       "isHome": true
+    },
+    {
+      "id": 52416790,
+      "competitionId": "51454018",
+      "competitionName": "AUL / UCFL Division 2A",
+      "date": "2026-10-03T10:30:00.000Z",
+      "round": "5",
+      "opponent": "Mulhuddart FC AUL",
+      "isHome": false
     }
   ],
   "extraCompetitions": [
@@ -392,6 +401,15 @@
           "round": "4",
           "opponent": "Malahide United AFC UCFL",
           "isHome": true
+        },
+        {
+          "id": 52416790,
+          "competitionId": "51454018",
+          "competitionName": "AUL / UCFL Division 2A",
+          "date": "2026-10-03T10:30:00.000Z",
+          "round": "5",
+          "opponent": "Mulhuddart FC AUL",
+          "isHome": false
         }
       ],
       "displayName": "2026/27 League (Division 2A)",
