@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T17:54:55.086Z",
+  "generatedAt": "2026-09-22T00:36:29.231Z",
   "upcomingFixtures": [
     {
       "id": 52416786,
@@ -36,8 +36,8 @@
           "won": 0,
           "drawn": 1,
           "lost": 0,
-          "goalsFor": 3,
-          "goalsAgainst": 3
+          "goalsFor": 4,
+          "goalsAgainst": 4
         },
         "matches": [
           {
@@ -48,10 +48,10 @@
             "round": "1/128F",
             "opponent": "Thomastown United",
             "isHome": true,
-            "goalsFor": 3,
-            "goalsAgainst": 3,
+            "goalsFor": 4,
+            "goalsAgainst": 4,
             "result": "D",
-            "scoreline": "3-3",
+            "scoreline": "4-4",
             "goalScorers": []
           }
         ],
