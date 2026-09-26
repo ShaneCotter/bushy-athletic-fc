@@ -1,6 +1,6 @@
 {
   "note": "Extra Clubforce data for occasional team analysis. Not loaded by the public website.",
-  "generatedAt": "2026-09-25T16:38:48.324Z",
+  "generatedAt": "2026-09-26T00:22:57.322Z",
   "league": {
     "id": "51454018",
     "name": "AUL / UCFL Division 2A",
@@ -311,6 +311,23 @@
       }
     ],
     "matches": [
+      {
+        "matchId": 52416786,
+        "competitionId": 51454018,
+        "competitionName": "AUL / UCFL Division 2A",
+        "date": "2026-09-26T10:00:00.000Z",
+        "round": "4",
+        "homeTeam": "Bushy Athletic FC UCFL Division 3B",
+        "awayTeam": "Malahide United AFC UCFL",
+        "homeGoals": null,
+        "awayGoals": null,
+        "teamSide": "home",
+        "events": [],
+        "lineup": {
+          "starters": [],
+          "substitutes": []
+        }
+      },
       {
         "matchId": 52416775,
         "competitionId": 51454018,
