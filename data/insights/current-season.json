@@ -1,6 +1,6 @@
 {
   "note": "Extra Clubforce data for occasional team analysis. Not loaded by the public website.",
-  "generatedAt": "2026-09-26T00:22:57.322Z",
+  "generatedAt": "2026-09-26T15:13:06.033Z",
   "league": {
     "id": "51454018",
     "name": "AUL / UCFL Division 2A",
@@ -19,7 +19,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "captain": 0,
-        "lineupAppearanceEvidence": 1
+        "lineupAppearanceEvidence": 2
       },
       {
         "personId": 645060,
@@ -67,7 +67,7 @@
         "yellowCards": 1,
         "redCards": 0,
         "captain": 0,
-        "lineupAppearanceEvidence": 1
+        "lineupAppearanceEvidence": 2
       },
       {
         "personId": 229068,
@@ -83,7 +83,7 @@
         "yellowCards": 1,
         "redCards": 0,
         "captain": 0,
-        "lineupAppearanceEvidence": 2
+        "lineupAppearanceEvidence": 3
       },
       {
         "personId": 422938,
@@ -99,7 +99,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "captain": 2,
-        "lineupAppearanceEvidence": 2
+        "lineupAppearanceEvidence": 3
       },
       {
         "personId": 565142,
@@ -131,7 +131,7 @@
         "yellowCards": 1,
         "redCards": 0,
         "captain": 0,
-        "lineupAppearanceEvidence": 2
+        "lineupAppearanceEvidence": 3
       },
       {
         "personId": 660084,
@@ -163,7 +163,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "captain": 0,
-        "lineupAppearanceEvidence": 2
+        "lineupAppearanceEvidence": 3
       },
       {
         "personId": 658488,
@@ -211,7 +211,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "captain": 0,
-        "lineupAppearanceEvidence": 1
+        "lineupAppearanceEvidence": 2
       },
       {
         "personId": 501816,
@@ -243,7 +243,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "captain": 0,
-        "lineupAppearanceEvidence": 2
+        "lineupAppearanceEvidence": 3
       },
       {
         "personId": 548582,
@@ -275,7 +275,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "captain": 0,
-        "lineupAppearanceEvidence": 1
+        "lineupAppearanceEvidence": 2
       },
       {
         "personId": 607261,
@@ -291,7 +291,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "captain": 0,
-        "lineupAppearanceEvidence": 2
+        "lineupAppearanceEvidence": 3
       },
       {
         "personId": 65260,
@@ -307,7 +307,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "captain": 0,
-        "lineupAppearanceEvidence": 1
+        "lineupAppearanceEvidence": 2
       }
     ],
     "matches": [
@@ -324,8 +324,105 @@
         "teamSide": "home",
         "events": [],
         "lineup": {
-          "starters": [],
-          "substitutes": []
+          "starters": [
+            {
+              "personId": 285560,
+              "name": "MURPHY Daniel",
+              "shirtNumber": 1
+            },
+            {
+              "personId": 249011,
+              "name": "CAREY Liam",
+              "shirtNumber": 2
+            },
+            {
+              "personId": 375724,
+              "name": "HARMAN Luke",
+              "shirtNumber": 3
+            },
+            {
+              "personId": 36024,
+              "name": "KEARNS Jamie",
+              "shirtNumber": 4
+            },
+            {
+              "personId": 564503,
+              "name": "DUNNE Mark",
+              "shirtNumber": 5
+            },
+            {
+              "personId": 229068,
+              "name": "DUNNE Micheal",
+              "shirtNumber": 6
+            },
+            {
+              "personId": 65260,
+              "name": "DUNNE Max",
+              "shirtNumber": 7
+            },
+            {
+              "personId": 422938,
+              "name": "DUNNE Stephen",
+              "shirtNumber": 8
+            },
+            {
+              "personId": 568824,
+              "name": "SOPER Mark",
+              "shirtNumber": 9
+            },
+            {
+              "personId": 607261,
+              "name": "SRI-UTTHA Alec",
+              "shirtNumber": 10
+            },
+            {
+              "personId": 386492,
+              "name": "ROGERS Jack",
+              "shirtNumber": 11
+            }
+          ],
+          "substitutes": [
+            {
+              "personId": 43314,
+              "name": "NEILAN Dean",
+              "shirtNumber": 12
+            },
+            {
+              "personId": 660085,
+              "name": "MCKENNA Ross",
+              "shirtNumber": 13
+            },
+            {
+              "personId": 291285,
+              "name": "MAHER Sean",
+              "shirtNumber": 14
+            },
+            {
+              "personId": 548582,
+              "name": "SHEILS Kian Patrick",
+              "shirtNumber": 15
+            },
+            {
+              "personId": 565142,
+              "name": "HAND Ross",
+              "shirtNumber": 16
+            },
+            {
+              "personId": 501816,
+              "name": "PATCHELL Glen",
+              "shirtNumber": 17
+            },
+            {
+              "personId": 386490,
+              "name": "LENAHAN Ben",
+              "shirtNumber": 18
+            },
+            {
+              "personId": 658488,
+              "name": "KIERNAN David",
+              "shirtNumber": 19
+            }
+          ]
         }
       },
       {
@@ -852,8 +949,8 @@
             "allowDetail": true
           }
         },
-        "played": 2,
-        "wins": 2,
+        "played": 3,
+        "wins": 3,
         "draws": 0,
         "losses": 0,
         "winsAET": 0,
@@ -861,19 +958,67 @@
         "lossesAP": 0,
         "goalsFor": 0,
         "goalsAgainst": 0,
-        "points": 6,
+        "points": 9,
         "negativePoints": 0,
         "position": 2,
         "highlight": false,
         "m1": {
-          "matchId": 52416770,
+          "matchId": 52416783,
           "result": "W"
         },
         "m2": {
+          "matchId": 52416770,
+          "result": "W"
+        },
+        "m3": {
           "matchId": 52416769,
           "result": "W"
         },
-        "m3": {},
+        "m4": {},
+        "m5": {}
+      },
+      {
+        "team": {
+          "id": 60831,
+          "fifaId": "1463X8J",
+          "name": "York Road FC",
+          "picture": "e277d662-d32a-44da-809c-f0b47ebad373",
+          "place": "Cabra",
+          "allowDetail": true,
+          "parent": {
+            "id": 12299,
+            "fifaId": "1463X8J",
+            "name": "York Road",
+            "picture": "e277d662-d32a-44da-809c-f0b47ebad373",
+            "place": "Cabra",
+            "allowDetail": true
+          }
+        },
+        "played": 3,
+        "wins": 2,
+        "draws": 1,
+        "losses": 0,
+        "winsAET": 0,
+        "winsAP": 0,
+        "lossesAP": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "points": 7,
+        "negativePoints": 0,
+        "position": 3,
+        "highlight": false,
+        "m1": {
+          "matchId": 52416782,
+          "result": "W"
+        },
+        "m2": {
+          "matchId": 52416771,
+          "result": "D"
+        },
+        "m3": {
+          "matchId": 52416768,
+          "result": "W"
+        },
         "m4": {},
         "m5": {}
       },
@@ -905,7 +1050,7 @@
         "goalsAgainst": 0,
         "points": 4,
         "negativePoints": 0,
-        "position": 3,
+        "position": 4,
         "highlight": false,
         "m1": {
           "matchId": 52416776,
@@ -947,7 +1092,7 @@
         "goalsAgainst": 0,
         "points": 4,
         "negativePoints": 0,
-        "position": 4,
+        "position": 5,
         "highlight": false,
         "m1": {
           "matchId": 52416780,
@@ -961,48 +1106,6 @@
           "matchId": 52416769,
           "result": "L"
         },
-        "m4": {},
-        "m5": {}
-      },
-      {
-        "team": {
-          "id": 60831,
-          "fifaId": "1463X8J",
-          "name": "York Road FC",
-          "picture": "e277d662-d32a-44da-809c-f0b47ebad373",
-          "place": "Cabra",
-          "allowDetail": true,
-          "parent": {
-            "id": 12299,
-            "fifaId": "1463X8J",
-            "name": "York Road",
-            "picture": "e277d662-d32a-44da-809c-f0b47ebad373",
-            "place": "Cabra",
-            "allowDetail": true
-          }
-        },
-        "played": 2,
-        "wins": 1,
-        "draws": 1,
-        "losses": 0,
-        "winsAET": 0,
-        "winsAP": 0,
-        "lossesAP": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "points": 4,
-        "negativePoints": 0,
-        "position": 5,
-        "highlight": false,
-        "m1": {
-          "matchId": 52416771,
-          "result": "D"
-        },
-        "m2": {
-          "matchId": 52416768,
-          "result": "W"
-        },
-        "m3": {},
         "m4": {},
         "m5": {}
       },
@@ -1065,10 +1168,10 @@
             "allowDetail": true
           }
         },
-        "played": 3,
+        "played": 4,
         "wins": 0,
         "draws": 2,
-        "losses": 1,
+        "losses": 2,
         "winsAET": 0,
         "winsAP": 0,
         "lossesAP": 0,
@@ -1079,18 +1182,21 @@
         "position": 7,
         "highlight": false,
         "m1": {
+          "matchId": 52416782,
+          "result": "L"
+        },
+        "m2": {
           "matchId": 52416776,
           "result": "D"
         },
-        "m2": {
+        "m3": {
           "matchId": 52416770,
           "result": "L"
         },
-        "m3": {
+        "m4": {
           "matchId": 52416764,
           "result": "D"
         },
-        "m4": {},
         "m5": {}
       },
       {
@@ -1275,10 +1381,10 @@
             "allowDetail": true
           }
         },
-        "played": 2,
+        "played": 3,
         "wins": 0,
         "draws": 0,
-        "losses": 2,
+        "losses": 3,
         "winsAET": 0,
         "winsAP": 0,
         "lossesAP": 0,
@@ -1289,14 +1395,17 @@
         "position": 12,
         "highlight": false,
         "m1": {
-          "matchId": 52416780,
+          "matchId": 52416783,
           "result": "L"
         },
         "m2": {
+          "matchId": 52416780,
+          "result": "L"
+        },
+        "m3": {
           "matchId": 52416767,
           "result": "L"
         },
-        "m3": {},
         "m4": {},
         "m5": {}
       }
