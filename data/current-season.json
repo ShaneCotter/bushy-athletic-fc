@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T23:58:29.335Z",
+  "generatedAt": "2026-09-27T15:53:35.515Z",
   "upcomingFixtures": [
     {
       "id": 52416790,
@@ -9,6 +9,15 @@
       "round": "5",
       "opponent": "Mulhuddart FC AUL",
       "isHome": false
+    },
+    {
+      "id": 52416797,
+      "competitionId": "51454018",
+      "competitionName": "AUL / UCFL Division 2A",
+      "date": "2026-10-10T10:00:00.000Z",
+      "round": "6",
+      "opponent": "ParkCeltic Summerhill UCFL Men",
+      "isHome": true
     }
   ],
   "extraCompetitions": [
@@ -65,8 +74,8 @@
           "shortName": "KEARNS J.",
           "shirtNumber": null,
           "goals": 0,
-          "appearances": 2,
-          "minutes": 180,
+          "appearances": 3,
+          "minutes": 270,
           "yellowCards": 0,
           "redCards": 0,
           "assists": 0,
@@ -91,8 +100,8 @@
           "shortName": "Unknown",
           "shirtNumber": null,
           "goals": 0,
-          "appearances": 1,
-          "minutes": 45,
+          "appearances": 2,
+          "minutes": 135,
           "yellowCards": 0,
           "redCards": 0,
           "assists": 0,
@@ -104,8 +113,8 @@
           "shortName": "DUNNE M.",
           "shirtNumber": null,
           "goals": 0,
-          "appearances": 2,
-          "minutes": 180,
+          "appearances": 3,
+          "minutes": 270,
           "yellowCards": 1,
           "redCards": 0,
           "assists": 0,
@@ -117,8 +126,8 @@
           "shortName": "CAREY L.",
           "shirtNumber": null,
           "goals": 0,
-          "appearances": 1,
-          "minutes": 87,
+          "appearances": 2,
+          "minutes": 177,
           "yellowCards": 0,
           "redCards": 0,
           "assists": 0,
@@ -130,8 +139,8 @@
           "shortName": "MURPHY D.",
           "shirtNumber": null,
           "goals": 0,
-          "appearances": 1,
-          "minutes": 90,
+          "appearances": 2,
+          "minutes": 180,
           "yellowCards": 0,
           "redCards": 0,
           "assists": 0,
@@ -143,8 +152,8 @@
           "shortName": "HARMAN L.",
           "shirtNumber": null,
           "goals": 0,
-          "appearances": 2,
-          "minutes": 180,
+          "appearances": 3,
+          "minutes": 270,
           "yellowCards": 1,
           "redCards": 0,
           "assists": 0,
@@ -156,8 +165,8 @@
           "shortName": "ROGERS J.",
           "shirtNumber": null,
           "goals": 2,
-          "appearances": 2,
-          "minutes": 180,
+          "appearances": 3,
+          "minutes": 270,
           "yellowCards": 0,
           "redCards": 0,
           "assists": 0,
@@ -169,8 +178,8 @@
           "shortName": "DUNNE  S.",
           "shirtNumber": null,
           "goals": 4,
-          "appearances": 2,
-          "minutes": 180,
+          "appearances": 3,
+          "minutes": 270,
           "yellowCards": 0,
           "redCards": 0,
           "assists": 0,
@@ -208,8 +217,8 @@
           "shortName": "DUNNE M.",
           "shirtNumber": null,
           "goals": 0,
-          "appearances": 1,
-          "minutes": 90,
+          "appearances": 2,
+          "minutes": 180,
           "yellowCards": 1,
           "redCards": 0,
           "assists": 0,
@@ -234,8 +243,8 @@
           "shortName": "SOPER M.",
           "shirtNumber": null,
           "goals": 0,
-          "appearances": 1,
-          "minutes": 90,
+          "appearances": 2,
+          "minutes": 180,
           "yellowCards": 0,
           "redCards": 0,
           "assists": 0,
@@ -247,8 +256,8 @@
           "shortName": "SRI-UTTHA A.",
           "shirtNumber": null,
           "goals": 0,
-          "appearances": 2,
-          "minutes": 160,
+          "appearances": 3,
+          "minutes": 250,
           "yellowCards": 0,
           "redCards": 0,
           "assists": 0,
@@ -310,10 +319,10 @@
       "teamRecord": {
         "played": 3,
         "won": 0,
-        "drawn": 2,
-        "lost": 1,
-        "goalsFor": 6,
-        "goalsAgainst": 7
+        "drawn": 1,
+        "lost": 2,
+        "goalsFor": 7,
+        "goalsAgainst": 11
       },
       "matches": [
         {
@@ -324,10 +333,10 @@
           "round": "4",
           "opponent": "Malahide United AFC UCFL",
           "isHome": true,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "result": "D",
-          "scoreline": "0-0",
+          "goalsFor": 1,
+          "goalsAgainst": 4,
+          "result": "L",
+          "scoreline": "1-4",
           "goalScorers": []
         },
         {
@@ -406,6 +415,15 @@
           "round": "5",
           "opponent": "Mulhuddart FC AUL",
           "isHome": false
+        },
+        {
+          "id": 52416797,
+          "competitionId": "51454018",
+          "competitionName": "AUL / UCFL Division 2A",
+          "date": "2026-10-10T10:00:00.000Z",
+          "round": "6",
+          "opponent": "ParkCeltic Summerhill UCFL Men",
+          "isHome": true
         }
       ],
       "displayName": "2026/27 League (Division 2A)",
@@ -413,11 +431,11 @@
         {
           "position": 1,
           "teamName": "Malahide United AFC",
-          "played": 3,
-          "won": 3,
+          "played": 4,
+          "won": 4,
           "drawn": 0,
           "lost": 0,
-          "points": 9,
+          "points": 12,
           "isTargetTeam": false
         },
         {
@@ -463,11 +481,11 @@
         {
           "position": 6,
           "teamName": "Mulhuddart FC",
-          "played": 2,
-          "won": 1,
+          "played": 3,
+          "won": 2,
           "drawn": 0,
           "lost": 1,
-          "points": 3,
+          "points": 6,
           "isTargetTeam": false
         },
         {
@@ -483,10 +501,10 @@
         {
           "position": 8,
           "teamName": "Bushy Athletic",
-          "played": 2,
+          "played": 3,
           "won": 0,
           "drawn": 1,
-          "lost": 1,
+          "lost": 2,
           "points": 1,
           "isTargetTeam": true
         },
@@ -513,10 +531,10 @@
         {
           "position": 11,
           "teamName": "Rathmines Roosters",
-          "played": 0,
+          "played": 1,
           "won": 0,
           "drawn": 0,
-          "lost": 0,
+          "lost": 1,
           "points": 0,
           "isTargetTeam": false
         },
