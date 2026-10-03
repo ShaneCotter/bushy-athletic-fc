@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T15:19:03.492Z",
+  "generatedAt": "2026-10-03T18:51:42.846Z",
   "upcomingFixtures": [
     {
       "id": 52416797,
@@ -9,6 +9,15 @@
       "round": "6",
       "opponent": "ParkCeltic Summerhill UCFL Men",
       "isHome": true
+    },
+    {
+      "id": 52416803,
+      "competitionId": "51454018",
+      "competitionName": "AUL / UCFL Division 2A",
+      "date": "2026-10-17T10:00:00.000Z",
+      "round": "7",
+      "opponent": "Rialto FC",
+      "isHome": false
     }
   ],
   "extraCompetitions": [
@@ -453,6 +462,15 @@
           "round": "6",
           "opponent": "ParkCeltic Summerhill UCFL Men",
           "isHome": true
+        },
+        {
+          "id": 52416803,
+          "competitionId": "51454018",
+          "competitionName": "AUL / UCFL Division 2A",
+          "date": "2026-10-17T10:00:00.000Z",
+          "round": "7",
+          "opponent": "Rialto FC",
+          "isHome": false
         }
       ],
       "displayName": "2026/27 League (Division 2A)",
@@ -529,31 +547,31 @@
         },
         {
           "position": 8,
-          "teamName": "Booterstown United FC",
+          "teamName": "Howth Celtic",
           "played": 4,
-          "won": 0,
-          "drawn": 2,
+          "won": 1,
+          "drawn": 1,
           "lost": 2,
-          "points": 2,
+          "points": 4,
           "isTargetTeam": false
         },
         {
           "position": 9,
+          "teamName": "Booterstown United FC",
+          "played": 5,
+          "won": 0,
+          "drawn": 2,
+          "lost": 3,
+          "points": 2,
+          "isTargetTeam": false
+        },
+        {
+          "position": 10,
           "teamName": "Ely Woodlawn FC",
           "played": 5,
           "won": 0,
           "drawn": 1,
           "lost": 4,
-          "points": 1,
-          "isTargetTeam": false
-        },
-        {
-          "position": 10,
-          "teamName": "Howth Celtic",
-          "played": 3,
-          "won": 0,
-          "drawn": 1,
-          "lost": 2,
           "points": 1,
           "isTargetTeam": false
         },

@@ -1,6 +1,6 @@
 {
   "note": "Extra Clubforce data for occasional team analysis. Not loaded by the public website.",
-  "generatedAt": "2026-10-03T15:19:03.493Z",
+  "generatedAt": "2026-10-03T18:51:42.847Z",
   "league": {
     "id": "51454018",
     "name": "AUL / UCFL Division 2A",
@@ -1501,6 +1501,54 @@
       },
       {
         "team": {
+          "id": 30555,
+          "fifaId": "1463ZSH",
+          "name": "Howth Celtic FC B",
+          "picture": "4b6183da-c97d-4395-9a01-25b3553d5ef7",
+          "place": "Howth",
+          "allowDetail": true,
+          "parent": {
+            "id": 11088,
+            "fifaId": "1463ZSH",
+            "name": "Howth Celtic",
+            "picture": "4b6183da-c97d-4395-9a01-25b3553d5ef7",
+            "place": "Howth",
+            "allowDetail": true
+          }
+        },
+        "played": 4,
+        "wins": 1,
+        "draws": 1,
+        "losses": 2,
+        "winsAET": 0,
+        "winsAP": 0,
+        "lossesAP": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "points": 4,
+        "negativePoints": 0,
+        "position": 8,
+        "highlight": false,
+        "m1": {
+          "matchId": 52416788,
+          "result": "W"
+        },
+        "m2": {
+          "matchId": 52416787,
+          "result": "L"
+        },
+        "m3": {
+          "matchId": 52416778,
+          "result": "L"
+        },
+        "m4": {
+          "matchId": 52416766,
+          "result": "D"
+        },
+        "m5": {}
+      },
+      {
+        "team": {
           "id": 63724,
           "fifaId": "1464ULH",
           "name": "Booterstown United FC",
@@ -1516,10 +1564,10 @@
             "allowDetail": true
           }
         },
-        "played": 4,
+        "played": 5,
         "wins": 0,
         "draws": 2,
-        "losses": 2,
+        "losses": 3,
         "winsAET": 0,
         "winsAP": 0,
         "lossesAP": 0,
@@ -1527,25 +1575,28 @@
         "goalsAgainst": 0,
         "points": 2,
         "negativePoints": 0,
-        "position": 8,
+        "position": 9,
         "highlight": false,
         "m1": {
-          "matchId": 52416782,
+          "matchId": 52416788,
           "result": "L"
         },
         "m2": {
+          "matchId": 52416782,
+          "result": "L"
+        },
+        "m3": {
           "matchId": 52416776,
           "result": "D"
         },
-        "m3": {
+        "m4": {
           "matchId": 52416770,
           "result": "L"
         },
-        "m4": {
+        "m5": {
           "matchId": 52416764,
           "result": "D"
-        },
-        "m5": {}
+        }
       },
       {
         "team": {
@@ -1575,7 +1626,7 @@
         "goalsAgainst": 0,
         "points": 1,
         "negativePoints": 0,
-        "position": 9,
+        "position": 10,
         "highlight": false,
         "m1": {
           "matchId": 52416792,
@@ -1597,51 +1648,6 @@
           "matchId": 52416766,
           "result": "D"
         }
-      },
-      {
-        "team": {
-          "id": 30555,
-          "fifaId": "1463ZSH",
-          "name": "Howth Celtic FC B",
-          "picture": "4b6183da-c97d-4395-9a01-25b3553d5ef7",
-          "place": "Howth",
-          "allowDetail": true,
-          "parent": {
-            "id": 11088,
-            "fifaId": "1463ZSH",
-            "name": "Howth Celtic",
-            "picture": "4b6183da-c97d-4395-9a01-25b3553d5ef7",
-            "place": "Howth",
-            "allowDetail": true
-          }
-        },
-        "played": 3,
-        "wins": 0,
-        "draws": 1,
-        "losses": 2,
-        "winsAET": 0,
-        "winsAP": 0,
-        "lossesAP": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "points": 1,
-        "negativePoints": 0,
-        "position": 10,
-        "highlight": false,
-        "m1": {
-          "matchId": 52416787,
-          "result": "L"
-        },
-        "m2": {
-          "matchId": 52416778,
-          "result": "L"
-        },
-        "m3": {
-          "matchId": 52416766,
-          "result": "D"
-        },
-        "m4": {},
-        "m5": {}
       },
       {
         "team": {
