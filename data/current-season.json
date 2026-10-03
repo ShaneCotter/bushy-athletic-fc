@@ -1,15 +1,6 @@
 {
-  "generatedAt": "2026-10-02T17:31:34.176Z",
+  "generatedAt": "2026-10-03T00:57:12.323Z",
   "upcomingFixtures": [
-    {
-      "id": 52416790,
-      "competitionId": "51454018",
-      "competitionName": "AUL / UCFL Division 2A",
-      "date": "2026-10-03T10:30:00.000Z",
-      "round": "5",
-      "opponent": "Mulhuddart FC AUL",
-      "isHome": false
-    },
     {
       "id": 52416797,
       "competitionId": "51454018",
@@ -317,14 +308,28 @@
         }
       },
       "teamRecord": {
-        "played": 3,
+        "played": 4,
         "won": 0,
-        "drawn": 1,
+        "drawn": 2,
         "lost": 2,
         "goalsFor": 7,
         "goalsAgainst": 11
       },
       "matches": [
+        {
+          "id": 52416790,
+          "competitionId": "51454018",
+          "competitionName": "AUL / UCFL Division 2A",
+          "date": "2026-10-03T10:30:00.000Z",
+          "round": "5",
+          "opponent": "Mulhuddart FC AUL",
+          "isHome": false,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "result": "D",
+          "scoreline": "0-0",
+          "goalScorers": []
+        },
         {
           "id": 52416786,
           "competitionId": "51454018",
@@ -407,15 +412,6 @@
         }
       ],
       "fixtures": [
-        {
-          "id": 52416790,
-          "competitionId": "51454018",
-          "competitionName": "AUL / UCFL Division 2A",
-          "date": "2026-10-03T10:30:00.000Z",
-          "round": "5",
-          "opponent": "Mulhuddart FC AUL",
-          "isHome": false
-        },
         {
           "id": 52416797,
           "competitionId": "51454018",
