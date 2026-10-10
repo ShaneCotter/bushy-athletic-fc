@@ -1,15 +1,6 @@
 {
-  "generatedAt": "2026-10-09T17:59:57.895Z",
+  "generatedAt": "2026-10-10T01:31:50.473Z",
   "upcomingFixtures": [
-    {
-      "id": 52416797,
-      "competitionId": "51454018",
-      "competitionName": "AUL / UCFL Division 2A",
-      "date": "2026-10-10T10:00:00.000Z",
-      "round": "6",
-      "opponent": "ParkCeltic Summerhill UCFL Men",
-      "isHome": true
-    },
     {
       "id": 52416803,
       "competitionId": "51454018",
@@ -343,14 +334,28 @@
         }
       },
       "teamRecord": {
-        "played": 4,
+        "played": 5,
         "won": 1,
-        "drawn": 1,
+        "drawn": 2,
         "lost": 2,
         "goalsFor": 8,
         "goalsAgainst": 11
       },
       "matches": [
+        {
+          "id": 52416797,
+          "competitionId": "51454018",
+          "competitionName": "AUL / UCFL Division 2A",
+          "date": "2026-10-10T10:00:00.000Z",
+          "round": "6",
+          "opponent": "ParkCeltic Summerhill UCFL Men",
+          "isHome": true,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "result": "D",
+          "scoreline": "0-0",
+          "goalScorers": []
+        },
         {
           "id": 52416790,
           "competitionId": "51454018",
@@ -454,15 +459,6 @@
         }
       ],
       "fixtures": [
-        {
-          "id": 52416797,
-          "competitionId": "51454018",
-          "competitionName": "AUL / UCFL Division 2A",
-          "date": "2026-10-10T10:00:00.000Z",
-          "round": "6",
-          "opponent": "ParkCeltic Summerhill UCFL Men",
-          "isHome": true
-        },
         {
           "id": 52416803,
           "competitionId": "51454018",
