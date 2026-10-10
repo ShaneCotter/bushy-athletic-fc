@@ -1,6 +1,6 @@
 {
   "note": "Extra Clubforce data for occasional team analysis. Not loaded by the public website.",
-  "generatedAt": "2026-10-10T01:31:50.474Z",
+  "generatedAt": "2026-10-10T16:28:11.769Z",
   "league": {
     "id": "51454018",
     "name": "AUL / UCFL Division 2A",
@@ -38,74 +38,10 @@
         "lineupAppearanceEvidence": 2
       },
       {
-        "personId": 46556,
-        "name": "DUFFY Ian",
-        "shortName": "DUFFY I.",
-        "minutesPlayed": 100,
-        "matchesPlayed": 2,
-        "fullMatchesPlayed": 1,
-        "goals": 0,
-        "assists": 0,
-        "penalties": 0,
-        "ownGoals": 0,
-        "yellowCards": 1,
-        "redCards": 0,
-        "captain": 0,
-        "lineupAppearanceEvidence": 2
-      },
-      {
-        "personId": 564503,
-        "name": "DUNNE Mark",
-        "shortName": "DUNNE M.",
-        "minutesPlayed": 270,
-        "matchesPlayed": 3,
-        "fullMatchesPlayed": 3,
-        "goals": 0,
-        "assists": 0,
-        "penalties": 0,
-        "ownGoals": 0,
-        "yellowCards": 1,
-        "redCards": 0,
-        "captain": 0,
-        "lineupAppearanceEvidence": 3
-      },
-      {
-        "personId": 229068,
-        "name": "DUNNE Micheal",
-        "shortName": "DUNNE M.",
-        "minutesPlayed": 360,
-        "matchesPlayed": 4,
-        "fullMatchesPlayed": 4,
-        "goals": 0,
-        "assists": 0,
-        "penalties": 0,
-        "ownGoals": 0,
-        "yellowCards": 2,
-        "redCards": 0,
-        "captain": 0,
-        "lineupAppearanceEvidence": 4
-      },
-      {
-        "personId": 422938,
-        "name": "DUNNE Stephen",
-        "shortName": "DUNNE  S.",
-        "minutesPlayed": 360,
-        "matchesPlayed": 4,
-        "fullMatchesPlayed": 4,
-        "goals": 4,
-        "assists": 0,
-        "penalties": 0,
-        "ownGoals": 0,
-        "yellowCards": 0,
-        "redCards": 0,
-        "captain": 4,
-        "lineupAppearanceEvidence": 4
-      },
-      {
-        "personId": 565142,
-        "name": "HAND Ross",
-        "shortName": "HAND R.",
-        "minutesPlayed": 45,
+        "personId": 552671,
+        "name": "DOYLE MCDERMOTT Steven",
+        "shortName": "DOYLE MCDERMOTT S.",
+        "minutesPlayed": 8,
         "matchesPlayed": 1,
         "fullMatchesPlayed": 0,
         "goals": 0,
@@ -116,6 +52,86 @@
         "redCards": 0,
         "captain": 0,
         "lineupAppearanceEvidence": 1
+      },
+      {
+        "personId": 46556,
+        "name": "DUFFY Ian",
+        "shortName": "DUFFY I.",
+        "minutesPlayed": 129,
+        "matchesPlayed": 3,
+        "fullMatchesPlayed": 1,
+        "goals": 0,
+        "assists": 0,
+        "penalties": 0,
+        "ownGoals": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "captain": 0,
+        "lineupAppearanceEvidence": 3
+      },
+      {
+        "personId": 564503,
+        "name": "DUNNE Mark",
+        "shortName": "DUNNE M.",
+        "minutesPlayed": 360,
+        "matchesPlayed": 4,
+        "fullMatchesPlayed": 4,
+        "goals": 0,
+        "assists": 0,
+        "penalties": 0,
+        "ownGoals": 0,
+        "yellowCards": 1,
+        "redCards": 0,
+        "captain": 0,
+        "lineupAppearanceEvidence": 4
+      },
+      {
+        "personId": 229068,
+        "name": "DUNNE Micheal",
+        "shortName": "DUNNE M.",
+        "minutesPlayed": 450,
+        "matchesPlayed": 5,
+        "fullMatchesPlayed": 5,
+        "goals": 0,
+        "assists": 0,
+        "penalties": 0,
+        "ownGoals": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "captain": 0,
+        "lineupAppearanceEvidence": 5
+      },
+      {
+        "personId": 422938,
+        "name": "DUNNE Stephen",
+        "shortName": "DUNNE  S.",
+        "minutesPlayed": 442,
+        "matchesPlayed": 5,
+        "fullMatchesPlayed": 4,
+        "goals": 4,
+        "assists": 0,
+        "penalties": 0,
+        "ownGoals": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "captain": 5,
+        "lineupAppearanceEvidence": 5
+      },
+      {
+        "personId": 565142,
+        "name": "HAND Ross",
+        "shortName": "HAND R.",
+        "minutesPlayed": 63,
+        "matchesPlayed": 2,
+        "fullMatchesPlayed": 0,
+        "goals": 0,
+        "assists": 0,
+        "penalties": 0,
+        "ownGoals": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "captain": 0,
+        "lineupAppearanceEvidence": 2
       },
       {
         "personId": 375724,
@@ -137,8 +153,8 @@
         "personId": 660084,
         "name": "HENDERSON Ryan",
         "shortName": "HENDERSON R.",
-        "minutesPlayed": 85,
-        "matchesPlayed": 3,
+        "minutesPlayed": 157,
+        "matchesPlayed": 4,
         "fullMatchesPlayed": 0,
         "goals": 0,
         "assists": 0,
@@ -147,7 +163,7 @@
         "yellowCards": 1,
         "redCards": 0,
         "captain": 0,
-        "lineupAppearanceEvidence": 3
+        "lineupAppearanceEvidence": 4
       },
       {
         "personId": 36024,
@@ -169,9 +185,9 @@
         "personId": 658488,
         "name": "KIERNAN David",
         "shortName": "KIERNAN D.",
-        "minutesPlayed": 74,
-        "matchesPlayed": 2,
-        "fullMatchesPlayed": 0,
+        "minutesPlayed": 164,
+        "matchesPlayed": 3,
+        "fullMatchesPlayed": 1,
         "goals": 0,
         "assists": 0,
         "penalties": 0,
@@ -179,7 +195,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "captain": 0,
-        "lineupAppearanceEvidence": 2
+        "lineupAppearanceEvidence": 3
       },
       {
         "personId": 386490,
@@ -217,9 +233,9 @@
         "personId": 285560,
         "name": "MURPHY Daniel",
         "shortName": "MURPHY D.",
-        "minutesPlayed": 270,
-        "matchesPlayed": 3,
-        "fullMatchesPlayed": 3,
+        "minutesPlayed": 360,
+        "matchesPlayed": 4,
+        "fullMatchesPlayed": 4,
         "goals": 0,
         "assists": 0,
         "penalties": 0,
@@ -227,14 +243,14 @@
         "yellowCards": 0,
         "redCards": 0,
         "captain": 0,
-        "lineupAppearanceEvidence": 3
+        "lineupAppearanceEvidence": 4
       },
       {
         "personId": 43314,
         "name": "NEILAN Dean",
         "shortName": "NEILAN D.",
-        "minutesPlayed": 10,
-        "matchesPlayed": 1,
+        "minutesPlayed": 28,
+        "matchesPlayed": 2,
         "fullMatchesPlayed": 0,
         "goals": 0,
         "assists": 0,
@@ -243,7 +259,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "captain": 0,
-        "lineupAppearanceEvidence": 1
+        "lineupAppearanceEvidence": 2
       },
       {
         "personId": 501816,
@@ -265,25 +281,25 @@
         "personId": 386492,
         "name": "ROGERS Jack",
         "shortName": "ROGERS J.",
-        "minutesPlayed": 270,
-        "matchesPlayed": 3,
+        "minutesPlayed": 359,
+        "matchesPlayed": 4,
         "fullMatchesPlayed": 3,
         "goals": 2,
         "assists": 0,
         "penalties": 0,
         "ownGoals": 0,
         "yellowCards": 0,
-        "redCards": 0,
+        "redCards": 1,
         "captain": 0,
-        "lineupAppearanceEvidence": 3
+        "lineupAppearanceEvidence": 4
       },
       {
         "personId": 548582,
         "name": "SHEILS Kian Patrick",
         "shortName": "SHEILS K.",
-        "minutesPlayed": 90,
-        "matchesPlayed": 1,
-        "fullMatchesPlayed": 1,
+        "minutesPlayed": 180,
+        "matchesPlayed": 2,
+        "fullMatchesPlayed": 2,
         "goals": 0,
         "assists": 0,
         "penalties": 0,
@@ -291,15 +307,15 @@
         "yellowCards": 0,
         "redCards": 0,
         "captain": 0,
-        "lineupAppearanceEvidence": 1
+        "lineupAppearanceEvidence": 2
       },
       {
         "personId": 568824,
         "name": "SOPER Mark",
         "shortName": "SOPER M.",
-        "minutesPlayed": 270,
-        "matchesPlayed": 3,
-        "fullMatchesPlayed": 3,
+        "minutesPlayed": 360,
+        "matchesPlayed": 4,
+        "fullMatchesPlayed": 4,
         "goals": 1,
         "assists": 0,
         "penalties": 0,
@@ -307,14 +323,14 @@
         "yellowCards": 0,
         "redCards": 0,
         "captain": 0,
-        "lineupAppearanceEvidence": 3
+        "lineupAppearanceEvidence": 4
       },
       {
         "personId": 607261,
         "name": "SRI-UTTHA Alec",
         "shortName": "SRI-UTTHA A.",
-        "minutesPlayed": 315,
-        "matchesPlayed": 4,
+        "minutesPlayed": 387,
+        "matchesPlayed": 5,
         "fullMatchesPlayed": 2,
         "goals": 0,
         "assists": 1,
@@ -323,14 +339,14 @@
         "yellowCards": 1,
         "redCards": 0,
         "captain": 0,
-        "lineupAppearanceEvidence": 4
+        "lineupAppearanceEvidence": 5
       },
       {
         "personId": 65260,
         "name": "Unknown",
         "shortName": "Unknown",
-        "minutesPlayed": 215,
-        "matchesPlayed": 3,
+        "minutesPlayed": 276,
+        "matchesPlayed": 4,
         "fullMatchesPlayed": 1,
         "goals": 0,
         "assists": 0,
@@ -339,7 +355,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "captain": 0,
-        "lineupAppearanceEvidence": 3
+        "lineupAppearanceEvidence": 4
       }
     ],
     "matches": [
@@ -354,10 +370,177 @@
         "homeGoals": null,
         "awayGoals": null,
         "teamSide": "home",
-        "events": [],
+        "events": [
+          {
+            "minute": 16,
+            "type": "GOAL",
+            "personId": 341439,
+            "playerName": "BYRNE Harry",
+            "homeTeam": false
+          },
+          {
+            "minute": 26,
+            "type": "YELLOW",
+            "personId": 386492,
+            "playerName": "ROGERS Jack",
+            "homeTeam": true
+          },
+          {
+            "minute": 43,
+            "type": "GOAL",
+            "personId": 103888,
+            "playerName": "HERBERT Cian",
+            "homeTeam": false
+          },
+          {
+            "minute": 59,
+            "type": "SUBSTITUTION",
+            "personId": 46930,
+            "playerName": "BURNS Michael",
+            "homeTeam": false
+          },
+          {
+            "minute": 62,
+            "type": "SUBSTITUTION",
+            "personId": 46556,
+            "playerName": "DUFFY Ian",
+            "homeTeam": true
+          },
+          {
+            "minute": 70,
+            "type": "SUBSTITUTION",
+            "personId": 236878,
+            "playerName": "DONOVAN Ben",
+            "homeTeam": false
+          },
+          {
+            "minute": 73,
+            "type": "SUBSTITUTION",
+            "personId": 43314,
+            "playerName": "NEILAN Dean",
+            "homeTeam": true
+          },
+          {
+            "minute": 73,
+            "type": "SUBSTITUTION",
+            "personId": 565142,
+            "playerName": "HAND Ross",
+            "homeTeam": true
+          },
+          {
+            "minute": 75,
+            "type": "SUBSTITUTION",
+            "personId": 166235,
+            "playerName": "DOYLE Michael",
+            "homeTeam": false
+          },
+          {
+            "minute": 82,
+            "type": "SUBSTITUTION",
+            "personId": 666217,
+            "playerName": "KINIRONS Barry",
+            "homeTeam": false
+          },
+          {
+            "minute": 83,
+            "type": "SUBSTITUTION",
+            "personId": 552671,
+            "playerName": "DOYLE MCDERMOTT Steven",
+            "homeTeam": true
+          },
+          {
+            "minute": 90,
+            "type": "SECOND_YELLOW",
+            "personId": 386492,
+            "playerName": "ROGERS Jack",
+            "homeTeam": true
+          }
+        ],
         "lineup": {
-          "starters": [],
-          "substitutes": []
+          "starters": [
+            {
+              "personId": 285560,
+              "name": "MURPHY Daniel",
+              "shirtNumber": 1
+            },
+            {
+              "personId": 658488,
+              "name": "KIERNAN David",
+              "shirtNumber": 2
+            },
+            {
+              "personId": 548582,
+              "name": "SHEILS Kian Patrick",
+              "shirtNumber": 3
+            },
+            {
+              "personId": 422938,
+              "name": "DUNNE Stephen",
+              "shirtNumber": 4
+            },
+            {
+              "personId": 564503,
+              "name": "DUNNE Mark",
+              "shirtNumber": 5
+            },
+            {
+              "personId": 660084,
+              "name": "HENDERSON Ryan",
+              "shirtNumber": 6
+            },
+            {
+              "personId": 65260,
+              "name": "DUNNE Max",
+              "shirtNumber": 7
+            },
+            {
+              "personId": 229068,
+              "name": "DUNNE Micheal",
+              "shirtNumber": 8
+            },
+            {
+              "personId": 568824,
+              "name": "SOPER Mark",
+              "shirtNumber": 9
+            },
+            {
+              "personId": 607261,
+              "name": "SRI-UTTHA Alec",
+              "shirtNumber": 10
+            },
+            {
+              "personId": 386492,
+              "name": "ROGERS Jack",
+              "shirtNumber": 11
+            }
+          ],
+          "substitutes": [
+            {
+              "personId": 43314,
+              "name": "NEILAN Dean",
+              "shirtNumber": 12
+            },
+            {
+              "personId": 552671,
+              "name": "DOYLE MCDERMOTT Steven",
+              "shirtNumber": 13
+            },
+            {
+              "personId": 501816,
+              "name": "PATCHELL Glen",
+              "shirtNumber": 14
+            },
+            {
+              "personId": 565142,
+              "name": "HAND Ross",
+              "shirtNumber": 15
+            },
+            {
+              "personId": 46556,
+              "name": "DUFFY Ian",
+              "shirtNumber": 16
+            }
+          ]
         }
       },
       {
@@ -1176,57 +1359,6 @@
     "table": [
       {
         "team": {
-          "id": 50495,
-          "fifaId": "1463ZLF",
-          "name": "Malahide United AFC UCFL",
-          "picture": "0f61e3c0-beab-45b9-b254-d88c829690cb",
-          "place": "Malahide",
-          "allowDetail": true,
-          "parent": {
-            "id": 11369,
-            "fifaId": "1463ZLF",
-            "name": "Malahide United AFC",
-            "picture": "0f61e3c0-beab-45b9-b254-d88c829690cb",
-            "place": "Malahide",
-            "allowDetail": true
-          }
-        },
-        "played": 5,
-        "wins": 4,
-        "draws": 1,
-        "losses": 0,
-        "winsAET": 0,
-        "winsAP": 0,
-        "lossesAP": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "points": 13,
-        "negativePoints": 0,
-        "position": 1,
-        "highlight": false,
-        "m1": {
-          "matchId": 52416789,
-          "result": "D"
-        },
-        "m2": {
-          "matchId": 52416786,
-          "result": "W"
-        },
-        "m3": {
-          "matchId": 52416778,
-          "result": "W"
-        },
-        "m4": {
-          "matchId": 52416773,
-          "result": "W"
-        },
-        "m5": {
-          "matchId": 52416767,
-          "result": "W"
-        }
-      },
-      {
-        "team": {
           "id": 23895,
           "fifaId": "1463RTH",
           "name": "Rialto FC",
@@ -1242,8 +1374,8 @@
             "allowDetail": true
           }
         },
-        "played": 4,
-        "wins": 4,
+        "played": 5,
+        "wins": 5,
         "draws": 0,
         "losses": 0,
         "winsAET": 0,
@@ -1251,27 +1383,81 @@
         "lossesAP": 0,
         "goalsFor": 0,
         "goalsAgainst": 0,
-        "points": 12,
+        "points": 15,
+        "negativePoints": 0,
+        "position": 1,
+        "highlight": false,
+        "m1": {
+          "matchId": 52416796,
+          "result": "W"
+        },
+        "m2": {
+          "matchId": 52416792,
+          "result": "W"
+        },
+        "m3": {
+          "matchId": 52416783,
+          "result": "W"
+        },
+        "m4": {
+          "matchId": 52416770,
+          "result": "W"
+        },
+        "m5": {
+          "matchId": 52416769,
+          "result": "W"
+        }
+      },
+      {
+        "team": {
+          "id": 50495,
+          "fifaId": "1463ZLF",
+          "name": "Malahide United AFC UCFL",
+          "picture": "0f61e3c0-beab-45b9-b254-d88c829690cb",
+          "place": "Malahide",
+          "allowDetail": true,
+          "parent": {
+            "id": 11369,
+            "fifaId": "1463ZLF",
+            "name": "Malahide United AFC",
+            "picture": "0f61e3c0-beab-45b9-b254-d88c829690cb",
+            "place": "Malahide",
+            "allowDetail": true
+          }
+        },
+        "played": 6,
+        "wins": 4,
+        "draws": 1,
+        "losses": 1,
+        "winsAET": 0,
+        "winsAP": 0,
+        "lossesAP": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "points": 13,
         "negativePoints": 0,
         "position": 2,
         "highlight": false,
         "m1": {
-          "matchId": 52416792,
-          "result": "W"
+          "matchId": 52416799,
+          "result": "L"
         },
         "m2": {
-          "matchId": 52416783,
-          "result": "W"
+          "matchId": 52416789,
+          "result": "D"
         },
         "m3": {
-          "matchId": 52416770,
+          "matchId": 52416786,
           "result": "W"
         },
         "m4": {
-          "matchId": 52416769,
+          "matchId": 52416778,
           "result": "W"
         },
-        "m5": {}
+        "m5": {
+          "matchId": 52416773,
+          "result": "W"
+        }
       },
       {
         "team": {
@@ -1290,8 +1476,8 @@
             "allowDetail": true
           }
         },
-        "played": 5,
-        "wins": 3,
+        "played": 6,
+        "wins": 4,
         "draws": 1,
         "losses": 1,
         "winsAET": 0,
@@ -1299,29 +1485,29 @@
         "lossesAP": 0,
         "goalsFor": 0,
         "goalsAgainst": 0,
-        "points": 10,
+        "points": 13,
         "negativePoints": 0,
         "position": 3,
         "highlight": false,
         "m1": {
-          "matchId": 52416791,
+          "matchId": 52416797,
           "result": "W"
         },
         "m2": {
-          "matchId": 52416784,
+          "matchId": 52416791,
           "result": "W"
         },
         "m3": {
-          "matchId": 52416780,
+          "matchId": 52416784,
           "result": "W"
         },
         "m4": {
-          "matchId": 52416771,
-          "result": "D"
+          "matchId": 52416780,
+          "result": "W"
         },
         "m5": {
-          "matchId": 52416769,
-          "result": "L"
+          "matchId": 52416771,
+          "result": "D"
         }
       },
       {
@@ -1341,10 +1527,10 @@
             "allowDetail": true
           }
         },
-        "played": 4,
+        "played": 5,
         "wins": 3,
         "draws": 1,
-        "losses": 0,
+        "losses": 1,
         "winsAET": 0,
         "winsAP": 0,
         "lossesAP": 0,
@@ -1355,22 +1541,25 @@
         "position": 4,
         "highlight": false,
         "m1": {
+          "matchId": 52416795,
+          "result": "L"
+        },
+        "m2": {
           "matchId": 52416793,
           "result": "W"
         },
-        "m2": {
+        "m3": {
           "matchId": 52416782,
           "result": "W"
         },
-        "m3": {
+        "m4": {
           "matchId": 52416771,
           "result": "D"
         },
-        "m4": {
+        "m5": {
           "matchId": 52416768,
           "result": "W"
-        },
-        "m5": {}
+        }
       },
       {
         "team": {
@@ -1422,6 +1611,57 @@
       },
       {
         "team": {
+          "id": 30555,
+          "fifaId": "1463ZSH",
+          "name": "Howth Celtic FC B",
+          "picture": "4b6183da-c97d-4395-9a01-25b3553d5ef7",
+          "place": "Howth",
+          "allowDetail": true,
+          "parent": {
+            "id": 11088,
+            "fifaId": "1463ZSH",
+            "name": "Howth Celtic",
+            "picture": "4b6183da-c97d-4395-9a01-25b3553d5ef7",
+            "place": "Howth",
+            "allowDetail": true
+          }
+        },
+        "played": 5,
+        "wins": 2,
+        "draws": 1,
+        "losses": 2,
+        "winsAET": 0,
+        "winsAP": 0,
+        "lossesAP": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "points": 7,
+        "negativePoints": 0,
+        "position": 6,
+        "highlight": false,
+        "m1": {
+          "matchId": 52416799,
+          "result": "W"
+        },
+        "m2": {
+          "matchId": 52416788,
+          "result": "W"
+        },
+        "m3": {
+          "matchId": 52416787,
+          "result": "L"
+        },
+        "m4": {
+          "matchId": 52416778,
+          "result": "L"
+        },
+        "m5": {
+          "matchId": 52416766,
+          "result": "D"
+        }
+      },
+      {
+        "team": {
           "id": 63560,
           "fifaId": "1463TBH",
           "name": "Mulhuddart FC AUL",
@@ -1448,7 +1688,7 @@
         "goalsAgainst": 0,
         "points": 6,
         "negativePoints": 0,
-        "position": 6,
+        "position": 7,
         "highlight": false,
         "m1": {
           "matchId": 52416790,
@@ -1485,58 +1725,10 @@
             "allowDetail": true
           }
         },
-        "played": 4,
+        "played": 5,
         "wins": 1,
         "draws": 1,
-        "losses": 2,
-        "winsAET": 0,
-        "winsAP": 0,
-        "lossesAP": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "points": 4,
-        "negativePoints": 0,
-        "position": 7,
-        "highlight": false,
-        "m1": {
-          "matchId": 52416790,
-          "result": "W"
-        },
-        "m2": {
-          "matchId": 52416786,
-          "result": "L"
-        },
-        "m3": {
-          "matchId": 52416775,
-          "result": "L"
-        },
-        "m4": {
-          "matchId": 52416764,
-          "result": "D"
-        },
-        "m5": {}
-      },
-      {
-        "team": {
-          "id": 30555,
-          "fifaId": "1463ZSH",
-          "name": "Howth Celtic FC B",
-          "picture": "4b6183da-c97d-4395-9a01-25b3553d5ef7",
-          "place": "Howth",
-          "allowDetail": true,
-          "parent": {
-            "id": 11088,
-            "fifaId": "1463ZSH",
-            "name": "Howth Celtic",
-            "picture": "4b6183da-c97d-4395-9a01-25b3553d5ef7",
-            "place": "Howth",
-            "allowDetail": true
-          }
-        },
-        "played": 4,
-        "wins": 1,
-        "draws": 1,
-        "losses": 2,
+        "losses": 3,
         "winsAET": 0,
         "winsAP": 0,
         "lossesAP": 0,
@@ -1547,67 +1739,19 @@
         "position": 8,
         "highlight": false,
         "m1": {
-          "matchId": 52416788,
+          "matchId": 52416797,
+          "result": "L"
+        },
+        "m2": {
+          "matchId": 52416790,
           "result": "W"
         },
-        "m2": {
-          "matchId": 52416787,
-          "result": "L"
-        },
         "m3": {
-          "matchId": 52416778,
+          "matchId": 52416786,
           "result": "L"
         },
         "m4": {
-          "matchId": 52416766,
-          "result": "D"
-        },
-        "m5": {}
-      },
-      {
-        "team": {
-          "id": 63724,
-          "fifaId": "1464ULH",
-          "name": "Booterstown United FC",
-          "picture": "75e2491b-49fe-4d68-8725-cb10b12fc737",
-          "place": "Blackrock",
-          "allowDetail": true,
-          "parent": {
-            "id": 10286,
-            "fifaId": "1464ULH",
-            "name": "Booterstown United FC",
-            "picture": "75e2491b-49fe-4d68-8725-cb10b12fc737",
-            "place": "Blackrock",
-            "allowDetail": true
-          }
-        },
-        "played": 5,
-        "wins": 0,
-        "draws": 2,
-        "losses": 3,
-        "winsAET": 0,
-        "winsAP": 0,
-        "lossesAP": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "points": 2,
-        "negativePoints": 0,
-        "position": 9,
-        "highlight": false,
-        "m1": {
-          "matchId": 52416788,
-          "result": "L"
-        },
-        "m2": {
-          "matchId": 52416782,
-          "result": "L"
-        },
-        "m3": {
-          "matchId": 52416776,
-          "result": "D"
-        },
-        "m4": {
-          "matchId": 52416770,
+          "matchId": 52416775,
           "result": "L"
         },
         "m5": {
@@ -1632,8 +1776,8 @@
             "allowDetail": true
           }
         },
-        "played": 5,
-        "wins": 0,
+        "played": 6,
+        "wins": 1,
         "draws": 1,
         "losses": 4,
         "winsAET": 0,
@@ -1641,29 +1785,131 @@
         "lossesAP": 0,
         "goalsFor": 0,
         "goalsAgainst": 0,
-        "points": 1,
+        "points": 4,
+        "negativePoints": 0,
+        "position": 9,
+        "highlight": false,
+        "m1": {
+          "matchId": 52416795,
+          "result": "W"
+        },
+        "m2": {
+          "matchId": 52416792,
+          "result": "L"
+        },
+        "m3": {
+          "matchId": 52416784,
+          "result": "L"
+        },
+        "m4": {
+          "matchId": 52416779,
+          "result": "L"
+        },
+        "m5": {
+          "matchId": 52416773,
+          "result": "L"
+        }
+      },
+      {
+        "team": {
+          "id": 84244,
+          "fifaId": "14ECGDF",
+          "name": "St Teresa’s Football Club 2A",
+          "picture": "8ae052d2-8280-4417-8840-60b0e7eb579a",
+          "place": "Dublin",
+          "allowDetail": true,
+          "parent": {
+            "id": 84243,
+            "fifaId": "14ECGDF",
+            "name": "St Teresa’s Football Club",
+            "picture": "ca98cc60-df3a-4041-ba0e-f21402c74f00",
+            "place": "Dublin",
+            "allowDetail": true
+          }
+        },
+        "played": 5,
+        "wins": 1,
+        "draws": 0,
+        "losses": 4,
+        "winsAET": 0,
+        "winsAP": 0,
+        "lossesAP": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "points": 3,
         "negativePoints": 0,
         "position": 10,
         "highlight": false,
         "m1": {
-          "matchId": 52416792,
-          "result": "L"
+          "matchId": 52416794,
+          "result": "W"
         },
         "m2": {
-          "matchId": 52416784,
+          "matchId": 52416793,
           "result": "L"
         },
         "m3": {
-          "matchId": 52416779,
+          "matchId": 52416783,
           "result": "L"
         },
         "m4": {
-          "matchId": 52416773,
+          "matchId": 52416780,
           "result": "L"
         },
         "m5": {
-          "matchId": 52416766,
+          "matchId": 52416767,
+          "result": "L"
+        }
+      },
+      {
+        "team": {
+          "id": 63724,
+          "fifaId": "1464ULH",
+          "name": "Booterstown United FC",
+          "picture": "75e2491b-49fe-4d68-8725-cb10b12fc737",
+          "place": "Blackrock",
+          "allowDetail": true,
+          "parent": {
+            "id": 10286,
+            "fifaId": "1464ULH",
+            "name": "Booterstown United FC",
+            "picture": "75e2491b-49fe-4d68-8725-cb10b12fc737",
+            "place": "Blackrock",
+            "allowDetail": true
+          }
+        },
+        "played": 6,
+        "wins": 0,
+        "draws": 2,
+        "losses": 4,
+        "winsAET": 0,
+        "winsAP": 0,
+        "lossesAP": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "points": 2,
+        "negativePoints": 0,
+        "position": 11,
+        "highlight": false,
+        "m1": {
+          "matchId": 52416794,
+          "result": "L"
+        },
+        "m2": {
+          "matchId": 52416788,
+          "result": "L"
+        },
+        "m3": {
+          "matchId": 52416782,
+          "result": "L"
+        },
+        "m4": {
+          "matchId": 52416776,
           "result": "D"
+        },
+        "m5": {
+          "matchId": 52416770,
+          "result": "L"
         }
       },
       {
@@ -1683,52 +1929,10 @@
             "allowDetail": true
           }
         },
-        "played": 2,
+        "played": 3,
         "wins": 0,
         "draws": 0,
-        "losses": 2,
-        "winsAET": 0,
-        "winsAP": 0,
-        "lossesAP": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "points": 0,
-        "negativePoints": 0,
-        "position": 11,
-        "highlight": false,
-        "m1": {
-          "matchId": 52416791,
-          "result": "L"
-        },
-        "m2": {
-          "matchId": 52416785,
-          "result": "L"
-        },
-        "m3": {},
-        "m4": {},
-        "m5": {}
-      },
-      {
-        "team": {
-          "id": 84244,
-          "fifaId": "14ECGDF",
-          "name": "St Teresa’s Football Club 2A",
-          "picture": "8ae052d2-8280-4417-8840-60b0e7eb579a",
-          "place": "Dublin",
-          "allowDetail": true,
-          "parent": {
-            "id": 84243,
-            "fifaId": "14ECGDF",
-            "name": "St Teresa’s Football Club",
-            "picture": "ca98cc60-df3a-4041-ba0e-f21402c74f00",
-            "place": "Dublin",
-            "allowDetail": true
-          }
-        },
-        "played": 4,
-        "wins": 0,
-        "draws": 0,
-        "losses": 4,
+        "losses": 3,
         "winsAET": 0,
         "winsAP": 0,
         "lossesAP": 0,
@@ -1739,21 +1943,18 @@
         "position": 12,
         "highlight": false,
         "m1": {
-          "matchId": 52416793,
+          "matchId": 52416796,
           "result": "L"
         },
         "m2": {
-          "matchId": 52416783,
+          "matchId": 52416791,
           "result": "L"
         },
         "m3": {
-          "matchId": 52416780,
+          "matchId": 52416785,
           "result": "L"
         },
-        "m4": {
-          "matchId": 52416767,
-          "result": "L"
-        },
+        "m4": {},
         "m5": {}
       }
     ]
