@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T00:02:54.792Z",
+  "generatedAt": "2026-10-12T20:57:18.718Z",
   "upcomingFixtures": [
     {
       "id": 52416803,
@@ -8,6 +8,15 @@
       "date": "2026-10-17T10:00:00.000Z",
       "round": "7",
       "opponent": "Rialto FC",
+      "isHome": false
+    },
+    {
+      "id": 52416806,
+      "competitionId": "51454018",
+      "competitionName": "AUL / UCFL Division 2A",
+      "date": "2026-10-24T10:30:00.000Z",
+      "round": "8",
+      "opponent": "Booterstown United FC",
       "isHome": false
     }
   ],
@@ -479,6 +488,15 @@
           "date": "2026-10-17T10:00:00.000Z",
           "round": "7",
           "opponent": "Rialto FC",
+          "isHome": false
+        },
+        {
+          "id": 52416806,
+          "competitionId": "51454018",
+          "competitionName": "AUL / UCFL Division 2A",
+          "date": "2026-10-24T10:30:00.000Z",
+          "round": "8",
+          "opponent": "Booterstown United FC",
           "isHome": false
         }
       ],
