@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T00:05:44.251Z",
+  "generatedAt": "2026-10-16T16:09:14.536Z",
   "upcomingFixtures": [
     {
       "id": 52416803,
@@ -17,6 +17,15 @@
       "date": "2026-10-24T10:30:00.000Z",
       "round": "8",
       "opponent": "Booterstown United FC",
+      "isHome": false
+    },
+    {
+      "id": 52416816,
+      "competitionId": "51454018",
+      "competitionName": "AUL / UCFL Division 2A",
+      "date": "2026-10-31T12:00:00.000Z",
+      "round": "9",
+      "opponent": "St Teresa’s Football Club 2A",
       "isHome": false
     }
   ],
@@ -497,6 +506,15 @@
           "date": "2026-10-24T10:30:00.000Z",
           "round": "8",
           "opponent": "Booterstown United FC",
+          "isHome": false
+        },
+        {
+          "id": 52416816,
+          "competitionId": "51454018",
+          "competitionName": "AUL / UCFL Division 2A",
+          "date": "2026-10-31T12:00:00.000Z",
+          "round": "9",
+          "opponent": "St Teresa’s Football Club 2A",
           "isHome": false
         }
       ],
