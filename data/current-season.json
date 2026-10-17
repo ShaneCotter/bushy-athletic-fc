@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T14:31:30.868Z",
+  "generatedAt": "2026-10-17T17:34:45.084Z",
   "upcomingFixtures": [
     {
       "id": 52416806,
@@ -549,15 +549,25 @@
         {
           "position": 4,
           "teamName": "York Road",
-          "played": 5,
-          "won": 3,
+          "played": 6,
+          "won": 4,
           "drawn": 1,
           "lost": 1,
-          "points": 10,
+          "points": 13,
           "isTargetTeam": false
         },
         {
           "position": 5,
+          "teamName": "Howth Celtic",
+          "played": 6,
+          "won": 3,
+          "drawn": 1,
+          "lost": 2,
+          "points": 10,
+          "isTargetTeam": false
+        },
+        {
+          "position": 6,
           "teamName": "Glenmalure Rovers FC",
           "played": 4,
           "won": 2,
@@ -567,22 +577,12 @@
           "isTargetTeam": false
         },
         {
-          "position": 6,
-          "teamName": "Howth Celtic",
-          "played": 5,
-          "won": 2,
-          "drawn": 1,
-          "lost": 2,
-          "points": 7,
-          "isTargetTeam": false
-        },
-        {
           "position": 7,
           "teamName": "Mulhuddart FC",
-          "played": 4,
+          "played": 5,
           "won": 2,
           "drawn": 0,
-          "lost": 2,
+          "lost": 3,
           "points": 6,
           "isTargetTeam": false
         },
@@ -629,10 +629,10 @@
         {
           "position": 12,
           "teamName": "Rathmines Roosters",
-          "played": 3,
+          "played": 4,
           "won": 0,
           "drawn": 0,
-          "lost": 3,
+          "lost": 4,
           "points": 0,
           "isTargetTeam": false
         }

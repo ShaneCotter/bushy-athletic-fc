@@ -1,6 +1,6 @@
 {
   "note": "Extra Clubforce data for occasional team analysis. Not loaded by the public website.",
-  "generatedAt": "2026-10-17T14:31:30.869Z",
+  "generatedAt": "2026-10-17T17:34:45.085Z",
   "league": {
     "id": "51454018",
     "name": "AUL / UCFL Division 2A",
@@ -1544,8 +1544,8 @@
             "allowDetail": true
           }
         },
-        "played": 5,
-        "wins": 3,
+        "played": 6,
+        "wins": 4,
         "draws": 1,
         "losses": 1,
         "winsAET": 0,
@@ -1553,29 +1553,80 @@
         "lossesAP": 0,
         "goalsFor": 0,
         "goalsAgainst": 0,
-        "points": 10,
+        "points": 13,
         "negativePoints": 0,
         "position": 4,
         "highlight": false,
         "m1": {
+          "matchId": 52416804,
+          "result": "W"
+        },
+        "m2": {
           "matchId": 52416795,
           "result": "L"
         },
-        "m2": {
+        "m3": {
           "matchId": 52416793,
           "result": "W"
         },
-        "m3": {
+        "m4": {
           "matchId": 52416782,
           "result": "W"
         },
-        "m4": {
+        "m5": {
           "matchId": 52416771,
           "result": "D"
+        }
+      },
+      {
+        "team": {
+          "id": 30555,
+          "fifaId": "1463ZSH",
+          "name": "Howth Celtic FC B",
+          "picture": "4b6183da-c97d-4395-9a01-25b3553d5ef7",
+          "place": "Howth",
+          "allowDetail": true,
+          "parent": {
+            "id": 11088,
+            "fifaId": "1463ZSH",
+            "name": "Howth Celtic",
+            "picture": "4b6183da-c97d-4395-9a01-25b3553d5ef7",
+            "place": "Howth",
+            "allowDetail": true
+          }
+        },
+        "played": 6,
+        "wins": 3,
+        "draws": 1,
+        "losses": 2,
+        "winsAET": 0,
+        "winsAP": 0,
+        "lossesAP": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "points": 10,
+        "negativePoints": 0,
+        "position": 5,
+        "highlight": false,
+        "m1": {
+          "matchId": 52416801,
+          "result": "W"
+        },
+        "m2": {
+          "matchId": 52416799,
+          "result": "W"
+        },
+        "m3": {
+          "matchId": 52416788,
+          "result": "W"
+        },
+        "m4": {
+          "matchId": 52416787,
+          "result": "L"
         },
         "m5": {
-          "matchId": 52416768,
-          "result": "W"
+          "matchId": 52416778,
+          "result": "L"
         }
       },
       {
@@ -1606,7 +1657,7 @@
         "goalsAgainst": 0,
         "points": 8,
         "negativePoints": 0,
-        "position": 5,
+        "position": 6,
         "highlight": false,
         "m1": {
           "matchId": 52416789,
@@ -1628,57 +1679,6 @@
       },
       {
         "team": {
-          "id": 30555,
-          "fifaId": "1463ZSH",
-          "name": "Howth Celtic FC B",
-          "picture": "4b6183da-c97d-4395-9a01-25b3553d5ef7",
-          "place": "Howth",
-          "allowDetail": true,
-          "parent": {
-            "id": 11088,
-            "fifaId": "1463ZSH",
-            "name": "Howth Celtic",
-            "picture": "4b6183da-c97d-4395-9a01-25b3553d5ef7",
-            "place": "Howth",
-            "allowDetail": true
-          }
-        },
-        "played": 5,
-        "wins": 2,
-        "draws": 1,
-        "losses": 2,
-        "winsAET": 0,
-        "winsAP": 0,
-        "lossesAP": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "points": 7,
-        "negativePoints": 0,
-        "position": 6,
-        "highlight": false,
-        "m1": {
-          "matchId": 52416799,
-          "result": "W"
-        },
-        "m2": {
-          "matchId": 52416788,
-          "result": "W"
-        },
-        "m3": {
-          "matchId": 52416787,
-          "result": "L"
-        },
-        "m4": {
-          "matchId": 52416778,
-          "result": "L"
-        },
-        "m5": {
-          "matchId": 52416766,
-          "result": "D"
-        }
-      },
-      {
-        "team": {
           "id": 63560,
           "fifaId": "1463TBH",
           "name": "Mulhuddart FC AUL",
@@ -1694,10 +1694,10 @@
             "allowDetail": true
           }
         },
-        "played": 4,
+        "played": 5,
         "wins": 2,
         "draws": 0,
-        "losses": 2,
+        "losses": 3,
         "winsAET": 0,
         "winsAP": 0,
         "lossesAP": 0,
@@ -1708,22 +1708,25 @@
         "position": 7,
         "highlight": false,
         "m1": {
-          "matchId": 52416790,
+          "matchId": 52416801,
           "result": "L"
         },
         "m2": {
+          "matchId": 52416790,
+          "result": "L"
+        },
+        "m3": {
           "matchId": 52416785,
           "result": "W"
         },
-        "m3": {
+        "m4": {
           "matchId": 52416779,
           "result": "W"
         },
-        "m4": {
+        "m5": {
           "matchId": 52416768,
           "result": "L"
-        },
-        "m5": {}
+        }
       },
       {
         "team": {
@@ -1946,10 +1949,10 @@
             "allowDetail": true
           }
         },
-        "played": 3,
+        "played": 4,
         "wins": 0,
         "draws": 0,
-        "losses": 3,
+        "losses": 4,
         "winsAET": 0,
         "winsAP": 0,
         "lossesAP": 0,
@@ -1960,18 +1963,21 @@
         "position": 12,
         "highlight": false,
         "m1": {
-          "matchId": 52416796,
+          "matchId": 52416804,
           "result": "L"
         },
         "m2": {
-          "matchId": 52416791,
+          "matchId": 52416796,
           "result": "L"
         },
         "m3": {
+          "matchId": 52416791,
+          "result": "L"
+        },
+        "m4": {
           "matchId": 52416785,
           "result": "L"
         },
-        "m4": {},
         "m5": {}
       }
     ]
