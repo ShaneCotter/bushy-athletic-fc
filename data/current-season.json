@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T00:10:14.208Z",
+  "generatedAt": "2026-10-17T14:31:30.868Z",
   "upcomingFixtures": [
     {
       "id": 52416806,
@@ -519,30 +519,30 @@
         {
           "position": 1,
           "teamName": "Rialto FC",
-          "played": 5,
-          "won": 5,
+          "played": 6,
+          "won": 6,
           "drawn": 0,
           "lost": 0,
-          "points": 15,
+          "points": 18,
           "isTargetTeam": false
         },
         {
           "position": 2,
           "teamName": "Malahide United AFC",
-          "played": 6,
-          "won": 4,
+          "played": 7,
+          "won": 5,
           "drawn": 1,
           "lost": 1,
-          "points": 13,
+          "points": 16,
           "isTargetTeam": false
         },
         {
           "position": 3,
           "teamName": "ParkCeltic Summerhill FC",
-          "played": 6,
+          "played": 7,
           "won": 4,
           "drawn": 1,
-          "lost": 1,
+          "lost": 2,
           "points": 13,
           "isTargetTeam": false
         },
@@ -619,10 +619,10 @@
         {
           "position": 11,
           "teamName": "Booterstown United FC",
-          "played": 6,
+          "played": 7,
           "won": 0,
           "drawn": 2,
-          "lost": 4,
+          "lost": 5,
           "points": 2,
           "isTargetTeam": false
         },

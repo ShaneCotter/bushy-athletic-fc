@@ -1,6 +1,6 @@
 {
   "note": "Extra Clubforce data for occasional team analysis. Not loaded by the public website.",
-  "generatedAt": "2026-10-17T00:10:14.209Z",
+  "generatedAt": "2026-10-17T14:31:30.869Z",
   "league": {
     "id": "51454018",
     "name": "AUL / UCFL Division 2A",
@@ -1391,8 +1391,8 @@
             "allowDetail": true
           }
         },
-        "played": 5,
-        "wins": 5,
+        "played": 6,
+        "wins": 6,
         "draws": 0,
         "losses": 0,
         "winsAET": 0,
@@ -1400,28 +1400,28 @@
         "lossesAP": 0,
         "goalsFor": 0,
         "goalsAgainst": 0,
-        "points": 15,
+        "points": 18,
         "negativePoints": 0,
         "position": 1,
         "highlight": false,
         "m1": {
-          "matchId": 52416796,
+          "matchId": 56392073,
           "result": "W"
         },
         "m2": {
-          "matchId": 52416792,
+          "matchId": 52416796,
           "result": "W"
         },
         "m3": {
-          "matchId": 52416783,
+          "matchId": 52416792,
           "result": "W"
         },
         "m4": {
-          "matchId": 52416770,
+          "matchId": 52416783,
           "result": "W"
         },
         "m5": {
-          "matchId": 52416769,
+          "matchId": 52416770,
           "result": "W"
         }
       },
@@ -1442,8 +1442,8 @@
             "allowDetail": true
           }
         },
-        "played": 6,
-        "wins": 4,
+        "played": 7,
+        "wins": 5,
         "draws": 1,
         "losses": 1,
         "winsAET": 0,
@@ -1451,28 +1451,28 @@
         "lossesAP": 0,
         "goalsFor": 0,
         "goalsAgainst": 0,
-        "points": 13,
+        "points": 16,
         "negativePoints": 0,
         "position": 2,
         "highlight": false,
         "m1": {
+          "matchId": 52416800,
+          "result": "W"
+        },
+        "m2": {
           "matchId": 52416799,
           "result": "L"
         },
-        "m2": {
+        "m3": {
           "matchId": 52416789,
           "result": "D"
         },
-        "m3": {
+        "m4": {
           "matchId": 52416786,
           "result": "W"
         },
-        "m4": {
-          "matchId": 52416778,
-          "result": "W"
-        },
         "m5": {
-          "matchId": 52416773,
+          "matchId": 52416778,
           "result": "W"
         }
       },
@@ -1493,10 +1493,10 @@
             "allowDetail": true
           }
         },
-        "played": 6,
+        "played": 7,
         "wins": 4,
         "draws": 1,
-        "losses": 1,
+        "losses": 2,
         "winsAET": 0,
         "winsAP": 0,
         "lossesAP": 0,
@@ -1507,24 +1507,24 @@
         "position": 3,
         "highlight": false,
         "m1": {
+          "matchId": 56392073,
+          "result": "L"
+        },
+        "m2": {
           "matchId": 52416797,
           "result": "W"
         },
-        "m2": {
+        "m3": {
           "matchId": 52416791,
           "result": "W"
         },
-        "m3": {
+        "m4": {
           "matchId": 52416784,
           "result": "W"
         },
-        "m4": {
+        "m5": {
           "matchId": 52416780,
           "result": "W"
-        },
-        "m5": {
-          "matchId": 52416771,
-          "result": "D"
         }
       },
       {
@@ -1895,10 +1895,10 @@
             "allowDetail": true
           }
         },
-        "played": 6,
+        "played": 7,
         "wins": 0,
         "draws": 2,
-        "losses": 4,
+        "losses": 5,
         "winsAET": 0,
         "winsAP": 0,
         "lossesAP": 0,
@@ -1909,24 +1909,24 @@
         "position": 11,
         "highlight": false,
         "m1": {
-          "matchId": 52416794,
+          "matchId": 52416800,
           "result": "L"
         },
         "m2": {
-          "matchId": 52416788,
+          "matchId": 52416794,
           "result": "L"
         },
         "m3": {
-          "matchId": 52416782,
+          "matchId": 52416788,
           "result": "L"
         },
         "m4": {
-          "matchId": 52416776,
-          "result": "D"
+          "matchId": 52416782,
+          "result": "L"
         },
         "m5": {
-          "matchId": 52416770,
-          "result": "L"
+          "matchId": 52416776,
+          "result": "D"
         }
       },
       {
