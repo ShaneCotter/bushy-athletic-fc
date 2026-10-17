@@ -1,15 +1,6 @@
 {
-  "generatedAt": "2026-10-16T16:09:14.536Z",
+  "generatedAt": "2026-10-17T00:10:14.208Z",
   "upcomingFixtures": [
-    {
-      "id": 52416803,
-      "competitionId": "51454018",
-      "competitionName": "AUL / UCFL Division 2A",
-      "date": "2026-10-17T10:00:00.000Z",
-      "round": "7",
-      "opponent": "Rialto FC",
-      "isHome": false
-    },
     {
       "id": 52416806,
       "competitionId": "51454018",
@@ -365,14 +356,28 @@
         }
       },
       "teamRecord": {
-        "played": 5,
+        "played": 6,
         "won": 1,
-        "drawn": 1,
+        "drawn": 2,
         "lost": 3,
         "goalsFor": 8,
         "goalsAgainst": 13
       },
       "matches": [
+        {
+          "id": 52416803,
+          "competitionId": "51454018",
+          "competitionName": "AUL / UCFL Division 2A",
+          "date": "2026-10-17T10:00:00.000Z",
+          "round": "7",
+          "opponent": "Rialto FC",
+          "isHome": false,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "result": "D",
+          "scoreline": "0-0",
+          "goalScorers": []
+        },
         {
           "id": 52416797,
           "competitionId": "51454018",
@@ -490,15 +495,6 @@
         }
       ],
       "fixtures": [
-        {
-          "id": 52416803,
-          "competitionId": "51454018",
-          "competitionName": "AUL / UCFL Division 2A",
-          "date": "2026-10-17T10:00:00.000Z",
-          "round": "7",
-          "opponent": "Rialto FC",
-          "isHome": false
-        },
         {
           "id": 52416806,
           "competitionId": "51454018",
