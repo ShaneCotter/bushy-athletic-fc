@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T23:33:58.456Z",
+  "generatedAt": "2026-10-18T14:58:23.998Z",
   "upcomingFixtures": [
     {
       "id": 52416806,
@@ -578,6 +578,16 @@
         },
         {
           "position": 7,
+          "teamName": "Ely Woodlawn FC",
+          "played": 7,
+          "won": 2,
+          "drawn": 1,
+          "lost": 4,
+          "points": 7,
+          "isTargetTeam": false
+        },
+        {
+          "position": 8,
           "teamName": "Mulhuddart FC",
           "played": 5,
           "won": 2,
@@ -587,7 +597,7 @@
           "isTargetTeam": false
         },
         {
-          "position": 8,
+          "position": 9,
           "teamName": "Bushy Athletic",
           "played": 5,
           "won": 1,
@@ -597,22 +607,12 @@
           "isTargetTeam": true
         },
         {
-          "position": 9,
-          "teamName": "Ely Woodlawn FC",
-          "played": 6,
-          "won": 1,
-          "drawn": 1,
-          "lost": 4,
-          "points": 4,
-          "isTargetTeam": false
-        },
-        {
           "position": 10,
           "teamName": "St Teresa’s Football Club",
-          "played": 5,
+          "played": 6,
           "won": 1,
           "drawn": 0,
-          "lost": 4,
+          "lost": 5,
           "points": 3,
           "isTargetTeam": false
         },
