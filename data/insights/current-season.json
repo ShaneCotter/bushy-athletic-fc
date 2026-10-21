@@ -1,6 +1,6 @@
 {
   "note": "Extra Clubforce data for occasional team analysis. Not loaded by the public website.",
-  "generatedAt": "2026-10-20T16:24:35.465Z",
+  "generatedAt": "2026-10-21T00:23:33.274Z",
   "league": {
     "id": "51454018",
     "name": "AUL / UCFL Division 2A",
@@ -1785,14 +1785,14 @@
           "fifaId": "146468F",
           "name": "Bushy Athletic FC UCFL Division 3B",
           "picture": "bca98fe4-e5b4-40b2-acf4-6128085d1ef4",
-          "place": "Walkinstown",
+          "place": "Tallaght",
           "allowDetail": true,
           "parent": {
             "id": 10334,
             "fifaId": "146468F",
             "name": "Bushy Athletic",
             "picture": "bca98fe4-e5b4-40b2-acf4-6128085d1ef4",
-            "place": "Walkinstown",
+            "place": "Tallaght",
             "allowDetail": true
           }
         },
