@@ -1,6 +1,6 @@
 {
   "note": "Extra Clubforce data for occasional team analysis. Not loaded by the public website.",
-  "generatedAt": "2026-10-23T16:32:24.676Z",
+  "generatedAt": "2026-10-24T00:16:57.422Z",
   "league": {
     "id": "51454018",
     "name": "AUL / UCFL Division 2A",
@@ -359,6 +359,23 @@
       }
     ],
     "matches": [
+      {
+        "matchId": 52416806,
+        "competitionId": 51454018,
+        "competitionName": "AUL / UCFL Division 2A",
+        "date": "2026-10-24T10:30:00.000Z",
+        "round": "8",
+        "homeTeam": "Booterstown United FC",
+        "awayTeam": "Bushy Athletic FC UCFL Division 3B",
+        "homeGoals": null,
+        "awayGoals": null,
+        "teamSide": "away",
+        "events": [],
+        "lineup": {
+          "starters": [],
+          "substitutes": []
+        }
+      },
       {
         "matchId": 52416803,
         "competitionId": 51454018,

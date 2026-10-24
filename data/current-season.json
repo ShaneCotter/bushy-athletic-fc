@@ -1,15 +1,6 @@
 {
-  "generatedAt": "2026-10-23T16:32:24.675Z",
+  "generatedAt": "2026-10-24T00:16:57.421Z",
   "upcomingFixtures": [
-    {
-      "id": 52416806,
-      "competitionId": "51454018",
-      "competitionName": "AUL / UCFL Division 2A",
-      "date": "2026-10-24T10:30:00.000Z",
-      "round": "8",
-      "opponent": "Booterstown United FC",
-      "isHome": false
-    },
     {
       "id": 52416816,
       "competitionId": "51454018",
@@ -356,14 +347,28 @@
         }
       },
       "teamRecord": {
-        "played": 6,
+        "played": 7,
         "won": 1,
-        "drawn": 2,
+        "drawn": 3,
         "lost": 3,
         "goalsFor": 8,
         "goalsAgainst": 13
       },
       "matches": [
+        {
+          "id": 52416806,
+          "competitionId": "51454018",
+          "competitionName": "AUL / UCFL Division 2A",
+          "date": "2026-10-24T10:30:00.000Z",
+          "round": "8",
+          "opponent": "Booterstown United FC",
+          "isHome": false,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "result": "D",
+          "scoreline": "0-0",
+          "goalScorers": []
+        },
         {
           "id": 52416803,
           "competitionId": "51454018",
@@ -495,15 +500,6 @@
         }
       ],
       "fixtures": [
-        {
-          "id": 52416806,
-          "competitionId": "51454018",
-          "competitionName": "AUL / UCFL Division 2A",
-          "date": "2026-10-24T10:30:00.000Z",
-          "round": "8",
-          "opponent": "Booterstown United FC",
-          "isHome": false
-        },
         {
           "id": 52416816,
           "competitionId": "51454018",
