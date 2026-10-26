@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T00:48:21.246Z",
+  "generatedAt": "2026-10-26T19:02:03.479Z",
   "upcomingFixtures": [
     {
       "id": 52416816,
@@ -8,6 +8,15 @@
       "date": "2026-10-31T12:00:00.000Z",
       "round": "9",
       "opponent": "St Teresa’s Football Club 2A",
+      "isHome": false
+    },
+    {
+      "id": 52416823,
+      "competitionId": "51454018",
+      "competitionName": "AUL / UCFL Division 2A",
+      "date": "2026-11-07T11:00:00.000Z",
+      "round": "10",
+      "opponent": "ParkCeltic Summerhill UCFL Men",
       "isHome": false
     }
   ],
@@ -507,6 +516,15 @@
           "date": "2026-10-31T12:00:00.000Z",
           "round": "9",
           "opponent": "St Teresa’s Football Club 2A",
+          "isHome": false
+        },
+        {
+          "id": 52416823,
+          "competitionId": "51454018",
+          "competitionName": "AUL / UCFL Division 2A",
+          "date": "2026-11-07T11:00:00.000Z",
+          "round": "10",
+          "opponent": "ParkCeltic Summerhill UCFL Men",
           "isHome": false
         }
       ],
