@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T02:24:47.533Z",
+  "generatedAt": "2026-10-30T18:25:17.474Z",
   "upcomingFixtures": [
     {
       "id": 52416816,
@@ -17,6 +17,15 @@
       "date": "2026-11-07T11:00:00.000Z",
       "round": "10",
       "opponent": "ParkCeltic Summerhill UCFL Men",
+      "isHome": false
+    },
+    {
+      "id": 52416829,
+      "competitionId": "51454018",
+      "competitionName": "AUL / UCFL Division 2A",
+      "date": "2026-11-14T11:00:00.000Z",
+      "round": "11",
+      "opponent": "Rathmines Roosters FC",
       "isHome": false
     }
   ],
@@ -525,6 +534,15 @@
           "date": "2026-11-07T11:00:00.000Z",
           "round": "10",
           "opponent": "ParkCeltic Summerhill UCFL Men",
+          "isHome": false
+        },
+        {
+          "id": 52416829,
+          "competitionId": "51454018",
+          "competitionName": "AUL / UCFL Division 2A",
+          "date": "2026-11-14T11:00:00.000Z",
+          "round": "11",
+          "opponent": "Rathmines Roosters FC",
           "isHome": false
         }
       ],
