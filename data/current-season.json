@@ -1,15 +1,6 @@
 {
-  "generatedAt": "2026-10-30T18:25:17.474Z",
+  "generatedAt": "2026-10-31T02:02:06.828Z",
   "upcomingFixtures": [
-    {
-      "id": 52416816,
-      "competitionId": "51454018",
-      "competitionName": "AUL / UCFL Division 2A",
-      "date": "2026-10-31T12:00:00.000Z",
-      "round": "9",
-      "opponent": "St Teresa’s Football Club 2A",
-      "isHome": false
-    },
     {
       "id": 52416823,
       "competitionId": "51454018",
@@ -365,14 +356,28 @@
         }
       },
       "teamRecord": {
-        "played": 7,
+        "played": 8,
         "won": 1,
-        "drawn": 3,
+        "drawn": 4,
         "lost": 3,
         "goalsFor": 8,
         "goalsAgainst": 13
       },
       "matches": [
+        {
+          "id": 52416816,
+          "competitionId": "51454018",
+          "competitionName": "AUL / UCFL Division 2A",
+          "date": "2026-10-31T12:00:00.000Z",
+          "round": "9",
+          "opponent": "St Teresa’s Football Club 2A",
+          "isHome": false,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "result": "D",
+          "scoreline": "0-0",
+          "goalScorers": []
+        },
         {
           "id": 52416806,
           "competitionId": "51454018",
@@ -518,15 +523,6 @@
         }
       ],
       "fixtures": [
-        {
-          "id": 52416816,
-          "competitionId": "51454018",
-          "competitionName": "AUL / UCFL Division 2A",
-          "date": "2026-10-31T12:00:00.000Z",
-          "round": "9",
-          "opponent": "St Teresa’s Football Club 2A",
-          "isHome": false
-        },
         {
           "id": 52416823,
           "competitionId": "51454018",
