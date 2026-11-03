@@ -1,6 +1,6 @@
 {
   "note": "Extra Clubforce data for occasional team analysis. Not loaded by the public website.",
-  "generatedAt": "2026-11-02T22:09:43.303Z",
+  "generatedAt": "2026-11-03T04:04:56.795Z",
   "league": {
     "id": "51454018",
     "name": "AUL / UCFL Division 2A",
@@ -19,7 +19,7 @@
         "yellowCards": 1,
         "redCards": 0,
         "captain": 0,
-        "lineupAppearanceEvidence": 4
+        "lineupAppearanceEvidence": 3
       },
       {
         "personId": 645060,
@@ -51,7 +51,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "captain": 0,
-        "lineupAppearanceEvidence": 1
+        "lineupAppearanceEvidence": 0
       },
       {
         "personId": 552671,
@@ -67,55 +67,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "captain": 0,
-        "lineupAppearanceEvidence": 1
-      },
-      {
-        "personId": 213475,
-        "name": "DUFFY Conor",
-        "shortName": "DUFFY C.",
-        "minutesPlayed": 11,
-        "matchesPlayed": 1,
-        "fullMatchesPlayed": 0,
-        "goals": 0,
-        "assists": 0,
-        "penalties": 0,
-        "ownGoals": 0,
-        "yellowCards": 0,
-        "redCards": 0,
-        "captain": 0,
-        "lineupAppearanceEvidence": 1
-      },
-      {
-        "personId": 46556,
-        "name": "DUFFY Ian",
-        "shortName": "DUFFY I.",
-        "minutesPlayed": 129,
-        "matchesPlayed": 3,
-        "fullMatchesPlayed": 1,
-        "goals": 0,
-        "assists": 0,
-        "penalties": 0,
-        "ownGoals": 0,
-        "yellowCards": 1,
-        "redCards": 0,
-        "captain": 0,
-        "lineupAppearanceEvidence": 3
-      },
-      {
-        "personId": 564503,
-        "name": "DUNNE Mark",
-        "shortName": "DUNNE M.",
-        "minutesPlayed": 360,
-        "matchesPlayed": 4,
-        "fullMatchesPlayed": 4,
-        "goals": 0,
-        "assists": 0,
-        "penalties": 0,
-        "ownGoals": 0,
-        "yellowCards": 1,
-        "redCards": 0,
-        "captain": 0,
-        "lineupAppearanceEvidence": 4
+        "lineupAppearanceEvidence": 0
       },
       {
         "personId": 229068,
@@ -131,7 +83,7 @@
         "yellowCards": 2,
         "redCards": 0,
         "captain": 0,
-        "lineupAppearanceEvidence": 6
+        "lineupAppearanceEvidence": 4
       },
       {
         "personId": 422938,
@@ -147,7 +99,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "captain": 5,
-        "lineupAppearanceEvidence": 5
+        "lineupAppearanceEvidence": 4
       },
       {
         "personId": 565142,
@@ -163,7 +115,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "captain": 0,
-        "lineupAppearanceEvidence": 3
+        "lineupAppearanceEvidence": 1
       },
       {
         "personId": 375724,
@@ -177,22 +129,6 @@
         "penalties": 0,
         "ownGoals": 0,
         "yellowCards": 3,
-        "redCards": 0,
-        "captain": 0,
-        "lineupAppearanceEvidence": 5
-      },
-      {
-        "personId": 660084,
-        "name": "HENDERSON Ryan",
-        "shortName": "HENDERSON R.",
-        "minutesPlayed": 157,
-        "matchesPlayed": 4,
-        "fullMatchesPlayed": 0,
-        "goals": 0,
-        "assists": 0,
-        "penalties": 0,
-        "ownGoals": 0,
-        "yellowCards": 1,
         "redCards": 0,
         "captain": 0,
         "lineupAppearanceEvidence": 4
@@ -227,22 +163,6 @@
         "yellowCards": 1,
         "redCards": 0,
         "captain": 0,
-        "lineupAppearanceEvidence": 4
-      },
-      {
-        "personId": 386490,
-        "name": "LENAHAN Ben",
-        "shortName": "LENAHAN B.",
-        "minutesPlayed": 170,
-        "matchesPlayed": 2,
-        "fullMatchesPlayed": 1,
-        "goals": 0,
-        "assists": 0,
-        "penalties": 0,
-        "ownGoals": 0,
-        "yellowCards": 0,
-        "redCards": 0,
-        "captain": 0,
         "lineupAppearanceEvidence": 2
       },
       {
@@ -275,7 +195,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "captain": 0,
-        "lineupAppearanceEvidence": 5
+        "lineupAppearanceEvidence": 3
       },
       {
         "personId": 43314,
@@ -291,23 +211,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "captain": 0,
-        "lineupAppearanceEvidence": 2
-      },
-      {
-        "personId": 501816,
-        "name": "PATCHELL Glen",
-        "shortName": "PATCHELL G.",
-        "minutesPlayed": 134,
-        "matchesPlayed": 3,
-        "fullMatchesPlayed": 1,
-        "goals": 0,
-        "assists": 0,
-        "penalties": 0,
-        "ownGoals": 0,
-        "yellowCards": 0,
-        "redCards": 0,
-        "captain": 0,
-        "lineupAppearanceEvidence": 3
+        "lineupAppearanceEvidence": 1
       },
       {
         "personId": 386492,
@@ -323,7 +227,7 @@
         "yellowCards": 0,
         "redCards": 1,
         "captain": 0,
-        "lineupAppearanceEvidence": 4
+        "lineupAppearanceEvidence": 3
       },
       {
         "personId": 548582,
@@ -339,7 +243,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "captain": 0,
-        "lineupAppearanceEvidence": 3
+        "lineupAppearanceEvidence": 1
       },
       {
         "personId": 568824,
@@ -355,7 +259,7 @@
         "yellowCards": 1,
         "redCards": 0,
         "captain": 1,
-        "lineupAppearanceEvidence": 5
+        "lineupAppearanceEvidence": 3
       },
       {
         "personId": 607261,
@@ -371,7 +275,7 @@
         "yellowCards": 1,
         "redCards": 0,
         "captain": 0,
-        "lineupAppearanceEvidence": 5
+        "lineupAppearanceEvidence": 4
       },
       {
         "personId": 65260,
@@ -387,7 +291,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "captain": 0,
-        "lineupAppearanceEvidence": 5
+        "lineupAppearanceEvidence": 3
       }
     ],
     "matches": [
@@ -538,80 +442,8 @@
           }
         ],
         "lineup": {
-          "starters": [
-            {
-              "personId": 285560,
-              "name": "MURPHY Daniel",
-              "shirtNumber": 1
-            },
-            {
-              "personId": 501816,
-              "name": "PATCHELL Glen",
-              "shirtNumber": 2
-            },
-            {
-              "personId": 565142,
-              "name": "HAND Ross",
-              "shirtNumber": 3
-            },
-            {
-              "personId": 229068,
-              "name": "DUNNE Micheal",
-              "shirtNumber": 4
-            },
-            {
-              "personId": 548582,
-              "name": "SHEILS Kian Patrick",
-              "shirtNumber": 5
-            },
-            {
-              "personId": 375724,
-              "name": "HARMAN Luke",
-              "shirtNumber": 6
-            },
-            {
-              "personId": 658488,
-              "name": "KIERNAN David",
-              "shirtNumber": 7
-            },
-            {
-              "personId": 249011,
-              "name": "CAREY Liam",
-              "shirtNumber": 8
-            },
-            {
-              "personId": 568824,
-              "name": "SOPER Mark",
-              "shirtNumber": 9
-            },
-            {
-              "personId": 386490,
-              "name": "LENAHAN Ben",
-              "shirtNumber": 10
-            },
-            {
-              "personId": 65260,
-              "name": "DUNNE Max",
-              "shirtNumber": 11
-            }
-          ],
-          "substitutes": [
-            {
-              "personId": 660467,
-              "name": "DOYLE Led",
-              "shirtNumber": 12
-            },
-            {
-              "personId": 213475,
-              "name": "DUFFY Conor",
-              "shirtNumber": 13
-            },
-            {
-              "personId": 422938,
-              "name": "DUNNE Stephen",
-              "shirtNumber": 14
-            }
-          ]
+          "starters": [],
+          "substitutes": []
         }
       },
       {
@@ -746,90 +578,8 @@
           }
         ],
         "lineup": {
-          "starters": [
-            {
-              "personId": 285560,
-              "name": "MURPHY Daniel",
-              "shirtNumber": 1
-            },
-            {
-              "personId": 658488,
-              "name": "KIERNAN David",
-              "shirtNumber": 2
-            },
-            {
-              "personId": 548582,
-              "name": "SHEILS Kian Patrick",
-              "shirtNumber": 3
-            },
-            {
-              "personId": 422938,
-              "name": "DUNNE Stephen",
-              "shirtNumber": 4
-            },
-            {
-              "personId": 564503,
-              "name": "DUNNE Mark",
-              "shirtNumber": 5
-            },
-            {
-              "personId": 660084,
-              "name": "HENDERSON Ryan",
-              "shirtNumber": 6
-            },
-            {
-              "personId": 65260,
-              "name": "DUNNE Max",
-              "shirtNumber": 7
-            },
-            {
-              "personId": 229068,
-              "name": "DUNNE Micheal",
-              "shirtNumber": 8
-            },
-            {
-              "personId": 568824,
-              "name": "SOPER Mark",
-              "shirtNumber": 9
-            },
-            {
-              "personId": 607261,
-              "name": "SRI-UTTHA Alec",
-              "shirtNumber": 10
-            },
-            {
-              "personId": 386492,
-              "name": "ROGERS Jack",
-              "shirtNumber": 11
-            }
-          ],
-          "substitutes": [
-            {
-              "personId": 43314,
-              "name": "NEILAN Dean",
-              "shirtNumber": 12
-            },
-            {
-              "personId": 552671,
-              "name": "DOYLE MCDERMOTT Steven",
-              "shirtNumber": 13
-            },
-            {
-              "personId": 501816,
-              "name": "PATCHELL Glen",
-              "shirtNumber": 14
-            },
-            {
-              "personId": 565142,
-              "name": "HAND Ross",
-              "shirtNumber": 15
-            },
-            {
-              "personId": 46556,
-              "name": "DUFFY Ian",
-              "shirtNumber": 16
-            }
-          ]
+          "starters": [],
+          "substitutes": []
         }
       },
       {
@@ -843,141 +593,7 @@
         "homeGoals": null,
         "awayGoals": null,
         "teamSide": "away",
-        "events": [
-          {
-            "minute": 10,
-            "type": "YELLOW",
-            "personId": 686818,
-            "playerName": "CONNOLLY Dylan",
-            "homeTeam": true
-          },
-          {
-            "minute": 42,
-            "type": "GOAL",
-            "personId": 568824,
-            "playerName": "SOPER Mark",
-            "homeTeam": false
-          },
-          {
-            "minute": 43,
-            "type": "YELLOW",
-            "personId": 723055,
-            "playerName": "CAHILL Luke",
-            "homeTeam": true
-          },
-          {
-            "minute": 51,
-            "type": "SUBSTITUTION",
-            "personId": 47467,
-            "playerName": "EMMETT Daryl",
-            "homeTeam": true
-          },
-          {
-            "minute": 51,
-            "type": "SUBSTITUTION",
-            "personId": 121603,
-            "playerName": "FETHERSTON Andrew",
-            "homeTeam": true
-          },
-          {
-            "minute": 55,
-            "type": "YELLOW",
-            "personId": 607261,
-            "playerName": "SRI-UTTHA Alec",
-            "homeTeam": false
-          },
-          {
-            "minute": 58,
-            "type": "RED",
-            "personId": 686818,
-            "playerName": "CONNOLLY Dylan",
-            "homeTeam": true
-          },
-          {
-            "minute": 58,
-            "type": "RED",
-            "personId": 36024,
-            "playerName": "KEARNS Jamie",
-            "homeTeam": false
-          },
-          {
-            "minute": 64,
-            "type": "YELLOW",
-            "personId": 229068,
-            "playerName": "DUNNE Micheal",
-            "homeTeam": false
-          },
-          {
-            "minute": 66,
-            "type": "SUBSTITUTION",
-            "personId": 660084,
-            "playerName": "HENDERSON Ryan",
-            "homeTeam": false
-          },
-          {
-            "minute": 66,
-            "type": "SUBSTITUTION",
-            "personId": 658488,
-            "playerName": "KIERNAN David",
-            "homeTeam": false
-          },
-          {
-            "minute": 73,
-            "type": "SUBSTITUTION",
-            "personId": 556361,
-            "playerName": "MACKEN-EDNEY Jason",
-            "homeTeam": true
-          },
-          {
-            "minute": 77,
-            "type": "SUBSTITUTION",
-            "personId": 438178,
-            "playerName": "SHERIDAN Craig",
-            "homeTeam": true
-          },
-          {
-            "minute": 81,
-            "type": "SUBSTITUTION",
-            "personId": 43314,
-            "playerName": "NEILAN Dean",
-            "homeTeam": false
-          },
-          {
-            "minute": 81,
-            "type": "SUBSTITUTION",
-            "personId": 46556,
-            "playerName": "DUFFY Ian",
-            "homeTeam": false
-          },
-          {
-            "minute": 86,
-            "type": "YELLOW",
-            "personId": 375724,
-            "playerName": "HARMAN Luke",
-            "homeTeam": false
-          },
-          {
-            "minute": 86,
-            "type": "YELLOW",
-            "personId": 660084,
-            "playerName": "HENDERSON Ryan",
-            "homeTeam": false
-          },
-          {
-            "minute": 90,
-            "type": "YELLOW",
-            "personId": 101825,
-            "playerName": "CUMISKEY Kyle",
-            "homeTeam": true
-          },
-          {
-            "minute": 90,
-            "type": "YELLOW",
-            "personId": 46556,
-            "playerName": "DUFFY Ian",
-            "homeTeam": false
-          }
-        ],
+        "events": [],
         "lineup": {
           "starters": [
             {

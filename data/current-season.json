@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T22:09:43.236Z",
+  "generatedAt": "2026-11-03T04:04:56.794Z",
   "upcomingFixtures": [
     {
       "id": 52416823,
@@ -94,19 +94,6 @@
           "assists": 0,
           "displayName": "NEILAN D."
         },
-        "46556": {
-          "personId": 46556,
-          "name": "DUFFY Ian",
-          "shortName": "DUFFY I.",
-          "shirtNumber": null,
-          "goals": 0,
-          "appearances": 3,
-          "minutes": 129,
-          "yellowCards": 1,
-          "redCards": 0,
-          "assists": 0,
-          "displayName": "DUFFY I."
-        },
         "65260": {
           "personId": 65260,
           "name": "Unknown",
@@ -119,19 +106,6 @@
           "redCards": 0,
           "assists": 0,
           "displayName": "DUNNE Max"
-        },
-        "213475": {
-          "personId": 213475,
-          "name": "DUFFY Conor",
-          "shortName": "DUFFY C.",
-          "shirtNumber": null,
-          "goals": 0,
-          "appearances": 1,
-          "minutes": 11,
-          "yellowCards": 0,
-          "redCards": 0,
-          "assists": 0,
-          "displayName": "DUFFY C."
         },
         "229068": {
           "personId": 229068,
@@ -185,19 +159,6 @@
           "assists": 0,
           "displayName": "HARMAN L."
         },
-        "386490": {
-          "personId": 386490,
-          "name": "LENAHAN Ben",
-          "shortName": "LENAHAN B.",
-          "shirtNumber": null,
-          "goals": 0,
-          "appearances": 2,
-          "minutes": 170,
-          "yellowCards": 0,
-          "redCards": 0,
-          "assists": 0,
-          "displayName": "LENAHAN B."
-        },
         "386492": {
           "personId": 386492,
           "name": "ROGERS Jack",
@@ -224,19 +185,6 @@
           "assists": 0,
           "displayName": "DUNNE  S."
         },
-        "501816": {
-          "personId": 501816,
-          "name": "PATCHELL Glen",
-          "shortName": "PATCHELL G.",
-          "shirtNumber": null,
-          "goals": 0,
-          "appearances": 3,
-          "minutes": 134,
-          "yellowCards": 0,
-          "redCards": 0,
-          "assists": 0,
-          "displayName": "PATCHELL G."
-        },
         "548582": {
           "personId": 548582,
           "name": "SHEILS Kian Patrick",
@@ -262,19 +210,6 @@
           "redCards": 0,
           "assists": 0,
           "displayName": "DOYLE MCDERMOTT S."
-        },
-        "564503": {
-          "personId": 564503,
-          "name": "DUNNE Mark",
-          "shortName": "DUNNE M.",
-          "shirtNumber": null,
-          "goals": 0,
-          "appearances": 4,
-          "minutes": 360,
-          "yellowCards": 1,
-          "redCards": 0,
-          "assists": 0,
-          "displayName": "DUNNE Mark"
         },
         "565142": {
           "personId": 565142,
@@ -340,19 +275,6 @@
           "redCards": 0,
           "assists": 0,
           "displayName": "KIERNAN D."
-        },
-        "660084": {
-          "personId": 660084,
-          "name": "HENDERSON Ryan",
-          "shortName": "HENDERSON R.",
-          "shirtNumber": null,
-          "goals": 0,
-          "appearances": 4,
-          "minutes": 157,
-          "yellowCards": 1,
-          "redCards": 0,
-          "assists": 0,
-          "displayName": "HENDERSON R."
         },
         "660085": {
           "personId": 660085,
@@ -458,14 +380,7 @@
           "goalsAgainst": 0,
           "result": "W",
           "scoreline": "1-0",
-          "goalScorers": [
-            {
-              "personId": 568824,
-              "shortName": "SOPER M.",
-              "minute": 42,
-              "displayName": "SOPER M."
-            }
-          ]
+          "goalScorers": []
         },
         {
           "id": 52416786,
