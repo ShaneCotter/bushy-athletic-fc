@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T00:56:58.214Z",
+  "generatedAt": "2026-11-08T18:07:54.486Z",
   "upcomingFixtures": [
     {
       "id": 52416829,
@@ -9,6 +9,15 @@
       "round": "11",
       "opponent": "Rathmines Roosters FC",
       "isHome": false
+    },
+    {
+      "id": 52416835,
+      "competitionId": "51454018",
+      "competitionName": "AUL / UCFL Division 2A",
+      "date": "2026-11-21T11:00:00.000Z",
+      "round": "12",
+      "opponent": "Rialto FC",
+      "isHome": true
     }
   ],
   "extraCompetitions": [
@@ -582,6 +591,15 @@
           "round": "11",
           "opponent": "Rathmines Roosters FC",
           "isHome": false
+        },
+        {
+          "id": 52416835,
+          "competitionId": "51454018",
+          "competitionName": "AUL / UCFL Division 2A",
+          "date": "2026-11-21T11:00:00.000Z",
+          "round": "12",
+          "opponent": "Rialto FC",
+          "isHome": true
         }
       ],
       "displayName": "2026/27 League (Division 2A)",
