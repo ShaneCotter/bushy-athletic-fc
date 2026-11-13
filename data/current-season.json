@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T03:09:52.639Z",
+  "generatedAt": "2026-11-13T20:20:23.207Z",
   "upcomingFixtures": [
     {
       "id": 52416829,
@@ -17,6 +17,15 @@
       "date": "2026-11-21T11:00:00.000Z",
       "round": "12",
       "opponent": "Rialto FC",
+      "isHome": true
+    },
+    {
+      "id": 52416841,
+      "competitionId": "51454018",
+      "competitionName": "AUL / UCFL Division 2A",
+      "date": "2026-11-28T00:00:00.000Z",
+      "round": "13",
+      "opponent": "Glenmalure Rovers FC",
       "isHome": true
     }
   ],
@@ -599,6 +608,15 @@
           "date": "2026-11-21T11:00:00.000Z",
           "round": "12",
           "opponent": "Rialto FC",
+          "isHome": true
+        },
+        {
+          "id": 52416841,
+          "competitionId": "51454018",
+          "competitionName": "AUL / UCFL Division 2A",
+          "date": "2026-11-28T00:00:00.000Z",
+          "round": "13",
+          "opponent": "Glenmalure Rovers FC",
           "isHome": true
         }
       ],
