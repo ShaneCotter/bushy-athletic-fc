@@ -1,15 +1,6 @@
 {
-  "generatedAt": "2026-11-13T20:20:23.207Z",
+  "generatedAt": "2026-11-14T02:55:07.102Z",
   "upcomingFixtures": [
-    {
-      "id": 52416829,
-      "competitionId": "51454018",
-      "competitionName": "AUL / UCFL Division 2A",
-      "date": "2026-11-14T11:00:00.000Z",
-      "round": "11",
-      "opponent": "Rathmines Roosters FC",
-      "isHome": false
-    },
     {
       "id": 52416835,
       "competitionId": "51454018",
@@ -404,14 +395,28 @@
         }
       },
       "teamRecord": {
-        "played": 9,
+        "played": 10,
         "won": 2,
-        "drawn": 3,
+        "drawn": 4,
         "lost": 4,
         "goalsFor": 9,
         "goalsAgainst": 16
       },
       "matches": [
+        {
+          "id": 52416829,
+          "competitionId": "51454018",
+          "competitionName": "AUL / UCFL Division 2A",
+          "date": "2026-11-14T11:00:00.000Z",
+          "round": "11",
+          "opponent": "Rathmines Roosters FC",
+          "isHome": false,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "result": "D",
+          "scoreline": "0-0",
+          "goalScorers": []
+        },
         {
           "id": 52416823,
           "competitionId": "51454018",
@@ -592,15 +597,6 @@
         }
       ],
       "fixtures": [
-        {
-          "id": 52416829,
-          "competitionId": "51454018",
-          "competitionName": "AUL / UCFL Division 2A",
-          "date": "2026-11-14T11:00:00.000Z",
-          "round": "11",
-          "opponent": "Rathmines Roosters FC",
-          "isHome": false
-        },
         {
           "id": 52416835,
           "competitionId": "51454018",
