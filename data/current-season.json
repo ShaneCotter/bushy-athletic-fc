@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T02:55:07.102Z",
+  "generatedAt": "2026-11-14T18:33:16.315Z",
   "upcomingFixtures": [
     {
       "id": 52416835,
@@ -621,21 +621,21 @@
         {
           "position": 1,
           "teamName": "Rialto FC",
-          "played": 7,
-          "won": 7,
+          "played": 8,
+          "won": 8,
           "drawn": 0,
           "lost": 0,
-          "points": 21,
+          "points": 24,
           "isTargetTeam": false
         },
         {
           "position": 2,
           "teamName": "Malahide United AFC",
-          "played": 8,
-          "won": 6,
+          "played": 9,
+          "won": 7,
           "drawn": 1,
           "lost": 1,
-          "points": 19,
+          "points": 22,
           "isTargetTeam": false
         },
         {
@@ -651,15 +651,25 @@
         {
           "position": 4,
           "teamName": "York Road",
-          "played": 6,
+          "played": 7,
           "won": 4,
           "drawn": 1,
-          "lost": 1,
+          "lost": 2,
           "points": 13,
           "isTargetTeam": false
         },
         {
           "position": 5,
+          "teamName": "Ely Woodlawn FC",
+          "played": 8,
+          "won": 3,
+          "drawn": 1,
+          "lost": 4,
+          "points": 10,
+          "isTargetTeam": false
+        },
+        {
+          "position": 6,
           "teamName": "Howth Celtic",
           "played": 7,
           "won": 3,
@@ -669,27 +679,27 @@
           "isTargetTeam": false
         },
         {
-          "position": 6,
+          "position": 7,
           "teamName": "Mulhuddart FC",
-          "played": 6,
+          "played": 7,
           "won": 3,
           "drawn": 0,
-          "lost": 3,
+          "lost": 4,
           "points": 9,
           "isTargetTeam": false
         },
         {
-          "position": 7,
+          "position": 8,
           "teamName": "Glenmalure Rovers FC",
-          "played": 4,
+          "played": 5,
           "won": 2,
           "drawn": 2,
-          "lost": 0,
+          "lost": 1,
           "points": 8,
           "isTargetTeam": false
         },
         {
-          "position": 8,
+          "position": 9,
           "teamName": "Bushy Athletic",
           "played": 7,
           "won": 2,
@@ -697,16 +707,6 @@
           "lost": 4,
           "points": 7,
           "isTargetTeam": true
-        },
-        {
-          "position": 9,
-          "teamName": "Ely Woodlawn FC",
-          "played": 7,
-          "won": 2,
-          "drawn": 1,
-          "lost": 4,
-          "points": 7,
-          "isTargetTeam": false
         },
         {
           "position": 10,

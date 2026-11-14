@@ -1,6 +1,6 @@
 {
   "note": "Extra Clubforce data for occasional team analysis. Not loaded by the public website.",
-  "generatedAt": "2026-11-14T02:55:07.103Z",
+  "generatedAt": "2026-11-14T18:33:16.316Z",
   "league": {
     "id": "51454018",
     "name": "AUL / UCFL Division 2A",
@@ -115,7 +115,7 @@
         "yellowCards": 1,
         "redCards": 0,
         "captain": 0,
-        "lineupAppearanceEvidence": 5
+        "lineupAppearanceEvidence": 6
       },
       {
         "personId": 229068,
@@ -131,7 +131,7 @@
         "yellowCards": 3,
         "redCards": 0,
         "captain": 0,
-        "lineupAppearanceEvidence": 7
+        "lineupAppearanceEvidence": 8
       },
       {
         "personId": 422938,
@@ -179,7 +179,7 @@
         "yellowCards": 4,
         "redCards": 0,
         "captain": 0,
-        "lineupAppearanceEvidence": 6
+        "lineupAppearanceEvidence": 7
       },
       {
         "personId": 660084,
@@ -227,7 +227,7 @@
         "yellowCards": 1,
         "redCards": 0,
         "captain": 0,
-        "lineupAppearanceEvidence": 5
+        "lineupAppearanceEvidence": 6
       },
       {
         "personId": 386490,
@@ -243,7 +243,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "captain": 0,
-        "lineupAppearanceEvidence": 3
+        "lineupAppearanceEvidence": 4
       },
       {
         "personId": 660085,
@@ -275,7 +275,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "captain": 0,
-        "lineupAppearanceEvidence": 6
+        "lineupAppearanceEvidence": 7
       },
       {
         "personId": 43314,
@@ -323,7 +323,7 @@
         "yellowCards": 0,
         "redCards": 1,
         "captain": 0,
-        "lineupAppearanceEvidence": 5
+        "lineupAppearanceEvidence": 6
       },
       {
         "personId": 548582,
@@ -355,7 +355,7 @@
         "yellowCards": 1,
         "redCards": 0,
         "captain": 2,
-        "lineupAppearanceEvidence": 6
+        "lineupAppearanceEvidence": 7
       },
       {
         "personId": 607261,
@@ -371,7 +371,7 @@
         "yellowCards": 1,
         "redCards": 0,
         "captain": 0,
-        "lineupAppearanceEvidence": 6
+        "lineupAppearanceEvidence": 7
       },
       {
         "personId": 679674,
@@ -387,7 +387,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "captain": 0,
-        "lineupAppearanceEvidence": 1
+        "lineupAppearanceEvidence": 2
       },
       {
         "personId": 65260,
@@ -403,7 +403,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "captain": 0,
-        "lineupAppearanceEvidence": 6
+        "lineupAppearanceEvidence": 7
       }
     ],
     "matches": [
@@ -420,8 +420,90 @@
         "teamSide": "away",
         "events": [],
         "lineup": {
-          "starters": [],
-          "substitutes": []
+          "starters": [
+            {
+              "personId": 285560,
+              "name": "MURPHY Daniel",
+              "shirtNumber": 1
+            },
+            {
+              "personId": 658488,
+              "name": "KIERNAN David",
+              "shirtNumber": 2
+            },
+            {
+              "personId": 375724,
+              "name": "HARMAN Luke",
+              "shirtNumber": 3
+            },
+            {
+              "personId": 679674,
+              "name": "SUTCLIFFE Daniel",
+              "shirtNumber": 4
+            },
+            {
+              "personId": 564503,
+              "name": "DUNNE Mark",
+              "shirtNumber": 5
+            },
+            {
+              "personId": 229068,
+              "name": "DUNNE Micheal",
+              "shirtNumber": 6
+            },
+            {
+              "personId": 65260,
+              "name": "DUNNE Max",
+              "shirtNumber": 7
+            },
+            {
+              "personId": 607261,
+              "name": "SRI-UTTHA Alec",
+              "shirtNumber": 8
+            },
+            {
+              "personId": 568824,
+              "name": "SOPER Mark",
+              "shirtNumber": 9
+            },
+            {
+              "personId": 386490,
+              "name": "LENAHAN Ben",
+              "shirtNumber": 10
+            },
+            {
+              "personId": 386492,
+              "name": "ROGERS Jack",
+              "shirtNumber": 11
+            }
+          ],
+          "substitutes": [
+            {
+              "personId": 249011,
+              "name": "CAREY Liam",
+              "shirtNumber": 12
+            },
+            {
+              "personId": 46556,
+              "name": "DUFFY Ian",
+              "shirtNumber": 13
+            },
+            {
+              "personId": 501816,
+              "name": "PATCHELL Glen",
+              "shirtNumber": 14
+            },
+            {
+              "personId": 660084,
+              "name": "HENDERSON Ryan",
+              "shirtNumber": 15
+            },
+            {
+              "personId": 552671,
+              "name": "DOYLE MCDERMOTT Steven",
+              "shirtNumber": 16
+            }
+          ]
         }
       },
       {
@@ -1875,8 +1957,8 @@
             "allowDetail": true
           }
         },
-        "played": 7,
-        "wins": 7,
+        "played": 8,
+        "wins": 8,
         "draws": 0,
         "losses": 0,
         "winsAET": 0,
@@ -1884,28 +1966,28 @@
         "lossesAP": 0,
         "goalsFor": 0,
         "goalsAgainst": 0,
-        "points": 21,
+        "points": 24,
         "negativePoints": 0,
         "position": 1,
         "highlight": false,
         "m1": {
-          "matchId": 52416814,
+          "matchId": 52416825,
           "result": "W"
         },
         "m2": {
-          "matchId": 56392073,
+          "matchId": 52416814,
           "result": "W"
         },
         "m3": {
-          "matchId": 52416796,
+          "matchId": 56392073,
           "result": "W"
         },
         "m4": {
-          "matchId": 52416792,
+          "matchId": 52416796,
           "result": "W"
         },
         "m5": {
-          "matchId": 52416783,
+          "matchId": 52416792,
           "result": "W"
         }
       },
@@ -1926,8 +2008,8 @@
             "allowDetail": true
           }
         },
-        "played": 8,
-        "wins": 6,
+        "played": 9,
+        "wins": 7,
         "draws": 1,
         "losses": 1,
         "winsAET": 0,
@@ -1935,29 +2017,29 @@
         "lossesAP": 0,
         "goalsFor": 0,
         "goalsAgainst": 0,
-        "points": 19,
+        "points": 22,
         "negativePoints": 0,
         "position": 2,
         "highlight": false,
         "m1": {
-          "matchId": 52416813,
+          "matchId": 52416826,
           "result": "W"
         },
         "m2": {
-          "matchId": 52416800,
+          "matchId": 52416813,
           "result": "W"
         },
         "m3": {
+          "matchId": 52416800,
+          "result": "W"
+        },
+        "m4": {
           "matchId": 52416799,
           "result": "L"
         },
-        "m4": {
+        "m5": {
           "matchId": 52416789,
           "result": "D"
-        },
-        "m5": {
-          "matchId": 52416786,
-          "result": "W"
         }
       },
       {
@@ -2028,10 +2110,10 @@
             "allowDetail": true
           }
         },
-        "played": 6,
+        "played": 7,
         "wins": 4,
         "draws": 1,
-        "losses": 1,
+        "losses": 2,
         "winsAET": 0,
         "winsAP": 0,
         "lossesAP": 0,
@@ -2042,24 +2124,75 @@
         "position": 4,
         "highlight": false,
         "m1": {
+          "matchId": 52416826,
+          "result": "L"
+        },
+        "m2": {
           "matchId": 52416804,
           "result": "W"
         },
-        "m2": {
+        "m3": {
           "matchId": 52416795,
           "result": "L"
         },
-        "m3": {
+        "m4": {
           "matchId": 52416793,
           "result": "W"
         },
-        "m4": {
+        "m5": {
           "matchId": 52416782,
           "result": "W"
+        }
+      },
+      {
+        "team": {
+          "id": 87741,
+          "fifaId": "1463SFH",
+          "name": "Ely Woodlawn FC",
+          "picture": "8fbe1676-540a-42a0-8296-c9ba06b1d9df",
+          "place": "Santry",
+          "allowDetail": true,
+          "parent": {
+            "id": 10867,
+            "fifaId": "1463SFH",
+            "name": "Ely Woodlawn FC",
+            "picture": "8fbe1676-540a-42a0-8296-c9ba06b1d9df",
+            "place": "Santry",
+            "allowDetail": true
+          }
+        },
+        "played": 8,
+        "wins": 3,
+        "draws": 1,
+        "losses": 4,
+        "winsAET": 0,
+        "winsAP": 0,
+        "lossesAP": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "points": 10,
+        "negativePoints": 0,
+        "position": 5,
+        "highlight": false,
+        "m1": {
+          "matchId": 52416828,
+          "result": "W"
+        },
+        "m2": {
+          "matchId": 52416805,
+          "result": "W"
+        },
+        "m3": {
+          "matchId": 52416795,
+          "result": "W"
+        },
+        "m4": {
+          "matchId": 52416792,
+          "result": "L"
         },
         "m5": {
-          "matchId": 52416771,
-          "result": "D"
+          "matchId": 52416784,
+          "result": "L"
         }
       },
       {
@@ -2090,7 +2223,7 @@
         "goalsAgainst": 0,
         "points": 10,
         "negativePoints": 0,
-        "position": 5,
+        "position": 6,
         "highlight": false,
         "m1": {
           "matchId": 52416814,
@@ -2130,10 +2263,10 @@
             "allowDetail": true
           }
         },
-        "played": 6,
+        "played": 7,
         "wins": 3,
         "draws": 0,
-        "losses": 3,
+        "losses": 4,
         "winsAET": 0,
         "winsAP": 0,
         "lossesAP": 0,
@@ -2141,26 +2274,26 @@
         "goalsAgainst": 0,
         "points": 9,
         "negativePoints": 0,
-        "position": 6,
+        "position": 7,
         "highlight": false,
         "m1": {
+          "matchId": 52416825,
+          "result": "L"
+        },
+        "m2": {
           "matchId": 52416812,
           "result": "W"
         },
-        "m2": {
+        "m3": {
           "matchId": 52416801,
           "result": "L"
         },
-        "m3": {
+        "m4": {
           "matchId": 52416790,
           "result": "L"
         },
-        "m4": {
-          "matchId": 52416785,
-          "result": "W"
-        },
         "m5": {
-          "matchId": 52416779,
+          "matchId": 52416785,
           "result": "W"
         }
       },
@@ -2181,10 +2314,10 @@
             "allowDetail": true
           }
         },
-        "played": 4,
+        "played": 5,
         "wins": 2,
         "draws": 2,
-        "losses": 0,
+        "losses": 1,
         "winsAET": 0,
         "winsAP": 0,
         "lossesAP": 0,
@@ -2192,25 +2325,28 @@
         "goalsAgainst": 0,
         "points": 8,
         "negativePoints": 0,
-        "position": 7,
+        "position": 8,
         "highlight": false,
         "m1": {
+          "matchId": 52416828,
+          "result": "L"
+        },
+        "m2": {
           "matchId": 52416789,
           "result": "D"
         },
-        "m2": {
+        "m3": {
           "matchId": 52416787,
           "result": "W"
         },
-        "m3": {
+        "m4": {
           "matchId": 52416776,
           "result": "D"
         },
-        "m4": {
+        "m5": {
           "matchId": 52416775,
           "result": "W"
-        },
-        "m5": {}
+        }
       },
       {
         "team": {
@@ -2240,7 +2376,7 @@
         "goalsAgainst": 0,
         "points": 7,
         "negativePoints": 0,
-        "position": 8,
+        "position": 9,
         "highlight": false,
         "m1": {
           "matchId": 52416823,
@@ -2260,57 +2396,6 @@
         },
         "m5": {
           "matchId": 52416786,
-          "result": "L"
-        }
-      },
-      {
-        "team": {
-          "id": 87741,
-          "fifaId": "1463SFH",
-          "name": "Ely Woodlawn FC",
-          "picture": "8fbe1676-540a-42a0-8296-c9ba06b1d9df",
-          "place": "Santry",
-          "allowDetail": true,
-          "parent": {
-            "id": 10867,
-            "fifaId": "1463SFH",
-            "name": "Ely Woodlawn FC",
-            "picture": "8fbe1676-540a-42a0-8296-c9ba06b1d9df",
-            "place": "Santry",
-            "allowDetail": true
-          }
-        },
-        "played": 7,
-        "wins": 2,
-        "draws": 1,
-        "losses": 4,
-        "winsAET": 0,
-        "winsAP": 0,
-        "lossesAP": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "points": 7,
-        "negativePoints": 0,
-        "position": 9,
-        "highlight": false,
-        "m1": {
-          "matchId": 52416805,
-          "result": "W"
-        },
-        "m2": {
-          "matchId": 52416795,
-          "result": "W"
-        },
-        "m3": {
-          "matchId": 52416792,
-          "result": "L"
-        },
-        "m4": {
-          "matchId": 52416784,
-          "result": "L"
-        },
-        "m5": {
-          "matchId": 52416779,
           "result": "L"
         }
       },
