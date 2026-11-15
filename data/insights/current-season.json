@@ -1,6 +1,6 @@
 {
   "note": "Extra Clubforce data for occasional team analysis. Not loaded by the public website.",
-  "generatedAt": "2026-11-15T02:13:34.299Z",
+  "generatedAt": "2026-11-15T19:09:56.896Z",
   "league": {
     "id": "51454018",
     "name": "AUL / UCFL Division 2A",
@@ -9,17 +9,17 @@
         "personId": 249011,
         "name": "CAREY Liam",
         "shortName": "CAREY L.",
-        "minutesPlayed": 422,
-        "matchesPlayed": 5,
+        "minutesPlayed": 443,
+        "matchesPlayed": 6,
         "fullMatchesPlayed": 3,
         "goals": 0,
         "assists": 0,
         "penalties": 0,
         "ownGoals": 0,
-        "yellowCards": 1,
+        "yellowCards": 2,
         "redCards": 0,
         "captain": 0,
-        "lineupAppearanceEvidence": 5
+        "lineupAppearanceEvidence": 6
       },
       {
         "personId": 645060,
@@ -89,8 +89,8 @@
         "personId": 46556,
         "name": "DUFFY Ian",
         "shortName": "DUFFY I.",
-        "minutesPlayed": 142,
-        "matchesPlayed": 4,
+        "minutesPlayed": 204,
+        "matchesPlayed": 5,
         "fullMatchesPlayed": 1,
         "goals": 0,
         "assists": 0,
@@ -99,15 +99,15 @@
         "yellowCards": 1,
         "redCards": 0,
         "captain": 0,
-        "lineupAppearanceEvidence": 4
+        "lineupAppearanceEvidence": 5
       },
       {
         "personId": 564503,
         "name": "DUNNE Mark",
         "shortName": "DUNNE M.",
-        "minutesPlayed": 450,
-        "matchesPlayed": 5,
-        "fullMatchesPlayed": 5,
+        "minutesPlayed": 540,
+        "matchesPlayed": 6,
+        "fullMatchesPlayed": 6,
         "goals": 0,
         "assists": 0,
         "penalties": 0,
@@ -121,9 +121,9 @@
         "personId": 229068,
         "name": "DUNNE Micheal",
         "shortName": "DUNNE M.",
-        "minutesPlayed": 630,
-        "matchesPlayed": 7,
-        "fullMatchesPlayed": 7,
+        "minutesPlayed": 720,
+        "matchesPlayed": 8,
+        "fullMatchesPlayed": 8,
         "goals": 0,
         "assists": 0,
         "penalties": 0,
@@ -169,9 +169,9 @@
         "personId": 375724,
         "name": "HARMAN Luke",
         "shortName": "HARMAN L.",
-        "minutesPlayed": 496,
-        "matchesPlayed": 6,
-        "fullMatchesPlayed": 4,
+        "minutesPlayed": 586,
+        "matchesPlayed": 7,
+        "fullMatchesPlayed": 5,
         "goals": 0,
         "assists": 0,
         "penalties": 0,
@@ -185,8 +185,8 @@
         "personId": 660084,
         "name": "HENDERSON Ryan",
         "shortName": "HENDERSON R.",
-        "minutesPlayed": 157,
-        "matchesPlayed": 4,
+        "minutesPlayed": 165,
+        "matchesPlayed": 5,
         "fullMatchesPlayed": 0,
         "goals": 0,
         "assists": 0,
@@ -195,7 +195,7 @@
         "yellowCards": 1,
         "redCards": 0,
         "captain": 0,
-        "lineupAppearanceEvidence": 4
+        "lineupAppearanceEvidence": 5
       },
       {
         "personId": 36024,
@@ -217,9 +217,9 @@
         "personId": 658488,
         "name": "KIERNAN David",
         "shortName": "KIERNAN D.",
-        "minutesPlayed": 325,
-        "matchesPlayed": 5,
-        "fullMatchesPlayed": 2,
+        "minutesPlayed": 415,
+        "matchesPlayed": 6,
+        "fullMatchesPlayed": 3,
         "goals": 0,
         "assists": 0,
         "penalties": 0,
@@ -233,14 +233,14 @@
         "personId": 386490,
         "name": "LENAHAN Ben",
         "shortName": "LENAHAN B.",
-        "minutesPlayed": 260,
-        "matchesPlayed": 3,
+        "minutesPlayed": 342,
+        "matchesPlayed": 4,
         "fullMatchesPlayed": 2,
         "goals": 1,
         "assists": 0,
         "penalties": 0,
         "ownGoals": 0,
-        "yellowCards": 0,
+        "yellowCards": 1,
         "redCards": 0,
         "captain": 0,
         "lineupAppearanceEvidence": 4
@@ -265,9 +265,9 @@
         "personId": 285560,
         "name": "MURPHY Daniel",
         "shortName": "MURPHY D.",
-        "minutesPlayed": 540,
-        "matchesPlayed": 6,
-        "fullMatchesPlayed": 6,
+        "minutesPlayed": 630,
+        "matchesPlayed": 7,
+        "fullMatchesPlayed": 7,
         "goals": 0,
         "assists": 0,
         "penalties": 0,
@@ -297,8 +297,8 @@
         "personId": 501816,
         "name": "PATCHELL Glen",
         "shortName": "PATCHELL G.",
-        "minutesPlayed": 134,
-        "matchesPlayed": 3,
+        "minutesPlayed": 136,
+        "matchesPlayed": 4,
         "fullMatchesPlayed": 1,
         "goals": 0,
         "assists": 0,
@@ -307,14 +307,14 @@
         "yellowCards": 0,
         "redCards": 0,
         "captain": 0,
-        "lineupAppearanceEvidence": 3
+        "lineupAppearanceEvidence": 4
       },
       {
         "personId": 386492,
         "name": "ROGERS Jack",
         "shortName": "ROGERS J.",
-        "minutesPlayed": 444,
-        "matchesPlayed": 5,
+        "minutesPlayed": 472,
+        "matchesPlayed": 6,
         "fullMatchesPlayed": 3,
         "goals": 2,
         "assists": 0,
@@ -345,8 +345,8 @@
         "personId": 568824,
         "name": "SOPER Mark",
         "shortName": "SOPER M.",
-        "minutesPlayed": 540,
-        "matchesPlayed": 6,
+        "minutesPlayed": 628,
+        "matchesPlayed": 7,
         "fullMatchesPlayed": 6,
         "goals": 1,
         "assists": 0,
@@ -354,17 +354,17 @@
         "ownGoals": 0,
         "yellowCards": 1,
         "redCards": 0,
-        "captain": 2,
+        "captain": 3,
         "lineupAppearanceEvidence": 7
       },
       {
         "personId": 607261,
         "name": "SRI-UTTHA Alec",
         "shortName": "SRI-UTTHA A.",
-        "minutesPlayed": 420,
-        "matchesPlayed": 6,
+        "minutesPlayed": 489,
+        "matchesPlayed": 7,
         "fullMatchesPlayed": 2,
-        "goals": 0,
+        "goals": 1,
         "assists": 1,
         "penalties": 0,
         "ownGoals": 0,
@@ -377,14 +377,14 @@
         "personId": 679674,
         "name": "SUTCLIFFE Daniel",
         "shortName": "SUTCLIFFE D.",
-        "minutesPlayed": 90,
-        "matchesPlayed": 1,
-        "fullMatchesPlayed": 1,
+        "minutesPlayed": 180,
+        "matchesPlayed": 2,
+        "fullMatchesPlayed": 2,
         "goals": 0,
         "assists": 0,
         "penalties": 0,
         "ownGoals": 0,
-        "yellowCards": 0,
+        "yellowCards": 1,
         "redCards": 0,
         "captain": 0,
         "lineupAppearanceEvidence": 2
@@ -393,10 +393,10 @@
         "personId": 65260,
         "name": "Unknown",
         "shortName": "Unknown",
-        "minutesPlayed": 443,
-        "matchesPlayed": 6,
-        "fullMatchesPlayed": 2,
-        "goals": 0,
+        "minutesPlayed": 533,
+        "matchesPlayed": 7,
+        "fullMatchesPlayed": 3,
+        "goals": 2,
         "assists": 0,
         "penalties": 0,
         "ownGoals": 0,
@@ -418,7 +418,134 @@
         "homeGoals": null,
         "awayGoals": null,
         "teamSide": "away",
-        "events": [],
+        "events": [
+          {
+            "minute": 9,
+            "type": "GOAL",
+            "personId": 607261,
+            "playerName": "SRI-UTTHA Alec",
+            "homeTeam": false
+          },
+          {
+            "minute": 29,
+            "type": "SUBSTITUTION",
+            "personId": 46556,
+            "playerName": "DUFFY Ian",
+            "homeTeam": false
+          },
+          {
+            "minute": 34,
+            "type": "GOAL",
+            "personId": 65260,
+            "playerName": "DUNNE Max",
+            "homeTeam": false
+          },
+          {
+            "minute": 37,
+            "type": "GOAL",
+            "personId": 533523,
+            "playerName": "KENNEDY Jason",
+            "homeTeam": true
+          },
+          {
+            "minute": 38,
+            "type": "YELLOW",
+            "personId": 622292,
+            "playerName": "O'SHEA Darragh",
+            "homeTeam": true
+          },
+          {
+            "minute": 45,
+            "type": "YELLOW",
+            "personId": 622220,
+            "playerName": "VARLEY Ronan",
+            "homeTeam": true
+          },
+          {
+            "minute": 57,
+            "type": "SUBSTITUTION",
+            "personId": 191905,
+            "playerName": "NIMMO Lorcan",
+            "homeTeam": true
+          },
+          {
+            "minute": 62,
+            "type": "YELLOW",
+            "personId": 386490,
+            "playerName": "LENAHAN Ben",
+            "homeTeam": false
+          },
+          {
+            "minute": 65,
+            "type": "SUBSTITUTION",
+            "personId": 126175,
+            "playerName": "BURKE David",
+            "homeTeam": true
+          },
+          {
+            "minute": 66,
+            "type": "YELLOW",
+            "personId": 104404,
+            "playerName": "GRENNAN Fiachra",
+            "homeTeam": true
+          },
+          {
+            "minute": 70,
+            "type": "SUBSTITUTION",
+            "personId": 249011,
+            "playerName": "CAREY Liam",
+            "homeTeam": false
+          },
+          {
+            "minute": 76,
+            "type": "SUBSTITUTION",
+            "personId": 59469,
+            "playerName": "MOONEY Ben",
+            "homeTeam": true
+          },
+          {
+            "minute": 79,
+            "type": "SUBSTITUTION",
+            "personId": 622360,
+            "playerName": "RYAN Thomas",
+            "homeTeam": true
+          },
+          {
+            "minute": 83,
+            "type": "SUBSTITUTION",
+            "personId": 660084,
+            "playerName": "HENDERSON Ryan",
+            "homeTeam": false
+          },
+          {
+            "minute": 88,
+            "type": "GOAL",
+            "personId": 65260,
+            "playerName": "DUNNE Max",
+            "homeTeam": false
+          },
+          {
+            "minute": 89,
+            "type": "SUBSTITUTION",
+            "personId": 501816,
+            "playerName": "PATCHELL Glen",
+            "homeTeam": false
+          },
+          {
+            "minute": 90,
+            "type": "YELLOW",
+            "personId": 249011,
+            "playerName": "CAREY Liam",
+            "homeTeam": false
+          },
+          {
+            "minute": 90,
+            "type": "YELLOW",
+            "personId": 679674,
+            "playerName": "SUTCLIFFE Daniel",
+            "homeTeam": false
+          }
+        ],
         "lineup": {
           "starters": [
             {
@@ -2146,6 +2273,57 @@
       },
       {
         "team": {
+          "id": 58704,
+          "fifaId": "146468F",
+          "name": "Bushy Athletic FC UCFL Division 3B",
+          "picture": "bca98fe4-e5b4-40b2-acf4-6128085d1ef4",
+          "place": "Tallaght",
+          "allowDetail": true,
+          "parent": {
+            "id": 10334,
+            "fifaId": "146468F",
+            "name": "Bushy Athletic",
+            "picture": "bca98fe4-e5b4-40b2-acf4-6128085d1ef4",
+            "place": "Tallaght",
+            "allowDetail": true
+          }
+        },
+        "played": 8,
+        "wins": 3,
+        "draws": 1,
+        "losses": 4,
+        "winsAET": 0,
+        "winsAP": 0,
+        "lossesAP": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "points": 10,
+        "negativePoints": 0,
+        "position": 5,
+        "highlight": false,
+        "m1": {
+          "matchId": 52416829,
+          "result": "W"
+        },
+        "m2": {
+          "matchId": 52416823,
+          "result": "W"
+        },
+        "m3": {
+          "matchId": 52416816,
+          "result": "L"
+        },
+        "m4": {
+          "matchId": 52416797,
+          "result": "L"
+        },
+        "m5": {
+          "matchId": 52416790,
+          "result": "W"
+        }
+      },
+      {
+        "team": {
           "id": 87741,
           "fifaId": "1463SFH",
           "name": "Ely Woodlawn FC",
@@ -2172,7 +2350,7 @@
         "goalsAgainst": 0,
         "points": 10,
         "negativePoints": 0,
-        "position": 5,
+        "position": 6,
         "highlight": false,
         "m1": {
           "matchId": 52416828,
@@ -2223,7 +2401,7 @@
         "goalsAgainst": 0,
         "points": 10,
         "negativePoints": 0,
-        "position": 6,
+        "position": 7,
         "highlight": false,
         "m1": {
           "matchId": 52416814,
@@ -2274,7 +2452,7 @@
         "goalsAgainst": 0,
         "points": 9,
         "negativePoints": 0,
-        "position": 7,
+        "position": 8,
         "highlight": false,
         "m1": {
           "matchId": 52416825,
@@ -2325,7 +2503,7 @@
         "goalsAgainst": 0,
         "points": 8,
         "negativePoints": 0,
-        "position": 8,
+        "position": 9,
         "highlight": false,
         "m1": {
           "matchId": 52416828,
@@ -2346,57 +2524,6 @@
         "m5": {
           "matchId": 52416775,
           "result": "W"
-        }
-      },
-      {
-        "team": {
-          "id": 58704,
-          "fifaId": "146468F",
-          "name": "Bushy Athletic FC UCFL Division 3B",
-          "picture": "bca98fe4-e5b4-40b2-acf4-6128085d1ef4",
-          "place": "Tallaght",
-          "allowDetail": true,
-          "parent": {
-            "id": 10334,
-            "fifaId": "146468F",
-            "name": "Bushy Athletic",
-            "picture": "bca98fe4-e5b4-40b2-acf4-6128085d1ef4",
-            "place": "Tallaght",
-            "allowDetail": true
-          }
-        },
-        "played": 7,
-        "wins": 2,
-        "draws": 1,
-        "losses": 4,
-        "winsAET": 0,
-        "winsAP": 0,
-        "lossesAP": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "points": 7,
-        "negativePoints": 0,
-        "position": 9,
-        "highlight": false,
-        "m1": {
-          "matchId": 52416823,
-          "result": "W"
-        },
-        "m2": {
-          "matchId": 52416816,
-          "result": "L"
-        },
-        "m3": {
-          "matchId": 52416797,
-          "result": "L"
-        },
-        "m4": {
-          "matchId": 52416790,
-          "result": "W"
-        },
-        "m5": {
-          "matchId": 52416786,
-          "result": "L"
         }
       },
       {
@@ -2518,10 +2645,10 @@
             "allowDetail": true
           }
         },
-        "played": 4,
+        "played": 5,
         "wins": 0,
         "draws": 0,
-        "losses": 4,
+        "losses": 5,
         "winsAET": 0,
         "winsAP": 0,
         "lossesAP": 0,
@@ -2532,22 +2659,25 @@
         "position": 12,
         "highlight": false,
         "m1": {
-          "matchId": 52416804,
+          "matchId": 52416829,
           "result": "L"
         },
         "m2": {
-          "matchId": 52416796,
+          "matchId": 52416804,
           "result": "L"
         },
         "m3": {
-          "matchId": 52416791,
+          "matchId": 52416796,
           "result": "L"
         },
         "m4": {
-          "matchId": 52416785,
+          "matchId": 52416791,
           "result": "L"
         },
-        "m5": {}
+        "m5": {
+          "matchId": 52416785,
+          "result": "L"
+        }
       }
     ]
   },
