@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T20:01:24.141Z",
+  "generatedAt": "2026-11-23T01:11:52.077Z",
   "upcomingFixtures": [
     {
       "id": 52416841,
@@ -9,9 +9,51 @@
       "round": "13",
       "opponent": "Glenmalure Rovers FC",
       "isHome": true
+    },
+    {
+      "id": 58307306,
+      "competitionId": "52540339",
+      "competitionName": "Challenge Cup - Sponsored by PTSB",
+      "date": "2026-12-05T12:00:00.000Z",
+      "round": "1/64F",
+      "opponent": "St. Brendan's United",
+      "isHome": false
     }
   ],
   "extraCompetitions": [
+    {
+      "id": "52540339",
+      "name": "Challenge Cup - Sponsored by PTSB",
+      "label": "Challenge Cup - Sponsored by PTSB",
+      "kind": "cup",
+      "stats": {
+        "id": "52540339",
+        "name": "Challenge Cup - Sponsored by PTSB",
+        "active": true,
+        "players": {},
+        "teamRecord": {
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0
+        },
+        "matches": [],
+        "fixtures": [
+          {
+            "id": 58307306,
+            "competitionId": "52540339",
+            "competitionName": "Challenge Cup - Sponsored by PTSB",
+            "date": "2026-12-05T12:00:00.000Z",
+            "round": "1/64F",
+            "opponent": "St. Brendan's United",
+            "isHome": false
+          }
+        ],
+        "displayName": "Challenge Cup - Sponsored by PTSB"
+      }
+    },
     {
       "id": "52131453",
       "name": "Oneill's.com LFA Junior Cup 26/27",
