@@ -1,6 +1,6 @@
 {
   "note": "Extra Clubforce data for occasional team analysis. Not loaded by the public website.",
-  "generatedAt": "2026-11-27T21:49:16.168Z",
+  "generatedAt": "2026-11-28T04:33:02.258Z",
   "league": {
     "id": "51454018",
     "name": "AUL / UCFL Division 2A",
@@ -423,6 +423,31 @@
       }
     ],
     "matches": [
+      {
+        "matchId": 52416841,
+        "competitionId": 51454018,
+        "competitionName": "AUL / UCFL Division 2A",
+        "date": "2026-11-28T11:00:00.000Z",
+        "round": "13",
+        "homeTeam": "Bushy Athletic FC UCFL Division 3B",
+        "awayTeam": "Glenmalure Rovers FC",
+        "homeGoals": null,
+        "awayGoals": null,
+        "teamSide": "home",
+        "events": [
+          {
+            "minute": 46,
+            "type": "START",
+            "personId": null,
+            "playerName": null,
+            "homeTeam": false
+          }
+        ],
+        "lineup": {
+          "starters": [],
+          "substitutes": []
+        }
+      },
       {
         "matchId": 52416835,
         "competitionId": 51454018,

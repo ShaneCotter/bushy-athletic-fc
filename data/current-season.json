@@ -1,15 +1,6 @@
 {
-  "generatedAt": "2026-11-27T21:49:16.167Z",
+  "generatedAt": "2026-11-28T04:33:02.256Z",
   "upcomingFixtures": [
-    {
-      "id": 52416841,
-      "competitionId": "51454018",
-      "competitionName": "AUL / UCFL Division 2A",
-      "date": "2026-11-28T11:00:00.000Z",
-      "round": "13",
-      "opponent": "Glenmalure Rovers FC",
-      "isHome": true
-    },
     {
       "id": 58307306,
       "competitionId": "52540339",
@@ -441,14 +432,28 @@
         }
       },
       "teamRecord": {
-        "played": 11,
+        "played": 12,
         "won": 3,
-        "drawn": 3,
+        "drawn": 4,
         "lost": 5,
         "goalsFor": 13,
         "goalsAgainst": 19
       },
       "matches": [
+        {
+          "id": 52416841,
+          "competitionId": "51454018",
+          "competitionName": "AUL / UCFL Division 2A",
+          "date": "2026-11-28T11:00:00.000Z",
+          "round": "13",
+          "opponent": "Glenmalure Rovers FC",
+          "isHome": true,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "result": "D",
+          "scoreline": "0-0",
+          "goalScorers": []
+        },
         {
           "id": 52416835,
           "competitionId": "51454018",
@@ -682,17 +687,7 @@
           ]
         }
       ],
-      "fixtures": [
-        {
-          "id": 52416841,
-          "competitionId": "51454018",
-          "competitionName": "AUL / UCFL Division 2A",
-          "date": "2026-11-28T11:00:00.000Z",
-          "round": "13",
-          "opponent": "Glenmalure Rovers FC",
-          "isHome": true
-        }
-      ],
+      "fixtures": [],
       "displayName": "2026/27 League (Division 2A)",
       "standings": [
         {
